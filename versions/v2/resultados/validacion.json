@@ -1,0 +1,2479 @@
+{
+  "comprobaciones": 494,
+  "correctas": 494,
+  "fallidas": 0,
+  "fraccion_ausente_vibracion": 0.004175765116121606,
+  "alcance": "Consistencia del escenario sintético; no validación industrial ni exhaustividad física.",
+  "pruebas": [
+    {
+      "prueba": "PK equipos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "PK fallos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "PK mantenimiento",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "PK bobinas",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "FK fallos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "intervalos fallos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "FK mantenimiento",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "intervalos mantenimiento",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "cada fallo tiene exactamente una reparación",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "masa máxima bobina",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "rango espesor 1-15 mm",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "masa geometría bobina",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "procesado no excede objetivo",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "producción nula en parada",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "bobina FK temporal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_A rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00014 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00033 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00034 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00060 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CC_B rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00168 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00192 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_A rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00026 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00036 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00076 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00090 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00109 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HT_B rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00001 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "DESC rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00013 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00023 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00063 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00073 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00080 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00094 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00099 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00115 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00124 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00157 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00166 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00182 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00187 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00195 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00203 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "CIZ rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00009 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00019 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00039 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00057 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00068 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00084 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00091 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00102 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00118 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00136 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00155 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00163 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00171 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00178 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00185 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00186 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00196 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00210 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 reducción espesor",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F1 conservación flujo",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00010 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00022 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00030 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00061 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00065 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00078 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00086 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00089 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00105 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00111 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00135 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00146 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00152 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00162 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00167 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00173 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00200 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 reducción espesor",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F2 conservación flujo",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00006 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00020 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00028 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00130 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00139 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00144 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00154 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00161 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00180 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00188 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00198 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00206 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 reducción espesor",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F3 conservación flujo",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00005 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00025 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00031 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00044 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00054 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00066 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00077 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00095 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00104 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00120 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00125 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00133 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00138 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00205 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00209 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 reducción espesor",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F4 conservación flujo",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00024 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00038 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00042 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00047 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00051 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00064 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00081 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00096 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00101 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00121 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00126 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00142 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00150 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00172 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00183 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00194 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00204 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 reducción espesor",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F5 conservación flujo",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00004 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00017 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00027 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00029 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00048 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00055 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00067 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00079 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00088 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00092 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00106 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00119 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00137 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00145 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00153 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00159 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00170 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00176 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00193 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00197 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 reducción espesor",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F6 conservación flujo",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00008 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00018 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00040 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00058 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00074 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00110 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00113 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00127 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00131 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00141 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00165 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00175 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00181 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00189 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 reducción espesor",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "F7 conservación flujo",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00003 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00037 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00046 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00052 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00085 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00098 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00117 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "ENF rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00012 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00041 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00059 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00071 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00083 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00093 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00100 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00108 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00114 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00122 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00129 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00134 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00140 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00151 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00164 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00202 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00207 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_A rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00002 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00050 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00075 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "BOB_B rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00007 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00049 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00069 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "HID rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00011 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00016 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00032 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00045 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00056 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00070 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00082 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00097 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00103 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00116 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00123 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00128 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00132 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00143 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00149 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00158 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00169 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00177 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00191 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00201 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB telemetría cardinalidad y clave",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB cadencia",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB disponible en t",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB modelos no usan verdad/targets",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB ausencia de infinitos",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB join resistente a orden",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB modo admisible",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB etiquetas 4h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB etiquetas 8h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB etiquetas 24h y censura",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB purga train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB purga validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB purga test",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "LUB rolling causal",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00015 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00021 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00035 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00043 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00053 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00062 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00072 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00087 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00107 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00112 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00147 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00148 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00156 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00160 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00174 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00179 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00184 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00190 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00199 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "E00208 fallo precedido de marcha",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "positivos en train",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "positivos en validation",
+      "resultado": "OK",
+      "detalle": ""
+    },
+    {
+      "prueba": "positivos en test",
+      "resultado": "OK",
+      "detalle": ""
+    }
+  ]
+}

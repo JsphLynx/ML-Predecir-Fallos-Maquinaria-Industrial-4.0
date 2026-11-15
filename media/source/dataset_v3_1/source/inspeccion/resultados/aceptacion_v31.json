@@ -1,0 +1,18 @@
+{
+  "version": "3.1.0",
+  "date": "2026-11-05",
+  "ready_for_synthetic_training": true,
+  "models_trained": false,
+  "industrial_validation": false,
+  "checks": 1693,
+  "failed": 0,
+  "reproducible_files": 77,
+  "criterion_H05": "Tratado mediante incertidumbre y estratos descriptivos; no garantiza potencia estadística",
+  "not_executed": [
+    "Windows/Spyder",
+    "Neon",
+    "dashboard",
+    "entrenamiento/evaluación de modelos"
+  ],
+  "source_sha256": "8f04104e555701ba7336b5c23428346b5deb8c6a3f7b432755745b0597d74137"
+}

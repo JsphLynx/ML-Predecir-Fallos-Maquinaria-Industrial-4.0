@@ -1,0 +1,159 @@
+ACB v3.1 · Demostrador sintético · Sin modelos entrenados
+1
+PROYECTO DE JOSEPH / 05 NOVIEMBRE 2026
+Dataset revisado
+Motor y rodamientos
+ACB_Motor_Rodamientos_Sintetico_v3_1 · entrega 3.1.0
+Se han corregido los defectos detectados, ampliado los escenarios y preparado la evaluación. La v3
+original se conserva. Esta entrega permite ensayar el método y la aplicación con datos sintéticos
+trazables.
+Telemetría
+Decisiones
+Fallos simulados
+Mundos alternativos
+1.681.920
+560.640
+404
+16
+Dictamen: apto para iniciar el experimento sintético bajo el protocolo definido. No se han
+entrenado XGBoost ni Isolation Forest. Tampoco se ha demostrado todavía que superen a los
+comparadores simples.
+La telemetría conserva una medida cada 5 minutos; las decisiones, cada 15 minutos. La pregunta sigue
+siendo: ¿ocurrirá un fallo funcional en las próximas 24 horas?
+Comprobaciones: 1693 correctas y ninguna fallida en los bloques de validación final. Segunda
+generación: 77 archivos idénticos de 77 comparados.
+Los 16 mundos son simulaciones alternativas de un conjunto lógico, no 16 motores de ACB. Los rangos,
+vidas y frecuencias son supuestos; no constituyen un gemelo digital validado.
+Qué queda para después: entrenar, comparar, explicar y evaluar los modelos. Cualquier afirmación de
+capacidad predictiva sobre maquinaria real o ahorro requeriría evidencia que este dataset no proporciona.
+
+ACB v3.1 · Demostrador sintético · Sin modelos entrenados
+2
+01 / RESPUESTA A LA AUDITORÍA
+Qué se ha corregido y qué significa
+Hallazgo
+Estado
+Cierre y límite
+H01
+Corregido
+Plan versionado: previsto, aplazado e iniciado. Hora futura desconocida al aplazar.
+Lecturas asof, tres casos originales y fixture del generador con colisiones forzadas.
+H02
+Corregido
+Cero filas utilizables en excluida; conteos de calidad separados; unión por claves y
+lista permitida de entradas.
+H03
+Ampliado
+Seis mundos base de vida larga y dos de estrés de vida larga. Menos predominio de
+degradación; sin calibración industrial.
+H04
+Ampliado
+Turnos y preventivos variables, calibración distinta, picos variables, deriva dentro
+de rango y pérdidas correlacionadas.
+H05
+Tratado en protocolo
+Denominadores por suceso, incertidumbre por mundos y modos escasos
+descriptivos. La suficiencia estadística no se presume.
+H06
+Separado
+Referencia observable principal y referencia ideal privilegiada para sensibilidad.
+Ninguna es predictor.
+H07
+Implementado
+Evaluador de alertas, comparadores sin ajustar, folds, presupuesto y regla de éxito.
+Rendimiento pendiente del entrenamiento.
+H08
+Verificado
+localmente
+Carga real PostgreSQL, restricciones, rollback, permisos y lectura causal; replay de
+llegada. Windows/Neon aún no verificados.
+Corrección adicional de la revisión: se impide que una sustitución aumente el daño interno. Se
+recalcularon los datos afectados sin cambiar semillas ni buscar mejores resultados predictivos.
+
+ACB v3.1 · Demostrador sintético · Sin modelos entrenados
+3
+02 / EXPLORACIÓN DE LOS DATOS
+Más variedad para probar el método
+En R07-R12, el estado normal ocupa entre 29.4 % y 80.0 % de la telemetría. La figura superior usa verdad
+interna del simulador: sirve para auditar escenarios y está prohibida como entrada del modelo.
+La figura inferior divide fallos por horas de funcionamiento. Permite comprobar que conviven escenarios
+de fallos frecuentes y otros con menor incidencia. No compara rendimiento de modelos ni estima una tasa
+real de avería de ACB.
+La evaluación por modo mantiene visibles los estratos pequeños: 7 combinaciones de partición y modo
+tienen menos de 20 sucesos. Se informarán como resultados descriptivos, con sus denominadores;
+muchas filas no sustituyen a fallos independientes.
+
+ACB v3.1 · Demostrador sintético · Sin modelos entrenados
+4
+03 / REGLAS ANTES DE ENTRENAR
+Cómo se evitarán conclusiones engañosas
+Regla
+Aplicación concreta
+Entradas disponibles
+Solo señales e historial conocidos en ese instante. Salud, daño interno y fallo futuro quedan
+fuera.
+Dos referencias IF
+La principal usa calidad e historial observable; la ideal usa verdad simulada y se informa
+aparte.
+Separación temporal
+Cortes por fechas comunes, purga de 28 h y episodios separados. Transformaciones
+ajustadas solo con train.
+Aviso persistente
+3 de 5 posiciones de 15 min; un hueco no cuenta como normalidad ni se elimina del reloj.
+Aviso útil
+Entre 1 y 24 h antes del siguiente fallo; un evento detectado una sola vez. Preventivos y fin
+pueden censurar avisos.
+Presupuesto fijo
+Máximo 1 falsa alerta por 1.000 h operativas. Los umbrales se eligen en validación.
+Comparación exigente
+Constante, regla de condición e historial/carga. Mejora >=5 puntos de sensibilidad e IC
+pareado positivo bajo el mismo presupuesto.
+Se contabilizan todos los fallos del periodo, incluidos los que no tenían datos suficientes. El benchmark
+conserva exclusiones retrospectivas; la simulación de servicio se informa aparte y solo usa elegibilidad
+observable. La aplicación nunca debe consultar episodios futuros para decidir si predice.
+La precisión-recall y la calibración se calculan para probabilidades supervisadas. Un score de Isolation
+Forest es una puntuación de anomalía, no una probabilidad de fallo futuro.
+La configuración exacta y el código están incluidos. Si ningún modelo mejora a los comparadores dentro
+del presupuesto, el resultado se comunicará así; no se cambiarán las reglas para forzar el éxito.
+
+ACB v3.1 · Demostrador sintético · Sin modelos entrenados
+5
+04 / EVIDENCIAS Y SIGUIENTE FASE
+Qué se ha ejecutado realmente
+Bloque
+Correctas
+Alcance
+Datos, etiquetas y causalidad
+705
+0 fallidas
+Catálogo y segmentos
+91
+0 fallidas
+Fixtures del protocolo
+44
+0 fallidas
+Correcciones y referencias
+762
+0 fallidas
+Replay de llegada
+64
+0 fallidas
+PostgreSQL real
+27
+0 fallidas
+Regeneración completa
+77/77
+Igualdad SHA-256
+La carga SQL se ejecutó con PostgreSQL 16.2 en un entorno local aislado. Se verificaron conteos, claves,
+restricciones, rollback y denegación de acceso del lector a verdad, objetivos y filas completas de
+mantenimiento. El replay reconstruyó decisiones con las medidas disponibles en cada instante.
+No comprobado en esta entrega: instalación Windows/Spyder, despliegue Neon, dashboard final y
+rendimiento de modelos. Son verificaciones del destino o de la fase siguiente; no se presentan como
+superadas.
+Próximo paso: verificar el manifiesto y ejecutar los comparadores y modelos bajo el protocolo congelado.
+Guardar preprocesador, semillas, hiperparámetros y umbrales antes de evaluar test y estrés.
+Fuentes de esta revisión: ZIP v3.0.0 y auditoría del 05/11/2026; generador, Parquet y resultados
+ejecutados de v3.1.0. Las fuentes industriales aportadas son contexto documental, no medidas para
+calibrar el motor.
+Referencia metodológica: scikit-learn, Common pitfalls: https://scikit-learn.org/stable/common_pitfalls . Reglas y presupuestos
+del ensayo: decisiones explícitas del proyecto, no recomendaciones de operación de ACB.

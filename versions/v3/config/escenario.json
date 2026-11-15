@@ -1,0 +1,43 @@
+{
+  "version": "3.0.0",
+  "seed": 20261104,
+  "start": "2024-01-01T00:00:00Z",
+  "days": 365,
+  "runs": 8,
+  "base_runs": 6,
+  "step_minutes": 5,
+  "decision_minutes": 15,
+  "horizon_hours": 24,
+  "windows_minutes": [
+    30,
+    240
+  ],
+  "warmup_hours": 4,
+  "purge_hours": 28,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "coverage_min": 0.8,
+  "max_data_age_minutes": 10,
+  "pm_interval_days": 28,
+  "pm_duration_hours": 6,
+  "current_nominal_a_demo": 1600,
+  "failure_rate_per_hour": 0.02,
+  "sudden_rate_per_hour": 0.0005555555555555556,
+  "life_hours_median": [
+    340,
+    390,
+    580
+  ],
+  "eligible_regimes": [
+    "sin_carga",
+    "laminacion"
+  ],
+  "scenario": "DEMO_SINTETICA_NO_CALIBRADA_A_ACB",
+  "alert_policy_future": {
+    "persistence_count": 3,
+    "within_last_decisions": 5,
+    "window_minutes": 75,
+    "close_after_valid_minutes": 60,
+    "minimum_lead_minutes": 60
+  }
+}

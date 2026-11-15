@@ -1,0 +1,1 @@
+pglast: 57 sentencias parseadas. No ejecutado en PostgreSQL.

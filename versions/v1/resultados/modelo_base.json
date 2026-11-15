@@ -1,0 +1,43 @@
+{
+  "advertencia": "Rendimiento sobre reglas del simulador; NO evidencia de eficacia en ACB.",
+  "objetivo": "Avería del mismo equipo en (t,t+4h]",
+  "variables_permitidas": [
+    "rpm",
+    "par_nm",
+    "potencia_kw",
+    "corriente_a",
+    "temperatura_equipo_c",
+    "vibracion_rms_mm_s",
+    "presion_circuito_bar",
+    "horas_desde_intervencion",
+    "temperatura_equipo_c_media_60min",
+    "temperatura_equipo_c_media_360min",
+    "vibracion_rms_mm_s_media_60min",
+    "vibracion_rms_mm_s_media_360min",
+    "corriente_a_media_60min",
+    "corriente_a_media_360min",
+    "espesor_objetivo_mm",
+    "ancho_objetivo_mm",
+    "ambiente_c"
+  ],
+  "filas_train": 82232,
+  "filas_validacion": 26296,
+  "filas_test": 27474,
+  "umbral_elegido_en_validacion": 0.06393939393939393,
+  "criterio_umbral": "F2 por fila; sin calibración de probabilidades",
+  "test_average_precision": 0.1399092151576866,
+  "test_prevalencia_base": 0.008517143481109412,
+  "test_precision": 0.17962466487935658,
+  "test_recall": 0.2863247863247863,
+  "matriz_confusion_TN_FP_FN_TP": [
+    26934,
+    306,
+    167,
+    67
+  ],
+  "falsos_avisos_por_100_h_equipo_evaluables": 4.455121205503385,
+  "eventos_evaluables_test": 16,
+  "eventos_con_aviso_4h": 9,
+  "mediana_anticipacion_min_solo_detectados": 220.0,
+  "limites": "Avisos por fila sin agrupación ni supresión; exposición solo tiempo evaluable. No incertidumbre por bootstrap. Mismos equipos en periodos posteriores; no mide generalización a equipos nuevos."
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "R01 full 365 days regenerated, seven returned tables compared as values/dtypes (not byte identity)",
+  "elapsed_seconds": 12.1,
+  "tests": [
+    {
+      "file": "data/telemetria/R01.parquet",
+      "equal_R01_values_dtypes": true,
+      "rows": 105120
+    },
+    {
+      "file": "sim_truth/estado_latente/R01.parquet",
+      "equal_R01_values_dtypes": true,
+      "rows": 105120
+    },
+    {
+      "file": "data/fallos.parquet",
+      "equal_R01_values_dtypes": true,
+      "rows": 51
+    },
+    {
+      "file": "data/mantenimiento.parquet",
+      "equal_R01_values_dtypes": true,
+      "rows": 64
+    },
+    {
+      "file": "sim_truth/episodios.parquet",
+      "equal_R01_values_dtypes": true,
+      "rows": 50
+    },
+    {
+      "file": "sim_truth/incidencias_sensores.parquet",
+      "equal_R01_values_dtypes": true,
+      "rows": 60
+    },
+    {
+      "file": "sim_truth/reparaciones.parquet",
+      "equal_R01_values_dtypes": true,
+      "rows": 90
+    }
+  ]
+}

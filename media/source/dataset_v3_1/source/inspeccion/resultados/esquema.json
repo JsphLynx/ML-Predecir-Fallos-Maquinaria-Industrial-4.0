@@ -1,0 +1,9 @@
+{
+  "dictionary_definitions": 256,
+  "tables": 16,
+  "unknown_columns": 0,
+  "live_postgresql_executed": true,
+  "syntax_parsed": true,
+  "sql_statements": 59,
+  "postgresql_version": "PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit"
+}

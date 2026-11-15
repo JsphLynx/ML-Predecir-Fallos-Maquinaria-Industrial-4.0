@@ -1,0 +1,184 @@
+{
+  "checks": 44,
+  "passed": 44,
+  "failed": 0,
+  "scope": "Fixtures; sin entrenamiento de modelos",
+  "tests": [
+    {
+      "test": "Abre en tercer voto",
+      "passed": true
+    },
+    {
+      "test": "Cierra tras cuatro recuperaciones",
+      "passed": true
+    },
+    {
+      "test": "Dos votos no abren",
+      "passed": true
+    },
+    {
+      "test": "Abstención no recupera",
+      "passed": true
+    },
+    {
+      "test": "Huecos no comprimen cinco slots",
+      "passed": true
+    },
+    {
+      "test": "Intervención cierra",
+      "passed": true
+    },
+    {
+      "test": "Sin datos no abre",
+      "passed": true
+    },
+    {
+      "test": "Caduca a las 24 horas",
+      "passed": true
+    },
+    {
+      "test": "Rechaza duplicados",
+      "passed": true
+    },
+    {
+      "test": "Rechaza rejilla errónea",
+      "passed": true
+    },
+    {
+      "test": "Histeresis ordenada",
+      "passed": true
+    },
+    {
+      "test": "Correspondencia única y censura",
+      "passed": true
+    },
+    {
+      "test": "Denominador todos los eventos",
+      "passed": true
+    },
+    {
+      "test": "Falsas por exposición",
+      "passed": true
+    },
+    {
+      "test": "Modo sin detección no desaparece",
+      "passed": true
+    },
+    {
+      "test": "Preventivo censura",
+      "passed": true
+    },
+    {
+      "test": "Límite inclusivo 1h",
+      "passed": true
+    },
+    {
+      "test": "Límite inclusivo 24h",
+      "passed": true
+    },
+    {
+      "test": "Sin avisos sensibilidad cero",
+      "passed": true
+    },
+    {
+      "test": "Brier conocido",
+      "passed": true
+    },
+    {
+      "test": "Score IF no es probabilidad",
+      "passed": true
+    },
+    {
+      "test": "Selección respeta presupuesto",
+      "passed": true
+    },
+    {
+      "test": "No selecciona con test",
+      "passed": true
+    },
+    {
+      "test": "Sin política admisible",
+      "passed": true
+    },
+    {
+      "test": "No IC con un mundo",
+      "passed": true
+    },
+    {
+      "test": "Referencia observable selectiva",
+      "passed": true
+    },
+    {
+      "test": "Referencia inmune a verdad y futuro",
+      "passed": true
+    },
+    {
+      "test": "R04 regresión no anticipa retraso",
+      "passed": true
+    },
+    {
+      "test": "R04 inicio solo conocido al ocurrir",
+      "passed": true
+    },
+    {
+      "test": "R06 regresión no anticipa retraso",
+      "passed": true
+    },
+    {
+      "test": "R06 inicio solo conocido al ocurrir",
+      "passed": true
+    },
+    {
+      "test": "R07 regresión no anticipa retraso",
+      "passed": true
+    },
+    {
+      "test": "R07 inicio solo conocido al ocurrir",
+      "passed": true
+    },
+    {
+      "test": "Cobertura no oculta abstenciones",
+      "passed": true
+    },
+    {
+      "test": "Mejora pareada sintética",
+      "passed": true
+    },
+    {
+      "test": "Igualdad no acredita mejora",
+      "passed": true
+    },
+    {
+      "test": "Rechaza exposiciones no pareadas",
+      "passed": true
+    },
+    {
+      "test": "Presupuesto también limita éxito",
+      "passed": true
+    },
+    {
+      "test": "Servicio no usa partición retrospectiva",
+      "passed": true
+    },
+    {
+      "test": "Benchmark conserva exclusiones",
+      "passed": true
+    },
+    {
+      "test": "Servicio inmune a cambio de particiones",
+      "passed": true
+    },
+    {
+      "test": "Generador ejercita aplazamiento en fixture",
+      "passed": true
+    },
+    {
+      "test": "Generador no anticipa hora al aplazar",
+      "passed": true
+    },
+    {
+      "test": "Generador solo publica inicio al ocurrir",
+      "passed": true
+    }
+  ]
+}

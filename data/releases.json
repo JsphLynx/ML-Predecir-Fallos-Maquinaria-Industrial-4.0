@@ -1,0 +1,34 @@
+[
+  {
+    "version": "v1",
+    "filename": "ACB_CSP_Sintetico_v1.zip",
+    "bytes": 29445478,
+    "sha256": "8ff3bb676fea2daeeebd99437f16b1cbfe5ca02d2504e3c16f3aa1827ef91eb1",
+    "published_url": null,
+    "status": "pending_release_upload"
+  },
+  {
+    "version": "v2",
+    "filename": "ACB_CSP_Sintetico_v2.zip",
+    "bytes": 449731030,
+    "sha256": "2da5d03de697c1ed2589f859ec7e77c17a8a83acc606bea34906759323728f15",
+    "published_url": null,
+    "status": "pending_release_upload"
+  },
+  {
+    "version": "v3",
+    "filename": "ACB_Motor_Rodamientos_Sintetico_v3.zip",
+    "bytes": 268404527,
+    "sha256": "8f04104e555701ba7336b5c23428346b5deb8c6a3f7b432755745b0597d74137",
+    "published_url": null,
+    "status": "pending_release_upload"
+  },
+  {
+    "version": "v3.1",
+    "filename": "ACB_Motor_Rodamientos_Sintetico_v3_1.zip",
+    "bytes": 532001346,
+    "sha256": "b87cd6c257fa2844c629e6250ebd9af9e0aab290a40200a451f0fd38e16359dd",
+    "published_url": null,
+    "status": "pending_release_upload"
+  }
+]

@@ -1,0 +1,22 @@
+Features recalculadas R08
+Features recalculadas R10
+Features recalculadas R15
+03_etiquetas_particiones.py
+              rows  usable_rows  positive_rows  positive_events
+partition                                                      
+excluida     57756            0           4205               57
+stress      140096       101477           7503              106
+test         73622        56164           3391               46
+train       231987       179998          12044              158
+validation   57179        44590           3007               38
+04_validar_dataset.py
+{"checks": 705, "passed": 705, "failed": 0, "quality_status": {"evaluable": 441656, "regimen_no_elegible": 97982, "cobertura_insuficiente": 18453, "sensor_congelado": 2309, "calentamiento": 240}, "scope": "Consistencia y causalidad temporal sintéticas. No validación física/industrial ni entrenamiento."}
+05_documentar_sql.py
+{'dictionary_definitions': 256, 'tables': 16, 'unknown_columns': 0, 'live_postgresql_executed': False, 'syntax_parsed': True, 'sql_statements': 59}
+11_validar_catalogo.py
+{'checks': 91, 'passed': 91, 'failed': 0}
+08_resumen_eda.py
+13_validar_correcciones.py
+{'checks': 762, 'passed': 762, 'failed': 0, 'models_trained': False}
+14_replay_llegada.py
+{'checks': 64, 'passed': 64, 'failed': 0}

@@ -1,0 +1,29 @@
+{
+  "original_v2_zip_sha256": "2da5d03de697c1ed2589f859ec7e77c17a8a83acc606bea34906759323728f15",
+  "v2_integrity_files": 113,
+  "v2_integrity_differences": 0,
+  "v2_validation_passed": 494,
+  "v2_telemetry_columns": 29,
+  "v2_feature_columns": 50,
+  "v2_f3_failure_modes": {
+    "refrigeracion": 6,
+    "hidraulico": 3,
+    "reductor": 3,
+    "lubricacion": 2,
+    "rodamiento": 1
+  },
+  "v2_code_reviewed": {
+    "src/00_empezar.py": "e2f6f2d1b2628fd9f2fd765833ff5e0d2c0790f4f9973500a61534f1a1b59228",
+    "src/01_generar_dataset.py": "55bbfbc6aceb549ddb7be6f7ed01bb79751ec16655ed10dff9a06cf783df70ff",
+    "src/02_validar_dataset.py": "95b41be4b72119120272eb335c4800437617d3be31411a0bd5dcea02ed9e15ca",
+    "src/03_modelo_base.py": "ad6a9d71ee410a998be920f4fd979ebf5021b95f38db54bc78f7f3203396c4b6",
+    "src/04_exportar_csv.py": "1a697954962f089fa0da0a4073f3f5a30ea7d506a9ca5f05881e01ccd6934b90",
+    "src/05_cargar_postgresql.py": "f175bba9bf6f904f0e6ff010d0d58f813e96dce1ee8f07421479365b0a4a099f",
+    "src/06_documentar_esquemas.py": "897443beb3659f075539875dc8f5f5cb836e631a6495f26ba7b8e008371ba853",
+    "src/07_resumen_visual.py": "a14dbe31162729c060b3b16b6a24ebe4abed34f6dccfdf183d41f7fe90420bbf",
+    "src/08_verificar_integridad.py": "42e4bdbead8596b5fca9b1ef759d06d9a7a92a285194a077be29c17bbc499b8e"
+  },
+  "v2_parquet_files_inspected": 81,
+  "scope": "Lectura de los nueve scripts, configuración, diccionario, DDL y metodología; inventario de todos los Parquet y ejecución del validador original.",
+  "copied_product_catalog_sha256": "9e8e3de141f6c0721cc716b26e5db94634c9f64b9c0f4c9d0f03cac3a7b16235"
+}

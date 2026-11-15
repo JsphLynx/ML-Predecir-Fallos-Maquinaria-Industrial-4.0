@@ -1,0 +1,207 @@
+{
+  "checks": 50,
+  "passed": 50,
+  "failed": 0,
+  "tests": [
+    {
+      "check": "catalogue data/activos.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/ejecuciones.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/fallos.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/mantenimiento.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/productos.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/segmentos_produccion.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/sensores.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/episodios.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/incidencias_sensores.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/reparaciones.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "segments R01",
+      "passed": true
+    },
+    {
+      "check": "segments R02",
+      "passed": true
+    },
+    {
+      "check": "segments R03",
+      "passed": true
+    },
+    {
+      "check": "segments R04",
+      "passed": true
+    },
+    {
+      "check": "segments R05",
+      "passed": true
+    },
+    {
+      "check": "segments R06",
+      "passed": true
+    },
+    {
+      "check": "segments R07",
+      "passed": true
+    },
+    {
+      "check": "segments R08",
+      "passed": true
+    }
+  ]
+}

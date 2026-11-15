@@ -1,0 +1,1 @@
+{"checks": 375, "passed": 375, "failed": 0, "quality_status": {"evaluable": 223262, "regimen_no_elegible": 47805, "cobertura_insuficiente": 8818, "sensor_congelado": 315, "calentamiento": 120}, "scope": "Consistencia y causalidad temporal sintéticas. No validación física/industrial ni entrenamiento."}

@@ -1,0 +1,1890 @@
+{
+  "checks": 375,
+  "passed": 375,
+  "failed": 0,
+  "quality_status": {
+    "evaluable": 223262,
+    "regimen_no_elegible": 47805,
+    "cobertura_insuficiente": 8818,
+    "sensor_congelado": 315,
+    "calentamiento": 120
+  },
+  "scope": "Consistencia y causalidad temporal sintéticas. No validación física/industrial ni entrenamiento.",
+  "tests": [
+    {
+      "test": "Activos PK y jerarquía",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Motor y apoyos distintos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Todo inventario es sintético",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Sensores vinculados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Ejecuciones distintas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Semillas independientes por índice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "fallos claves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "fallos ejecuciones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "fallos intervalos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "mantenimiento claves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "mantenimiento ejecuciones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "mantenimiento intervalos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "incidencias claves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "incidencias ejecuciones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "incidencias intervalos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "episodios claves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "episodios ejecuciones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "episodios intervalos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Eventos en motor/apoyos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Un correctivo por evento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Diagnóstico no anterior al fallo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Resultado mantenimiento no disponible antes del cierre",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Reparación reduce daño",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Sustituciones y mejoras parciales presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Existen fallos súbitos y progresivos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Todas las incidencias instrumentales",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Predictores con lista explícita",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 cardinalidad telemetría",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 cardinalidad decisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 tele PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 tele run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 features PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 features run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 targets PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 targets run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 truth PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 truth run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 telemetría 5 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 decisiones 15 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 UTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 latencia no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 latencia realmente inyectada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 solo disponibilidad pasada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 sin infinitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 sensores separados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 predictores presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 verdad no presente en features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 unión por clave robusta a orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 cobertura en rango",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 calidad bloquea evaluación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 fallo y mantenimiento no evaluados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 seis regímenes operativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 receta solo al laminar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 familia FK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historia servicio no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 etiquetas 24h reconstruidas independientemente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 censura coherente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 evento objetivo corresponde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 cero futuro conocido en entradas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 purga train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 purga validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-D0046 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-D0034 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-D0047 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 fallos precedidos de operación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 referencia IF solo train evaluable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 prefijo causal 99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 prefijo causal 1001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 prefijo causal 4001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 media causal independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 cardinalidad telemetría",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 cardinalidad decisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 tele PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 tele run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 features PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 features run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 targets PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 targets run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 truth PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 truth run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 telemetría 5 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 decisiones 15 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 UTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 latencia no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 latencia realmente inyectada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 solo disponibilidad pasada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 sin infinitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 sensores separados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 predictores presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 verdad no presente en features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 unión por clave robusta a orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 cobertura en rango",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 calidad bloquea evaluación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 fallo y mantenimiento no evaluados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 seis regímenes operativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 receta solo al laminar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 familia FK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historia servicio no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 etiquetas 24h reconstruidas independientemente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 censura coherente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 evento objetivo corresponde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 cero futuro conocido en entradas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 purga train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 purga validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-D0008 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-D0029 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-D0041 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 fallos precedidos de operación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 referencia IF solo train evaluable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 prefijo causal 99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 prefijo causal 1001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 prefijo causal 4001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 media causal independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 cardinalidad telemetría",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 cardinalidad decisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 tele PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 tele run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 features PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 features run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 targets PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 targets run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 truth PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 truth run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 telemetría 5 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 decisiones 15 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 UTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 latencia no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 latencia realmente inyectada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 solo disponibilidad pasada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 sin infinitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 sensores separados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 predictores presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 verdad no presente en features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 unión por clave robusta a orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 cobertura en rango",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 calidad bloquea evaluación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 fallo y mantenimiento no evaluados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 seis regímenes operativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 receta solo al laminar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 familia FK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historia servicio no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 etiquetas 24h reconstruidas independientemente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 censura coherente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 evento objetivo corresponde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 cero futuro conocido en entradas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 purga train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 purga validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-D0008 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-D0023 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-D0035 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-D0012 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 fallos precedidos de operación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 referencia IF solo train evaluable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 prefijo causal 99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 prefijo causal 1001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 prefijo causal 4001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 media causal independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 cardinalidad telemetría",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 cardinalidad decisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 tele PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 tele run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 features PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 features run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 targets PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 targets run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 truth PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 truth run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 telemetría 5 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 decisiones 15 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 UTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 latencia no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 latencia realmente inyectada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 solo disponibilidad pasada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 sin infinitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 sensores separados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 predictores presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 verdad no presente en features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 unión por clave robusta a orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 cobertura en rango",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 calidad bloquea evaluación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 fallo y mantenimiento no evaluados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 seis regímenes operativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 receta solo al laminar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 familia FK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historia servicio no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 etiquetas 24h reconstruidas independientemente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 censura coherente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 evento objetivo corresponde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 cero futuro conocido en entradas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 purga train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 purga validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-D0010 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-D0013 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 fallos precedidos de operación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 referencia IF solo train evaluable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 prefijo causal 99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 prefijo causal 1001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 prefijo causal 4001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 media causal independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 cardinalidad telemetría",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 cardinalidad decisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 tele PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 tele run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 features PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 features run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 targets PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 targets run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 truth PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 truth run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 telemetría 5 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 decisiones 15 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 UTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 latencia no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 latencia realmente inyectada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 solo disponibilidad pasada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 sin infinitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 sensores separados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 predictores presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 verdad no presente en features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 unión por clave robusta a orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 cobertura en rango",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 calidad bloquea evaluación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 fallo y mantenimiento no evaluados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 seis regímenes operativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 receta solo al laminar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 familia FK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historia servicio no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 etiquetas 24h reconstruidas independientemente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 censura coherente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 evento objetivo corresponde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 cero futuro conocido en entradas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 purga train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 purga validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-D0025 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-D0032 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 fallos precedidos de operación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 referencia IF solo train evaluable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 prefijo causal 99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 prefijo causal 1001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 prefijo causal 4001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 media causal independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 cardinalidad telemetría",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 cardinalidad decisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 tele PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 tele run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 features PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 features run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 targets PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 targets run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 truth PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 truth run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 telemetría 5 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 decisiones 15 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 UTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 latencia no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 latencia realmente inyectada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 solo disponibilidad pasada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 sin infinitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 sensores separados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 predictores presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 verdad no presente en features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 unión por clave robusta a orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 cobertura en rango",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 calidad bloquea evaluación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 fallo y mantenimiento no evaluados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 seis regímenes operativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 receta solo al laminar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 familia FK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historia servicio no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 etiquetas 24h reconstruidas independientemente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 censura coherente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 evento objetivo corresponde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 cero futuro conocido en entradas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 purga train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 purga validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-D0012 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-D0032 excluido al cruzar corte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 fallos precedidos de operación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 referencia IF solo train evaluable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 prefijo causal 99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 prefijo causal 1001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 prefijo causal 4001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 media causal independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 cardinalidad telemetría",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 cardinalidad decisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 tele PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 tele run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 features PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 features run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 targets PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 targets run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 truth PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 truth run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 telemetría 5 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 decisiones 15 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 UTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 latencia no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 latencia realmente inyectada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 solo disponibilidad pasada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 sin infinitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 sensores separados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 predictores presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 verdad no presente en features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 unión por clave robusta a orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 cobertura en rango",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 calidad bloquea evaluación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 fallo y mantenimiento no evaluados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 seis regímenes operativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 receta solo al laminar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 familia FK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historia servicio no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 etiquetas 24h reconstruidas independientemente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 censura coherente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 evento objetivo corresponde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 cero futuro conocido en entradas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 purga train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 purga validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 estrés nunca entrena",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 fallos precedidos de operación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 referencia IF solo train evaluable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 prefijo causal 99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 prefijo causal 1001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 prefijo causal 4001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 media causal independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 cardinalidad telemetría",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 cardinalidad decisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 tele PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 tele run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 features PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 features run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 targets PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 targets run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 truth PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 truth run/assembly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 telemetría 5 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 decisiones 15 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 UTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 latencia no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 latencia realmente inyectada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 solo disponibilidad pasada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 sin infinitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 sensores separados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 predictores presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 verdad no presente en features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 unión por clave robusta a orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 cobertura en rango",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 calidad bloquea evaluación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 fallo y mantenimiento no evaluados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 seis regímenes operativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 receta solo al laminar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 familia FK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historia servicio no negativa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 etiquetas 24h reconstruidas independientemente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 censura coherente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 evento objetivo corresponde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 cero futuro conocido en entradas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 purga train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 purga validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 estrés nunca entrena",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 fallos precedidos de operación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 referencia IF solo train evaluable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 prefijo causal 99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 prefijo causal 1001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 prefijo causal 4001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 media causal independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "train tiene positivos y negativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "train eventos distintos suficientes para calcular métricas básicas",
+      "passed": true,
+      "detail": "164 eventos; no acredita potencia estadística"
+    },
+    {
+      "test": "validation tiene positivos y negativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "validation eventos distintos suficientes para calcular métricas básicas",
+      "passed": true,
+      "detail": "33 eventos; no acredita potencia estadística"
+    },
+    {
+      "test": "test tiene positivos y negativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "test eventos distintos suficientes para calcular métricas básicas",
+      "passed": true,
+      "detail": "34 eventos; no acredita potencia estadística"
+    },
+    {
+      "test": "stress tiene positivos y negativos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "stress eventos distintos suficientes para calcular métricas básicas",
+      "passed": true,
+      "detail": "113 eventos; no acredita potencia estadística"
+    },
+    {
+      "test": "Lecturas no disponibles no alteran features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Ausencia esencial produce abstención",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

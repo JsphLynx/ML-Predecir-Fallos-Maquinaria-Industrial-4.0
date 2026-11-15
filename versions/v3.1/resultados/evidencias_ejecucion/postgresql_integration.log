@@ -1,0 +1,48 @@
+The files belonging to this database system will be owned by user "agent".
+This user must also own the server process.
+
+The database cluster will be initialized with locale "C.UTF-8".
+The default database encoding has accordingly been set to "UTF8".
+The default text search configuration will be set to "english".
+
+Data page checksums are disabled.
+
+creating directory /workspace/scratch/2b6f64fb51e1/pg_v31_integration ... ok
+creating subdirectories ... ok
+selecting dynamic shared memory implementation ... posix
+selecting default max_connections ... 100
+selecting default shared_buffers ... 128MB
+selecting default time zone ... Europe/Madrid
+creating configuration files ... ok
+running bootstrap script ... ok
+performing post-bootstrap initialization ... ok
+
+Sync to disk skipped.
+The data directory might become corrupt if the operating system crashes.
+
+Success. You can now start the database server using:
+
+    /home/agent/.local/lib/python3.12/site-packages/pgserver/pginstall/bin/pg_ctl -D /workspace/scratch/2b6f64fb51e1/pg_v31_integration -l logfile start
+
+waiting for server to start.... done
+server started
+Cargada acb_motor_v3_1.activos
+Cargada acb_motor_v3_1.productos
+Cargada acb_motor_v3_1.sensores
+Cargada acb_motor_v3_1.ejecuciones
+Cargada acb_motor_v3_1.fallos
+Cargada acb_motor_v3_1.mantenimiento
+Cargada acb_motor_v3_1.plan_mantenimiento
+Cargada acb_motor_v3_1.segmentos_produccion
+Cargada acb_motor_v3_1.telemetria
+Cargada acb_motor_v3_1.features
+Cargada acb_motor_v3_1.catalogo_archivos
+Cargada acb_motor_v3_1_truth.estado_latente
+Cargada acb_motor_v3_1_truth.episodios
+Cargada acb_motor_v3_1_truth.incidencias_sensores
+Cargada acb_motor_v3_1_truth.reparaciones
+Cargada acb_motor_v3_1_truth.targets
+Transacción completada. Revisar permisos antes de habilitar lectores.
+27 pruebas PostgreSQL correctas
+waiting for server to shut down.... done
+server stopped

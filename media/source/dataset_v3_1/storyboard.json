@@ -1,0 +1,186 @@
+[
+  {
+    "duration": 10,
+    "chapter": "01 / INDUSTRIA 4.0",
+    "title": "Del dato al mantenimiento\nanticipado.",
+    "caption": "Un proyecto sintético para aprender a aplicar machine learning en maquinaria industrial.",
+    "source": "README y alcance",
+    "kind": "opening"
+  },
+  {
+    "duration": 12,
+    "chapter": "02 / EL PROBLEMA INDUSTRIAL",
+    "title": "Una parada no planificada interrumpe el flujo.",
+    "caption": "Objetivo del proyecto: anticipar fallos y priorizar el mantenimiento. El ahorro real aún no está demostrado.",
+    "source": "Contexto del proyecto · esquema conceptual",
+    "kind": "mill"
+  },
+  {
+    "duration": 12,
+    "chapter": "03 / EVOLUCIÓN DEL PROYECTO",
+    "title": "Acotar. Adaptar. Auditar.",
+    "caption": "La v2 permanece como referencia; la v3 centra el trabajo en motor y apoyos; la v3.1 incorpora la revisión.",
+    "source": "CHANGELOG y referencias",
+    "kind": "versions"
+  },
+  {
+    "duration": 10,
+    "chapter": "04 / EL PAQUETE COMPLETO",
+    "title": "Mucho más que una tabla.",
+    "caption": "Datos, código, contratos y evidencias permiten seguir el recorrido de cada decisión del proyecto.",
+    "source": "Estructura del ZIP",
+    "kind": "package"
+  },
+  {
+    "duration": 14,
+    "chapter": "05 / GENERADOR REPRODUCIBLE",
+    "title": "Simular una historia, no sortear una etiqueta.",
+    "caption": "Configuración y semillas fijadas; degradación, fallos y reparaciones con incertidumbre. Parámetros no calibrados a ACB.",
+    "source": "Generador y configuración",
+    "kind": "generator"
+  },
+  {
+    "duration": 14,
+    "chapter": "06 / SEÑALES Y COMPONENTES",
+    "title": "Motor y apoyos se observan por separado.",
+    "caption": "Series extraídas de R01. Son descriptores sintéticos de 5 minutos, no ondas de vibración de alta frecuencia.",
+    "source": "Telemetría R01",
+    "kind": "signals"
+  },
+  {
+    "duration": 14,
+    "chapter": "07 / CALIDAD Y DISPONIBILIDAD",
+    "title": "Medir no significa poder evaluar.",
+    "caption": "Se controlan ausencias, retrasos, valores fuera de rango y sensores congelados. Mala calidad puede producir abstención.",
+    "source": "Constructor de variables",
+    "kind": "quality"
+  },
+  {
+    "duration": 12,
+    "chapter": "08 / CORRECCIONES DE LA AUDITORÍA",
+    "title": "Corregir antes de entrenar.",
+    "caption": "Se recalculan los datos afectados sin cambiar semillas para buscar mejores resultados predictivos.",
+    "source": "Cambios y pruebas de regresión",
+    "kind": "fixes"
+  },
+  {
+    "duration": 14,
+    "chapter": "09 / VARIABLES Y DICCIONARIO",
+    "title": "Cada columna tiene un significado y un uso.",
+    "caption": "Las estadísticas usan solo observaciones disponibles en la decisión. Salud interna y fallo futuro quedan fuera de las entradas.",
+    "source": "Diccionario y contrato ML",
+    "kind": "dictionary"
+  },
+  {
+    "duration": 12,
+    "chapter": "10 / POSTGRESQL Y TRAZABILIDAD",
+    "title": "Relacionar los datos. Separar los permisos.",
+    "caption": "Claves, transacciones y consultas por instante de conocimiento. El lector no recibe objetivos ni verdad privada.",
+    "source": "SQL y prueba local PostgreSQL",
+    "kind": "sql"
+  },
+  {
+    "duration": 12,
+    "chapter": "11 / OBJETIVO A 24 HORAS",
+    "title": "Desconocido no significa «sin fallo».",
+    "caption": "El siguiente preventivo y el fin del seguimiento pueden dejar el horizonte incompleto. Esas etiquetas se conservan nulas.",
+    "source": "Etiquetas y censura",
+    "kind": "labels"
+  },
+  {
+    "duration": 12,
+    "chapter": "12 / PARTICIONES TEMPORALES",
+    "title": "Aprender del pasado. Evaluar después.",
+    "caption": "Cortes por fechas comunes, purga de 28 h, calentamiento de 4 h y exclusión de episodios que cruzan fronteras.",
+    "source": "Particiones y preparación ML",
+    "kind": "splits"
+  },
+  {
+    "duration": 12,
+    "chapter": "13 / VARIEDAD DE ESCENARIOS",
+    "title": "El ensayo necesita situaciones diferentes.",
+    "caption": "Vida larga, carga y ruido variables. La proporción de salud es verdad simulada para auditoría, nunca un predictor.",
+    "source": "Escenarios y salud",
+    "kind": "scenarios"
+  },
+  {
+    "duration": 14,
+    "chapter": "14 / VALIDACIÓN Y REPRODUCIBILIDAD",
+    "title": "Evidencias incluidas en la entrega.",
+    "caption": "Pruebas técnicas de coherencia y causalidad. No son ensayos estadísticos independientes ni validación industrial.",
+    "source": "Resultados de validación",
+    "kind": "proof"
+  },
+  {
+    "duration": 12,
+    "chapter": "15 / INCERTIDUMBRE DEL ENSAYO",
+    "title": "Muchos registros no son muchas máquinas.",
+    "caption": "Los 16 mundos son simulaciones alternativas. La incertidumbre debe acompañar los resultados y no puede eliminarse contando más filas.",
+    "source": "Eventos y protocolo",
+    "kind": "uncertainty"
+  },
+  {
+    "duration": 14,
+    "chapter": "16 / XGBOOST · SIGUIENTE FASE",
+    "title": "Aprender a estimar el riesgo de fallo.",
+    "caption": "XGBoost utilizará variables observables y etiquetas conocidas de entrenamiento. El modelo todavía no está entrenado.",
+    "source": "Protocolo preentrenamiento",
+    "kind": "xgboost"
+  },
+  {
+    "duration": 14,
+    "chapter": "17 / ISOLATION FOREST · SIGUIENTE FASE",
+    "title": "Detectar lo que se sale del patrón.",
+    "caption": "Una puntuación de anomalía no equivale a una probabilidad de fallo en 24 horas. El modelo todavía no está entrenado.",
+    "source": "Referencias IF y protocolo",
+    "kind": "isolation"
+  },
+  {
+    "duration": 13,
+    "chapter": "18 / EXPERIMENTO SIN ATAJOS",
+    "title": "Un modelo complejo debe justificar su uso.",
+    "caption": "Ajustes con entrenamiento; umbrales con validación. Test y estrés evalúan después de congelar las decisiones.",
+    "source": "Comparadores y protocolo",
+    "kind": "benchmark"
+  },
+  {
+    "duration": 12,
+    "chapter": "19 / DE LA PUNTUACIÓN AL AVISO",
+    "title": "Evaluar eventos, no solo acertar filas.",
+    "caption": "Sensibilidad por fallo, falsas alertas, anticipación, cobertura y abstención. Los huecos permanecen en el reloj.",
+    "source": "Evaluador de alertas",
+    "kind": "policy"
+  },
+  {
+    "duration": 10,
+    "chapter": "20 / APLICACIÓN FUTURA",
+    "title": "Del aviso a una decisión de mantenimiento.",
+    "caption": "Flujo conceptual de una futura aplicación. La inspección y la intervención deben quedar a cargo de profesionales.",
+    "source": "Objetivo del proyecto · propuesta",
+    "kind": "action"
+  },
+  {
+    "duration": 10,
+    "chapter": "21 / LÍMITES QUE SIGUEN VIGENTES",
+    "title": "Demostración sintética, no promesa industrial.",
+    "caption": "Sin datos reales no se acredita capacidad predictiva, ahorro ni fiabilidad sobre la maquinaria de ACB.",
+    "source": "Aviso de uso y cierre",
+    "kind": "boundaries"
+  },
+  {
+    "duration": 12,
+    "chapter": "22 / PUERTA DE ENTRADA AL ENTRENAMIENTO",
+    "title": "Iniciar con una versión congelada.",
+    "caption": "Antes de entrenar: repetir verificaciones y registrar entorno, semillas, variables y decisiones. Guardar modelo, preparación y política antes del test.",
+    "source": "Protocolo, sección 7",
+    "kind": "preflight"
+  },
+  {
+    "duration": 9,
+    "chapter": "23 / CONOCIMIENTO · DESARROLLO · IMPACTO",
+    "title": "Preparado para aprender.\nPreparado para comprobar.",
+    "caption": "Próxima fase: entrenar, comparar y evaluar XGBoost e Isolation Forest bajo el protocolo definido.",
+    "source": "Proyecto de Joseph · dataset v3.1",
+    "kind": "closing"
+  }
+]

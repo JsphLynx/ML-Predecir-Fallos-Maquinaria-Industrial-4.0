@@ -1,0 +1,30 @@
+columna_v2,destino_v3,accion,detalle
+equipo_id,assembly_id; asset_id,Rediseñar identidad,Una caja agregada no equivale al nuevo motor; sin correspondencia física F3↔DEMO-C01.
+timestamp,timestamp,Conservar contrato,UTC cada 5 minutos; nuevas fechas simuladas.
+disponible_desde,available_at,Ampliar,Latencias 0/5/10/20 min; uso as-of en snapshots.
+tipo_equipo,activos.asset_type,Normalizar,Jerarquía planta-línea-caja-conjunto-motor-apoyos.
+estado_equipo,rolling_state,Rediseñar,Seis regímenes y estado fallo separado.
+en_marcha,eligible_operation,Recalcular,Decisiones elegibles sin_carga/laminacion; demás quedan como abstención.
+bobina_id,coil_id,Regenerar contexto,ID de segmento de producto; sin afirmar producción completa.
+grado_acero,steel_family,Reutilizar catálogo,Mismos cuatro grados y factores como supuestos.
+espesor_objetivo_mm,target_thickness_mm,Reutilizar diseño,Misma lista sintética; selección nueva.
+ancho_mm,width_mm,Reutilizar diseño,Mismos anchos de ejemplo; selección nueva.
+carga_relativa,load_ratio,Adaptar mecanismo,Carga del motor en sus regímenes; ruido y escenarios.
+horas_desde_mantenimiento,run_hours_since_service,Cambiar significado,"Ahora horas operativas; solo cierre conocido, con retraso."
+temperatura_ambiente_c,ambient_temperature_c,Adaptar mecanismo,Estacionalidad sintética y ciclo diario.
+vibracion_rms_mm_s,vibration_de_mm_s; vibration_nde_mm_s,Desdoblar y regenerar,Apoyos distintos; no duplicar columna agregada.
+temperatura_rodamiento_c,bearing_temperature_de_c; bearing_temperature_nde_c,Desdoblar y regenerar,"Trayectorias distintas, con inercia térmica."
+temperatura_motor_c,winding_temperature_c,Reespecificar y regenerar,Medida sintética del devanado; no simple cambio de nombre.
+temperatura_aceite_c,—,Fuera de alcance inicial,"Se conserva presión contextual, no todo circuito de aceite."
+presion_aceite_bar,lubrication_pressure_bar,Adaptar,Circuito supuesto del conjunto; no sistema central de planta.
+presion_hidraulica_bar,—,Fuera de alcance,No predicción hidráulica.
+caudal_refrigeracion_l_min,cooling_flow_l_min,Adaptar,Contexto de refrigeración de motor.
+corriente_motor_pct_nominal,current_a,Regenerar con unidad explícita,Nominal ficticio 1600 A; no corriente real inferida de v2.
+velocidad_motor_rpm,speed_rpm,Corregir interpretación,v2 deriva de velocidad de banda y radio supuesto; v3 es eje motor lógico independiente.
+potencia_kw,—,Omitir,No se asume potencia de placa ni eficiencia.
+fuerza_laminacion_mn,—,Fuera de alcance,No se conserva un modelo de fuerzas del tren.
+espesor_entrada_caja_mm,—,Fuera de alcance,No se modela reducción de siete cajas.
+espesor_salida_caja_mm,—,Fuera de alcance,"Se conserva receta de producto, no estado metalúrgico."
+velocidad_entrada_caja_m_s,—,Fuera de alcance,No modela flujo de banda.
+velocidad_salida_caja_m_s,—,Fuera de alcance,No modela flujo de banda.
+temperatura_material_c,—,Fuera de alcance,No es temperatura del motor ni de su rodamiento.

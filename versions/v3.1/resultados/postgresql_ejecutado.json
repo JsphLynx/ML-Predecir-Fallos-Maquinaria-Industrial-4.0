@@ -1,0 +1,117 @@
+{
+  "version": "PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit",
+  "checks": 27,
+  "passed": 27,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "Conteo acb_motor_v3_1.activos",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.catalogo_archivos",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.ejecuciones",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.fallos",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.mantenimiento",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.plan_mantenimiento",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.productos",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.segmentos_produccion",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.sensores",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.telemetria",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1.features",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1_truth.episodios",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1_truth.incidencias_sensores",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1_truth.reparaciones",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1_truth.estado_latente",
+      "passed": true
+    },
+    {
+      "test": "Conteo acb_motor_v3_1_truth.targets",
+      "passed": true
+    },
+    {
+      "test": "PK rechaza duplicado",
+      "passed": true
+    },
+    {
+      "test": "FK rechaza padre inexistente",
+      "passed": true
+    },
+    {
+      "test": "CHECK rechaza etiqueta 2",
+      "passed": true
+    },
+    {
+      "test": "Rollback deshace escritura",
+      "passed": true
+    },
+    {
+      "test": "Lector no lee verdad",
+      "passed": true
+    },
+    {
+      "test": "Lector no lee objetivos",
+      "passed": true
+    },
+    {
+      "test": "Lector no lee resultados futuros",
+      "passed": true
+    },
+    {
+      "test": "Lector no escribe datos",
+      "passed": true
+    },
+    {
+      "test": "API features no devuelve futuro",
+      "passed": true
+    },
+    {
+      "test": "API plan coincide con asof Python",
+      "passed": true
+    },
+    {
+      "test": "API cierre oculto antes de disponibilidad",
+      "passed": true
+    }
+  ],
+  "environment": "PostgreSQL local aislado. No acredita Neon ni Windows."
+}

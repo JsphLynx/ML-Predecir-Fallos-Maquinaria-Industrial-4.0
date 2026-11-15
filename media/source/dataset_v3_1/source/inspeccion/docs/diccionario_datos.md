@@ -1,0 +1,262 @@
+# Diccionario de datos v3.1
+
+Generado desde los esquemas Parquet. Fechas UTC; dimensiones y límites son supuestos de demostración.
+
+| Tabla | Columna | Tipo | Unidad | Uso | Definición |
+|---|---|---|---|---|---|
+| acb_motor_v3_1.activos | asset_id | string | ID | contexto_o_metadato | Activo o componente lógico |
+| acb_motor_v3_1.activos | parent_asset_id | string | ID | contexto_o_metadato | Activo padre; nulo solo para la planta |
+| acb_motor_v3_1.activos | asset_type | string | categoría | contexto_o_metadato | planta, linea, caja, conjunto, motor o apoyo |
+| acb_motor_v3_1.activos | description | string | texto | contexto_o_metadato | Descripción del activo |
+| acb_motor_v3_1.activos | is_synthetic | bool | booleano | contexto_o_metadato | Siempre verdadero; no es inventario real |
+| acb_motor_v3_1.catalogo_archivos | relative_path | string | ruta | contexto_o_metadato | Ruta relativa al paquete, nunca credenciales ni URL privada |
+| acb_motor_v3_1.catalogo_archivos | table_name | string | texto | contexto_o_metadato | Tabla lógica del archivo Parquet |
+| acb_motor_v3_1.catalogo_archivos | row_count | int64 | filas | contexto_o_metadato | Número exacto de registros del archivo |
+| acb_motor_v3_1.catalogo_archivos | sha256 | string | SHA-256 | contexto_o_metadato | Huella de bytes del archivo Parquet |
+| acb_motor_v3_1.ejecuciones | run_id | string | ID | contexto_o_metadato | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1.ejecuciones | assembly_id | string | ID | contexto_o_metadato | Conjunto lógico de predicción motor y apoyos |
+| acb_motor_v3_1.ejecuciones | seed | int64 | entero | contexto_o_metadato | Semilla maestra del generador |
+| acb_motor_v3_1.ejecuciones | subseed_index | int64 | entero | contexto_o_metadato | Índice usado con semilla maestra para crear cuatro flujos RNG |
+| acb_motor_v3_1.ejecuciones | version | string | texto | contexto_o_metadato | Versión del generador y contrato |
+| acb_motor_v3_1.ejecuciones | start | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Inicio inclusivo de ejecución, segmento, fallo, mantenimiento o incidencia |
+| acb_motor_v3_1.ejecuciones | end | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Fin exclusivo del intervalo |
+| acb_motor_v3_1.ejecuciones | scenario | string | categoría | contexto_o_metadato | base_degradacion, base_vida_larga, stress_carga o stress_mecanismo_ruido; prohibido como predictor |
+| acb_motor_v3_1.ejecuciones | step_minutes | int64 | min | contexto_o_metadato | Cadencia de telemetría: 5 |
+| acb_motor_v3_1.ejecuciones | decision_minutes | int64 | min | contexto_o_metadato | Cadencia de snapshots: 15 |
+| acb_motor_v3_1.ejecuciones | config_sha256 | string | SHA-256 | contexto_o_metadato | Huella de configuración usada |
+| acb_motor_v3_1.fallos | run_id | string | ID | contexto_o_metadato | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1.fallos | event_id | string | ID | contexto_o_metadato | Evento de fallo; en targets identifica el fallo futuro positivo y nunca es predictor |
+| acb_motor_v3_1.fallos | assembly_id | string | ID | contexto_o_metadato | Conjunto lógico de predicción motor y apoyos |
+| acb_motor_v3_1.fallos | asset_id | string | ID | contexto_o_metadato | Activo o componente lógico |
+| acb_motor_v3_1.fallos | start | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Inicio inclusivo de ejecución, segmento, fallo, mantenimiento o incidencia |
+| acb_motor_v3_1.fallos | end | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Fin exclusivo del intervalo |
+| acb_motor_v3_1.fallos | mode | string | categoría | contexto_o_metadato | rodamiento_de, rodamiento_nde, termico_motor o electrico_subito |
+| acb_motor_v3_1.fallos | onset | string | categoría | contexto_o_metadato | progresivo o subito; clasificación retrospectiva del simulador |
+| acb_motor_v3_1.fallos | detected_at | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Disponibilidad de detección del fallo; aquí igual a su inicio |
+| acb_motor_v3_1.fallos | diagnosis_available_at | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Disponibilidad del diagnóstico: 15 min tras fin |
+| acb_motor_v3_1.mantenimiento | run_id | string | ID | contexto_o_metadato | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1.mantenimiento | maintenance_id | string | ID | contexto_o_metadato | Intervención vinculada al conjunto/componente |
+| acb_motor_v3_1.mantenimiento | assembly_id | string | ID | contexto_o_metadato | Conjunto lógico de predicción motor y apoyos |
+| acb_motor_v3_1.mantenimiento | asset_id | string | ID | contexto_o_metadato | Activo o componente lógico |
+| acb_motor_v3_1.mantenimiento | start | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Inicio inclusivo de ejecución, segmento, fallo, mantenimiento o incidencia |
+| acb_motor_v3_1.mantenimiento | end | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Fin exclusivo del intervalo |
+| acb_motor_v3_1.mantenimiento | kind | string | categoría | contexto_o_metadato | Tipo de mantenimiento o defecto instrumental, según tabla |
+| acb_motor_v3_1.mantenimiento | event_id | string | ID | contexto_o_metadato | Evento de fallo; en targets identifica el fallo futuro positivo y nunca es predictor |
+| acb_motor_v3_1.mantenimiento | known_at | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Instante de conocimiento de revisión; intervención real conocida al inicio; resultado solo tras cierre |
+| acb_motor_v3_1.mantenimiento | result_available_at | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Cuándo se conoce cierre y resultado del mantenimiento |
+| acb_motor_v3_1.mantenimiento | action | string | categoría | contexto_o_metadato | sustitucion, reparacion_parcial, mejora_parcial o pendiente |
+| acb_motor_v3_1.mantenimiento | completed_operating_hours | float | h | contexto_o_metadato | Contador operativo al cierre; conocido únicamente en result_available_at |
+| acb_motor_v3_1.plan_mantenimiento | run_id | string | ID | contexto_o_metadato | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1.plan_mantenimiento | plan_id | string | ID | contexto_o_metadato | Identificador del plan preventivo versionado |
+| acb_motor_v3_1.plan_mantenimiento | revision | int64 | entero | contexto_o_metadato | Versión de conocimiento del plan |
+| acb_motor_v3_1.plan_mantenimiento | known_at | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Instante de conocimiento de revisión; intervención real conocida al inicio; resultado solo tras cierre |
+| acb_motor_v3_1.plan_mantenimiento | scheduled_start | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Fecha prevista en esa revisión; nula al aplazar sin nueva hora conocida |
+| acb_motor_v3_1.plan_mantenimiento | status | string | categoría | contexto_o_metadato | previsto, aplazado_correctivo o iniciado |
+| acb_motor_v3_1.plan_mantenimiento | planned_duration_hours | int64 | h | contexto_o_metadato | Duración planeada, no cierre real futuro |
+| acb_motor_v3_1.productos | grado_acero | string | categoría | contexto_o_metadato | Cuatro grados heredados del catálogo sintético v2; no oferta actual verificada |
+| acb_motor_v3_1.productos | espesor_min_demo_mm | float | mm | contexto_o_metadato | Espesor mínimo del escenario heredado |
+| acb_motor_v3_1.productos | factor_carga_demo | float | adimensional | contexto_o_metadato | Factor supuesto de carga por grado, usado solo en el generador |
+| acb_motor_v3_1.segmentos_produccion | run_id | string | ID | contexto_o_metadato | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1.segmentos_produccion | assembly_id | string | ID | contexto_o_metadato | Conjunto lógico de predicción motor y apoyos |
+| acb_motor_v3_1.segmentos_produccion | rolling_state | string | categoría | contexto_o_metadato | parado, arranque, sin_carga, laminacion, desaceleracion, mantenimiento o fallo |
+| acb_motor_v3_1.segmentos_produccion | coil_id | string | ID | contexto_o_metadato | Producto/segmento lógico simulado; no prueba fabricación de una bobina completa |
+| acb_motor_v3_1.segmentos_produccion | steel_family | string | categoría | contexto_o_metadato | Familia de producto fijada antes de la operación |
+| acb_motor_v3_1.segmentos_produccion | target_thickness_mm | float | mm | contexto_o_metadato | Espesor objetivo de la receta; nulo fuera de laminación |
+| acb_motor_v3_1.segmentos_produccion | width_mm | float | mm | contexto_o_metadato | Anchura objetivo; nula fuera de laminación |
+| acb_motor_v3_1.segmentos_produccion | segment_id | string | ID | contexto_o_metadato | Intervalo contiguo con mismo estado y receta |
+| acb_motor_v3_1.segmentos_produccion | start | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Inicio inclusivo de ejecución, segmento, fallo, mantenimiento o incidencia |
+| acb_motor_v3_1.segmentos_produccion | end | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Fin exclusivo del intervalo |
+| acb_motor_v3_1.segmentos_produccion | known_at | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Instante de conocimiento de revisión; intervención real conocida al inicio; resultado solo tras cierre |
+| acb_motor_v3_1.sensores | sensor_id | string | ID | contexto_o_metadato | Sensor lógico que produce un descriptor |
+| acb_motor_v3_1.sensores | asset_id | string | ID | contexto_o_metadato | Activo o componente lógico |
+| acb_motor_v3_1.sensores | variable | string | texto | contexto_o_metadato | Nombre exacto de la señal en telemetría |
+| acb_motor_v3_1.sensores | unit | string | texto | contexto_o_metadato | Unidad física del descriptor |
+| acb_motor_v3_1.sensores | min_demo | int64 | unidad señal | contexto_o_metadato | Mínimo admisible configurado; no límite industrial certificado |
+| acb_motor_v3_1.sensores | max_demo | float | unidad señal | contexto_o_metadato | Máximo admisible configurado; no límite industrial certificado |
+| acb_motor_v3_1.sensores | method | string | texto | contexto_o_metadato | Descriptor sintético; no deriva de una onda adquirida |
+| acb_motor_v3_1.sensores | is_synthetic | bool | booleano | contexto_o_metadato | Siempre verdadero; no es inventario real |
+| acb_motor_v3_1.telemetria | run_id | string | ID | contexto_o_metadato | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1.telemetria | assembly_id | string | ID | contexto_o_metadato | Conjunto lógico de predicción motor y apoyos |
+| acb_motor_v3_1.telemetria | timestamp | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Instante de observación o decisión, según tabla |
+| acb_motor_v3_1.telemetria | bearing_temperature_de_c | float | °C | contexto_o_metadato | Temperatura del apoyo DE |
+| acb_motor_v3_1.telemetria | bearing_temperature_nde_c | float | °C | contexto_o_metadato | Temperatura del apoyo NDE |
+| acb_motor_v3_1.telemetria | winding_temperature_c | float | °C | contexto_o_metadato | Temperatura del devanado |
+| acb_motor_v3_1.telemetria | vibration_de_mm_s | float | mm/s | contexto_o_metadato | Velocidad vibratoria RMS DE |
+| acb_motor_v3_1.telemetria | vibration_nde_mm_s | float | mm/s | contexto_o_metadato | Velocidad vibratoria RMS NDE |
+| acb_motor_v3_1.telemetria | acceleration_de_m_s2 | float | m/s² | contexto_o_metadato | Aceleración RMS DE |
+| acb_motor_v3_1.telemetria | acceleration_nde_m_s2 | float | m/s² | contexto_o_metadato | Aceleración RMS NDE |
+| acb_motor_v3_1.telemetria | kurtosis_de | float | adimensional | contexto_o_metadato | Curtosis de Pearson DE, descriptor simulado |
+| acb_motor_v3_1.telemetria | kurtosis_nde | float | adimensional | contexto_o_metadato | Curtosis de Pearson NDE, descriptor simulado |
+| acb_motor_v3_1.telemetria | current_a | float | A | contexto_o_metadato | Corriente RMS; nominal ficticio configurado |
+| acb_motor_v3_1.telemetria | load_ratio | float | fracción | contexto_o_metadato | Carga relativa observable simulada |
+| acb_motor_v3_1.telemetria | speed_rpm | float | rpm | contexto_o_metadato | Velocidad de eje motor supuesta, no de cilindro |
+| acb_motor_v3_1.telemetria | ambient_temperature_c | float | °C | contexto_o_metadato | Temperatura ambiente |
+| acb_motor_v3_1.telemetria | cooling_flow_l_min | float | L/min | contexto_o_metadato | Caudal de refrigeración supuesto |
+| acb_motor_v3_1.telemetria | lubrication_pressure_bar | float | bar | contexto_o_metadato | Presión del circuito de lubricación supuesto |
+| acb_motor_v3_1.telemetria | available_at | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Llegada del paquete de sensores; contexto operativo conocido en timestamp |
+| acb_motor_v3_1.telemetria | rolling_state | string | categoría | contexto_o_metadato | parado, arranque, sin_carga, laminacion, desaceleracion, mantenimiento o fallo |
+| acb_motor_v3_1.telemetria | coil_id | string | ID | contexto_o_metadato | Producto/segmento lógico simulado; no prueba fabricación de una bobina completa |
+| acb_motor_v3_1.telemetria | steel_family | string | categoría | contexto_o_metadato | Familia de producto fijada antes de la operación |
+| acb_motor_v3_1.telemetria | target_thickness_mm | float | mm | contexto_o_metadato | Espesor objetivo de la receta; nulo fuera de laminación |
+| acb_motor_v3_1.telemetria | width_mm | float | mm | contexto_o_metadato | Anchura objetivo; nula fuera de laminación |
+| acb_motor_v3_1.telemetria | run_hours_since_service | float | h | contexto_o_metadato | Horas operativas desde último servicio completado y conocido; al inicio desde seguimiento |
+| acb_motor_v3_1.telemetria | known_service_type | string | categoría | contexto_o_metadato | Último tipo de mantenimiento cuyo resultado ya estaba disponible |
+| acb_motor_v3_1.telemetria | starts_last_24h | int16 | recuento | contexto_o_metadato | Transiciones a operación en las 24 h anteriores incluyendo instante presente |
+| acb_motor_v3_1.features | run_id | string | ID | contexto_o_metadato | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1.features | assembly_id | string | ID | contexto_o_metadato | Conjunto lógico de predicción motor y apoyos |
+| acb_motor_v3_1.features | timestamp | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Instante de observación o decisión, según tabla |
+| acb_motor_v3_1.features | rolling_state | string | categoría | predictor | parado, arranque, sin_carga, laminacion, desaceleracion, mantenimiento o fallo |
+| acb_motor_v3_1.features | steel_family | string | categoría | predictor | Familia de producto fijada antes de la operación |
+| acb_motor_v3_1.features | target_thickness_mm | float | mm | predictor | Espesor objetivo de la receta; nulo fuera de laminación |
+| acb_motor_v3_1.features | width_mm | float | mm | predictor | Anchura objetivo; nula fuera de laminación |
+| acb_motor_v3_1.features | run_hours_since_service | float | h | predictor | Horas operativas desde último servicio completado y conocido; al inicio desde seguimiento |
+| acb_motor_v3_1.features | known_service_type | string | categoría | predictor | Último tipo de mantenimiento cuyo resultado ya estaba disponible |
+| acb_motor_v3_1.features | starts_last_24h | int16 | recuento | predictor | Transiciones a operación en las 24 h anteriores incluyendo instante presente |
+| acb_motor_v3_1.features | coverage_min_30m | float | fracción | contexto_o_metadato | Mínima cobertura entre ocho señales esenciales sobre seis slots de 5 min; ausentes/tardíos/inválidos cuentan como falta |
+| acb_motor_v3_1.features | missing_fraction_30m | float | fracción | predictor | Fracción de slots sin dato válido disponible de todas las señales, últimos 30 min |
+| acb_motor_v3_1.features | out_of_range_fraction_30m | float | fracción | contexto_o_metadato | Fracción de slots disponibles fuera de límites del contrato, últimos 30 min |
+| acb_motor_v3_1.features | sensor_stale | bool | booleano | contexto_o_metadato | Señal esencial idéntica en seis slots válidos del mismo régimen activo; detector causal, no verdad de incidencias |
+| acb_motor_v3_1.features | max_data_age_minutes | float | min | contexto_o_metadato | Mayor antigüedad del último dato válido de las señales esenciales; nulo si alguna no tiene dato en 4 h |
+| acb_motor_v3_1.features | source_available_at_max | timestamp[ns, tz=UTC] | UTC | contexto_o_metadato | Máxima llegada de paquetes utilizados en las últimas 4 h; nunca posterior a decisión |
+| acb_motor_v3_1.features | eligible_operation | bool | booleano | contexto_o_metadato | Estado operativo apto para etiqueta: sin_carga o laminacion |
+| acb_motor_v3_1.features | evaluation_status | string | categoría | contexto_o_metadato | evaluable o causa de abstención; no significa salud o avería |
+| acb_motor_v3_1.features | quality_code | string | categoría | contexto_o_metadato | Resultado de controles observables: ok, cobertura_insuficiente, dato_antiguo, sensor_congelado, fuera_rango |
+| acb_motor_v3_1.features | bearing_temperature_de_c | float | °C | predictor | Temperatura del apoyo DE |
+| acb_motor_v3_1.features | bearing_temperature_nde_c | float | °C | predictor | Temperatura del apoyo NDE |
+| acb_motor_v3_1.features | winding_temperature_c | float | °C | predictor | Temperatura del devanado |
+| acb_motor_v3_1.features | vibration_de_mm_s | float | mm/s | predictor | Velocidad vibratoria RMS DE |
+| acb_motor_v3_1.features | vibration_nde_mm_s | float | mm/s | predictor | Velocidad vibratoria RMS NDE |
+| acb_motor_v3_1.features | acceleration_de_m_s2 | float | m/s² | predictor | Aceleración RMS DE |
+| acb_motor_v3_1.features | acceleration_nde_m_s2 | float | m/s² | predictor | Aceleración RMS NDE |
+| acb_motor_v3_1.features | kurtosis_de | float | adimensional | predictor | Curtosis de Pearson DE, descriptor simulado |
+| acb_motor_v3_1.features | kurtosis_nde | float | adimensional | predictor | Curtosis de Pearson NDE, descriptor simulado |
+| acb_motor_v3_1.features | current_a | float | A | predictor | Corriente RMS; nominal ficticio configurado |
+| acb_motor_v3_1.features | load_ratio | float | fracción | predictor | Carga relativa observable simulada |
+| acb_motor_v3_1.features | speed_rpm | float | rpm | predictor | Velocidad de eje motor supuesta, no de cilindro |
+| acb_motor_v3_1.features | ambient_temperature_c | float | °C | predictor | Temperatura ambiente |
+| acb_motor_v3_1.features | cooling_flow_l_min | float | L/min | predictor | Caudal de refrigeración supuesto |
+| acb_motor_v3_1.features | lubrication_pressure_bar | float | bar | predictor | Presión del circuito de lubricación supuesto |
+| acb_motor_v3_1.features | bearing_temperature_de_c_mean_30m | float | °C | predictor | Media de Temperatura del apoyo DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_de_c_std_30m | float | °C | predictor | Desviación típica muestral ddof=1 de Temperatura del apoyo DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_de_c_slope_per_h_30m | float | °C/h | predictor | Pendiente OLS por hora de Temperatura del apoyo DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_nde_c_mean_30m | float | °C | predictor | Media de Temperatura del apoyo NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_nde_c_std_30m | float | °C | predictor | Desviación típica muestral ddof=1 de Temperatura del apoyo NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_nde_c_slope_per_h_30m | float | °C/h | predictor | Pendiente OLS por hora de Temperatura del apoyo NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | winding_temperature_c_mean_30m | float | °C | predictor | Media de Temperatura del devanado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | winding_temperature_c_std_30m | float | °C | predictor | Desviación típica muestral ddof=1 de Temperatura del devanado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | winding_temperature_c_slope_per_h_30m | float | °C/h | predictor | Pendiente OLS por hora de Temperatura del devanado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_de_mm_s_mean_30m | float | mm/s | predictor | Media de Velocidad vibratoria RMS DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_de_mm_s_std_30m | float | mm/s | predictor | Desviación típica muestral ddof=1 de Velocidad vibratoria RMS DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_de_mm_s_slope_per_h_30m | float | mm/s/h | predictor | Pendiente OLS por hora de Velocidad vibratoria RMS DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_nde_mm_s_mean_30m | float | mm/s | predictor | Media de Velocidad vibratoria RMS NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_nde_mm_s_std_30m | float | mm/s | predictor | Desviación típica muestral ddof=1 de Velocidad vibratoria RMS NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_nde_mm_s_slope_per_h_30m | float | mm/s/h | predictor | Pendiente OLS por hora de Velocidad vibratoria RMS NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_de_m_s2_mean_30m | float | m/s² | predictor | Media de Aceleración RMS DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_de_m_s2_std_30m | float | m/s² | predictor | Desviación típica muestral ddof=1 de Aceleración RMS DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_de_m_s2_slope_per_h_30m | float | m/s²/h | predictor | Pendiente OLS por hora de Aceleración RMS DE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_nde_m_s2_mean_30m | float | m/s² | predictor | Media de Aceleración RMS NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_nde_m_s2_std_30m | float | m/s² | predictor | Desviación típica muestral ddof=1 de Aceleración RMS NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_nde_m_s2_slope_per_h_30m | float | m/s²/h | predictor | Pendiente OLS por hora de Aceleración RMS NDE; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_de_mean_30m | float | adimensional | predictor | Media de Curtosis de Pearson DE, descriptor simulado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_de_std_30m | float | adimensional | predictor | Desviación típica muestral ddof=1 de Curtosis de Pearson DE, descriptor simulado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_de_slope_per_h_30m | float | adimensional/h | predictor | Pendiente OLS por hora de Curtosis de Pearson DE, descriptor simulado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_nde_mean_30m | float | adimensional | predictor | Media de Curtosis de Pearson NDE, descriptor simulado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_nde_std_30m | float | adimensional | predictor | Desviación típica muestral ddof=1 de Curtosis de Pearson NDE, descriptor simulado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_nde_slope_per_h_30m | float | adimensional/h | predictor | Pendiente OLS por hora de Curtosis de Pearson NDE, descriptor simulado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | current_a_mean_30m | float | A | predictor | Media de Corriente RMS; nominal ficticio configurado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | current_a_std_30m | float | A | predictor | Desviación típica muestral ddof=1 de Corriente RMS; nominal ficticio configurado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | current_a_slope_per_h_30m | float | A/h | predictor | Pendiente OLS por hora de Corriente RMS; nominal ficticio configurado; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | load_ratio_mean_30m | float | fracción | predictor | Media de Carga relativa observable simulada; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | load_ratio_std_30m | float | fracción | predictor | Desviación típica muestral ddof=1 de Carga relativa observable simulada; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | load_ratio_slope_per_h_30m | float | fracción/h | predictor | Pendiente OLS por hora de Carga relativa observable simulada; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | speed_rpm_mean_30m | float | rpm | predictor | Media de Velocidad de eje motor supuesta, no de cilindro; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | speed_rpm_std_30m | float | rpm | predictor | Desviación típica muestral ddof=1 de Velocidad de eje motor supuesta, no de cilindro; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | speed_rpm_slope_per_h_30m | float | rpm/h | predictor | Pendiente OLS por hora de Velocidad de eje motor supuesta, no de cilindro; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | ambient_temperature_c_mean_30m | float | °C | predictor | Media de Temperatura ambiente; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | ambient_temperature_c_std_30m | float | °C | predictor | Desviación típica muestral ddof=1 de Temperatura ambiente; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | ambient_temperature_c_slope_per_h_30m | float | °C/h | predictor | Pendiente OLS por hora de Temperatura ambiente; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | cooling_flow_l_min_mean_30m | float | L/min | predictor | Media de Caudal de refrigeración supuesto; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | cooling_flow_l_min_std_30m | float | L/min | predictor | Desviación típica muestral ddof=1 de Caudal de refrigeración supuesto; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | cooling_flow_l_min_slope_per_h_30m | float | L/min/h | predictor | Pendiente OLS por hora de Caudal de refrigeración supuesto; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | lubrication_pressure_bar_mean_30m | float | bar | predictor | Media de Presión del circuito de lubricación supuesto; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | lubrication_pressure_bar_std_30m | float | bar | predictor | Desviación típica muestral ddof=1 de Presión del circuito de lubricación supuesto; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | lubrication_pressure_bar_slope_per_h_30m | float | bar/h | predictor | Pendiente OLS por hora de Presión del circuito de lubricación supuesto; ventana (t-30 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_de_c_mean_240m | float | °C | predictor | Media de Temperatura del apoyo DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_de_c_std_240m | float | °C | predictor | Desviación típica muestral ddof=1 de Temperatura del apoyo DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_de_c_slope_per_h_240m | float | °C/h | predictor | Pendiente OLS por hora de Temperatura del apoyo DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_nde_c_mean_240m | float | °C | predictor | Media de Temperatura del apoyo NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_nde_c_std_240m | float | °C | predictor | Desviación típica muestral ddof=1 de Temperatura del apoyo NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | bearing_temperature_nde_c_slope_per_h_240m | float | °C/h | predictor | Pendiente OLS por hora de Temperatura del apoyo NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | winding_temperature_c_mean_240m | float | °C | predictor | Media de Temperatura del devanado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | winding_temperature_c_std_240m | float | °C | predictor | Desviación típica muestral ddof=1 de Temperatura del devanado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | winding_temperature_c_slope_per_h_240m | float | °C/h | predictor | Pendiente OLS por hora de Temperatura del devanado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_de_mm_s_mean_240m | float | mm/s | predictor | Media de Velocidad vibratoria RMS DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_de_mm_s_std_240m | float | mm/s | predictor | Desviación típica muestral ddof=1 de Velocidad vibratoria RMS DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_de_mm_s_slope_per_h_240m | float | mm/s/h | predictor | Pendiente OLS por hora de Velocidad vibratoria RMS DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_nde_mm_s_mean_240m | float | mm/s | predictor | Media de Velocidad vibratoria RMS NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_nde_mm_s_std_240m | float | mm/s | predictor | Desviación típica muestral ddof=1 de Velocidad vibratoria RMS NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | vibration_nde_mm_s_slope_per_h_240m | float | mm/s/h | predictor | Pendiente OLS por hora de Velocidad vibratoria RMS NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_de_m_s2_mean_240m | float | m/s² | predictor | Media de Aceleración RMS DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_de_m_s2_std_240m | float | m/s² | predictor | Desviación típica muestral ddof=1 de Aceleración RMS DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_de_m_s2_slope_per_h_240m | float | m/s²/h | predictor | Pendiente OLS por hora de Aceleración RMS DE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_nde_m_s2_mean_240m | float | m/s² | predictor | Media de Aceleración RMS NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_nde_m_s2_std_240m | float | m/s² | predictor | Desviación típica muestral ddof=1 de Aceleración RMS NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | acceleration_nde_m_s2_slope_per_h_240m | float | m/s²/h | predictor | Pendiente OLS por hora de Aceleración RMS NDE; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_de_mean_240m | float | adimensional | predictor | Media de Curtosis de Pearson DE, descriptor simulado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_de_std_240m | float | adimensional | predictor | Desviación típica muestral ddof=1 de Curtosis de Pearson DE, descriptor simulado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_de_slope_per_h_240m | float | adimensional/h | predictor | Pendiente OLS por hora de Curtosis de Pearson DE, descriptor simulado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_nde_mean_240m | float | adimensional | predictor | Media de Curtosis de Pearson NDE, descriptor simulado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_nde_std_240m | float | adimensional | predictor | Desviación típica muestral ddof=1 de Curtosis de Pearson NDE, descriptor simulado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | kurtosis_nde_slope_per_h_240m | float | adimensional/h | predictor | Pendiente OLS por hora de Curtosis de Pearson NDE, descriptor simulado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | current_a_mean_240m | float | A | predictor | Media de Corriente RMS; nominal ficticio configurado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | current_a_std_240m | float | A | predictor | Desviación típica muestral ddof=1 de Corriente RMS; nominal ficticio configurado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | current_a_slope_per_h_240m | float | A/h | predictor | Pendiente OLS por hora de Corriente RMS; nominal ficticio configurado; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | load_ratio_mean_240m | float | fracción | predictor | Media de Carga relativa observable simulada; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | load_ratio_std_240m | float | fracción | predictor | Desviación típica muestral ddof=1 de Carga relativa observable simulada; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | load_ratio_slope_per_h_240m | float | fracción/h | predictor | Pendiente OLS por hora de Carga relativa observable simulada; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | speed_rpm_mean_240m | float | rpm | predictor | Media de Velocidad de eje motor supuesta, no de cilindro; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | speed_rpm_std_240m | float | rpm | predictor | Desviación típica muestral ddof=1 de Velocidad de eje motor supuesta, no de cilindro; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | speed_rpm_slope_per_h_240m | float | rpm/h | predictor | Pendiente OLS por hora de Velocidad de eje motor supuesta, no de cilindro; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | ambient_temperature_c_mean_240m | float | °C | predictor | Media de Temperatura ambiente; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | ambient_temperature_c_std_240m | float | °C | predictor | Desviación típica muestral ddof=1 de Temperatura ambiente; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | ambient_temperature_c_slope_per_h_240m | float | °C/h | predictor | Pendiente OLS por hora de Temperatura ambiente; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | cooling_flow_l_min_mean_240m | float | L/min | predictor | Media de Caudal de refrigeración supuesto; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | cooling_flow_l_min_std_240m | float | L/min | predictor | Desviación típica muestral ddof=1 de Caudal de refrigeración supuesto; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | cooling_flow_l_min_slope_per_h_240m | float | L/min/h | predictor | Pendiente OLS por hora de Caudal de refrigeración supuesto; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | lubrication_pressure_bar_mean_240m | float | bar | predictor | Media de Presión del circuito de lubricación supuesto; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | lubrication_pressure_bar_std_240m | float | bar | predictor | Desviación típica muestral ddof=1 de Presión del circuito de lubricación supuesto; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1.features | lubrication_pressure_bar_slope_per_h_240m | float | bar/h | predictor | Pendiente OLS por hora de Presión del circuito de lubricación supuesto; ventana (t-240 min,t], solo medidas disponibles en t; nulo si muestras insuficientes |
+| acb_motor_v3_1_truth.episodios | run_id | string | ID | verdad_restringida | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1_truth.episodios | episode_id | string | ID | verdad_restringida | Episodio latente de componente con daño >=0.55; uso exclusivo para auditoría de particiones |
+| acb_motor_v3_1_truth.episodios | asset_id | string | ID | verdad_restringida | Activo o componente lógico |
+| acb_motor_v3_1_truth.episodios | start | timestamp[ns, tz=UTC] | UTC | verdad_restringida | Inicio inclusivo de ejecución, segmento, fallo, mantenimiento o incidencia |
+| acb_motor_v3_1_truth.episodios | end | timestamp[ns, tz=UTC] | UTC | verdad_restringida | Fin exclusivo del intervalo |
+| acb_motor_v3_1_truth.incidencias_sensores | run_id | string | ID | verdad_restringida | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1_truth.incidencias_sensores | incident_id | string | ID | verdad_restringida | Perturbación de sensor inyectada; no flag disponible automáticamente en servicio |
+| acb_motor_v3_1_truth.incidencias_sensores | sensor_id | string | ID | verdad_restringida | Sensor lógico que produce un descriptor |
+| acb_motor_v3_1_truth.incidencias_sensores | start | timestamp[ns, tz=UTC] | UTC | verdad_restringida | Inicio inclusivo de ejecución, segmento, fallo, mantenimiento o incidencia |
+| acb_motor_v3_1_truth.incidencias_sensores | end | timestamp[ns, tz=UTC] | UTC | verdad_restringida | Fin exclusivo del intervalo |
+| acb_motor_v3_1_truth.incidencias_sensores | kind | string | categoría | verdad_restringida | Tipo de mantenimiento o defecto instrumental, según tabla |
+| acb_motor_v3_1_truth.reparaciones | run_id | string | ID | verdad_restringida | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1_truth.reparaciones | maintenance_id | string | ID | verdad_restringida | Intervención vinculada al conjunto/componente |
+| acb_motor_v3_1_truth.reparaciones | asset_id | string | ID | verdad_restringida | Activo o componente lógico |
+| acb_motor_v3_1_truth.reparaciones | damage_before | float | adimensional | verdad_restringida | Daño del componente antes de reparación, verdad oculta |
+| acb_motor_v3_1_truth.reparaciones | damage_after | float | adimensional | verdad_restringida | Daño del componente después de reparación, verdad oculta |
+| acb_motor_v3_1_truth.reparaciones | action | string | categoría | verdad_restringida | sustitucion, reparacion_parcial, mejora_parcial o pendiente |
+| acb_motor_v3_1_truth.estado_latente | run_id | string | ID | verdad_restringida | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1_truth.estado_latente | assembly_id | string | ID | verdad_restringida | Conjunto lógico de predicción motor y apoyos |
+| acb_motor_v3_1_truth.estado_latente | timestamp | timestamp[ns, tz=UTC] | UTC | verdad_restringida | Instante de observación o decisión, según tabla |
+| acb_motor_v3_1_truth.estado_latente | damage_de | float | adimensional | verdad_restringida | Degradación oculta DE; no observable ni RUL |
+| acb_motor_v3_1_truth.estado_latente | damage_nde | float | adimensional | verdad_restringida | Degradación oculta NDE; no observable ni RUL |
+| acb_motor_v3_1_truth.estado_latente | damage_motor | float | adimensional | verdad_restringida | Degradación oculta del motor; no observable ni RUL |
+| acb_motor_v3_1_truth.estado_latente | health_state | string | categoría | verdad_restringida | normal/degradacion/fallo según verdad simulada; degradación si máximo daño >=0.55, no etiqueta de fallo futuro |
+| acb_motor_v3_1_truth.targets | run_id | string | ID | verdad_restringida | Ejecución sintética; mundos alternativos, no motores reales distintos |
+| acb_motor_v3_1_truth.targets | assembly_id | string | ID | verdad_restringida | Conjunto lógico de predicción motor y apoyos |
+| acb_motor_v3_1_truth.targets | timestamp | timestamp[ns, tz=UTC] | UTC | verdad_restringida | Instante de observación o decisión, según tabla |
+| acb_motor_v3_1_truth.targets | y24 | int8 | 0/1/nulo | objetivo_restringido | Fallo funcional del conjunto en (t,t+24 h] antes de preventivo; desconocido si censurado o régimen excluido |
+| acb_motor_v3_1_truth.targets | censor_reason | string | categoría | verdad_restringida | ninguna, fin_observacion, mantenimiento_preventivo o regimen_no_elegible |
+| acb_motor_v3_1_truth.targets | event_id | string | ID | verdad_restringida | Evento de fallo; en targets identifica el fallo futuro positivo y nunca es predictor |
+| acb_motor_v3_1_truth.targets | partition | string | categoría | verdad_restringida | train, validation, test, stress o excluida; nunca predictor |
+| acb_motor_v3_1_truth.targets | exclusion_reason | string | categoría | verdad_restringida | ninguno, purga_28h, episodio_cruza_frontera o calentamiento |
+| acb_motor_v3_1_truth.targets | healthy_reference_if | bool | booleano | verdad_restringida | Selector retrospectivo simulado para entrenamiento IF: normal latente, sin incidencias en ventana, train y evaluable; no disponible en servicio |
+| acb_motor_v3_1_truth.targets | if_reference_observable | bool | booleano | verdad_restringida | Referencia candidata observable de train; no garantiza salud ni ausencia de fallo futuro |

@@ -1,0 +1,15 @@
+{
+  "render_video.py": "9f811f228c0ba9048ebe8407ba0a42ab3ff3c9b2544eef18bb980d8e10362304",
+  "storyboard.json": "d4c92a4bb8b11b238a3f335e2a1a4d2ab996db5701ada08e2ca2ae1d3d8fdd15",
+  "README.md": "32bf0f804490f1bab71d90180a6aa83c2afd27182fe3866da9b8f2a2c12a7b36",
+  "assets/grafico_original_0.png": "ae4c8b50e3a84f8dbf7153680ca749943f4920183214ffd10ce899a3483036bf",
+  "source/Cierre_Auditoria_ACB_Motor_Rodamientos_Sintetico_v3_1.pdf": "49ad3ab4f138922cc104dac00d70954194b1996d38ccc552e9d17cd0cc3ee611",
+  "source/trazabilidad.json": "b0a217bbc897167205581e61aefe3d1b6374ff02549b52c81e43ee447e66a7dc",
+  "source/informe_extraido.txt": "541102dd8b6955da62befc42252e2e996febea191ba36a4381d1cf55f318668d",
+  "output/Auditoria_ACB_v3_1.srt": "c8345abc9b15b4a67894b82990440ae2113168de6e6e0fd619046f7c16fc0e08",
+  "qa/validacion_video.json": "1eb6fc6490c779be2bd940ef9088124be10fc2ad38e8b0d91e0fe75004620391",
+  "assets/fonts/DejaVuSansMono.ttf": "54bf827eb99404e8f430c330ad30f063334f637eba0109b6a18d4f566a8e9dd8",
+  "assets/fonts/DejaVuSans.ttf": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+  "assets/fonts/DejaVuSansCondensed-Bold.ttf": "21f02ebcea75529d3ed9d26e089cd1b9c59a4b784119ba3a96e9bc83cf755ec7",
+  "assets/fonts/LICENSE.txt": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+}

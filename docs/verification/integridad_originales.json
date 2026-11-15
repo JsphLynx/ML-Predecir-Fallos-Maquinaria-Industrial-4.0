@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-15",
+  "scope": "Comparación nueva de todos los archivos contra los manifiestos originales; no es una regeneración.",
+  "versions": {
+    "v1": {
+      "compared_files": 30,
+      "mismatches": []
+    },
+    "v2": {
+      "compared_files": 113,
+      "mismatches": []
+    },
+    "v3": {
+      "compared_files": 99,
+      "mismatches": []
+    },
+    "v3.1": {
+      "compared_files": 168,
+      "mismatches": []
+    }
+  }
+}

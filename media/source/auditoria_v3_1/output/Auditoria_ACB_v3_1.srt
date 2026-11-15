@@ -1,0 +1,69 @@
+1
+00:00:00,000 --> 00:00:09,000
+Antes de predecir, hay que poder confiar.
+Auditoría del dataset sintético ACB · Motor y rodamientos · v3.1
+
+2
+00:00:09,000 --> 00:00:19,000
+¿Fallará en las próximas 24 horas?
+Se conserva la cadencia del plan. No se toman decisiones cada minuto.
+
+3
+00:00:19,000 --> 00:00:28,000
+Un laboratorio de datos trazable.
+16 mundos alternativos del mismo conjunto lógico. No son 16 motores reales de ACB.
+
+4
+00:00:28,000 --> 00:00:40,000
+Cada dato, en su momento.
+Una sustitución tampoco puede aumentar el daño interno: ese defecto se corrigió y se recalculó.
+
+5
+00:00:40,000 --> 00:00:50,000
+Más variedad. Menos simplificaciones.
+Se amplían escenarios y perturbaciones sin ajustar semillas para obtener mejores predicciones.
+
+6
+00:00:50,000 --> 00:01:02,000
+También necesitamos periodos normales.
+La salud interna sirve para auditar el simulador. Está prohibida como entrada del modelo.
+
+7
+00:01:02,000 --> 00:01:12,000
+Fallos frecuentes y escenarios de vida larga.
+Frecuencia simulada por horas de funcionamiento. No es la fiabilidad real de ACB.
+
+8
+00:01:12,000 --> 00:01:23,000
+El modelo no puede conocer el futuro.
+Las filas excluidas aportan cero registros utilizables. Solo se admiten las entradas permitidas.
+
+9
+00:01:23,000 --> 00:01:35,000
+Una señal aislada no basta.
+Un hueco no significa normalidad. Un mismo fallo se cuenta una sola vez.
+
+10
+00:01:35,000 --> 00:01:46,000
+Mejorar hay que demostrarlo.
+Separación temporal, purga de 28 h y transformaciones ajustadas solo con entrenamiento.
+
+11
+00:01:46,000 --> 00:01:59,000
+Comprobaciones ejecutadas.
+PostgreSQL local: carga, claves, restricciones, reversión, permisos y lectura causal verificados.
+
+12
+00:01:59,000 --> 00:02:09,000
+Muchas filas no son muchos fallos.
+Los casos escasos se informan con sus denominadores. La suficiencia estadística no se presume.
+
+13
+00:02:09,000 --> 00:02:20,000
+Validación técnica ≠ evidencia industrial.
+Sin datos reales, esta auditoría no demuestra capacidad predictiva, ahorro ni fiabilidad en ACB.
+
+14
+00:02:20,000 --> 00:02:30,000
+Conocimiento. Desarrollo. Impacto por demostrar.
+Entrenar · comparar · explicar · evaluar. Sin cambiar las reglas para forzar el éxito.

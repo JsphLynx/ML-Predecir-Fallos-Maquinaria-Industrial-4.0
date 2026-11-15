@@ -1,0 +1,58 @@
+{
+  "equipos": {
+    "filas": 19,
+    "columnas": 7
+  },
+  "estado_linea": {
+    "filas": 25920,
+    "columnas": 6
+  },
+  "proceso_linea": {
+    "filas": 25920,
+    "columnas": 20
+  },
+  "telemetria": {
+    "filas": 492480,
+    "columnas": 12
+  },
+  "objetivos_ml": {
+    "filas": 492480,
+    "columnas": 6
+  },
+  "eventos_fallo": {
+    "filas": 72,
+    "columnas": 6
+  },
+  "mantenimiento": {
+    "filas": 81,
+    "columnas": 7
+  },
+  "bobinas": {
+    "filas": 10262,
+    "columnas": 22
+  },
+  "coladas": {
+    "filas": 2671,
+    "columnas": 6
+  },
+  "trazabilidad": {
+    "filas": 123144,
+    "columnas": 4
+  },
+  "pasadas_laminacion": {
+    "filas": 71834,
+    "columnas": 13
+  },
+  "perfiles_bobina": {
+    "filas": 379694,
+    "columnas": 5
+  },
+  "verdad_simulador": {
+    "filas": 492480,
+    "columnas": 3
+  },
+  "incidencias_sensor": {
+    "filas": 38,
+    "columnas": 5
+  }
+}

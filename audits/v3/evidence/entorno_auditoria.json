@@ -1,0 +1,15 @@
+{
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pyarrow": "26.0.1",
+    "scikit-learn": "1.8.0",
+    "pglast": "8.7",
+    "matplotlib": "3.10.8",
+    "reportlab": "4.4.9"
+  },
+  "dataset_zip_sha256": "8f04104e555701ba7336b5c23428346b5deb8c6a3f7b432755745b0597d74137",
+  "dictionary_rows": 248,
+  "dictionary_duplicates": 0,
+  "dictionary_predictors_match_allowlist": true
+}

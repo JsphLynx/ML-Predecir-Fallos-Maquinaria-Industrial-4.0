@@ -1,0 +1,10 @@
+Auditando R01
+Auditando R02
+Auditando R03
+Auditando R04
+Auditando R05
+Auditando R06
+Auditando R07
+Auditando R08
+{"checks": 64, "passed": 61, "failed": 3, "hash_files": 99, "hash_mismatches": [], "telemetry_rows": 840960, "decision_rows": 280320, "failures": 398, "train_positive_pct": 12.991646548593158, "healthy_reference": 8785, "total_evaluable": 223262, "evaluable_excluded": 28852, "train_predictors_with_missing": 32, "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]", "platform": "Linux-6.18.57-x86_64-with-glibc2.41", "numpy": "2.3.5", "pandas": "2.2.3", "models_trained": false, "heldout_use": "Structural audit only. No held-out model/threshold performance computed."}
+PRUEBAS FALLIDAS: [{'test': 'R04-M0040 conocimiento de reprogramación causal', 'passed': False, 'detail': 'known_at antecede al fallo imprevisto causante; campo fuera de la allowlist actual'}, {'test': 'R06-M0020 conocimiento de reprogramación causal', 'passed': False, 'detail': 'known_at antecede al fallo imprevisto causante; campo fuera de la allowlist actual'}, {'test': 'R07-M0066 conocimiento de reprogramación causal', 'passed': False, 'detail': 'known_at antecede al fallo imprevisto causante; campo fuera de la allowlist actual'}]

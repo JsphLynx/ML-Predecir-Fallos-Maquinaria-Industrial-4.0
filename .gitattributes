@@ -1,0 +1,9 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.sql text eol=lf
+*.parquet binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.mp4 binary

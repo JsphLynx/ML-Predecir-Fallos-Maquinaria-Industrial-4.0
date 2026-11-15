@@ -1,0 +1,9 @@
+hallazgo,estado,consecuencia_y_cierre
+H01,Corregido,"Plan versionado: previsto, aplazado e iniciado. Hora futura desconocida al aplazar. Lecturas asof, tres casos originales y fixture del generador con colisiones forzadas."
+H02,Corregido,Cero filas utilizables en excluida; conteos de calidad separados; unión por claves y lista permitida de entradas.
+H03,Ampliado,Seis mundos base de vida larga y dos de estrés de vida larga. Menos predominio de degradación; sin calibración industrial.
+H04,Ampliado,"Turnos y preventivos variables, calibración distinta, picos variables, deriva dentro de rango y pérdidas correlacionadas."
+H05,Tratado en protocolo,"Denominadores por suceso, incertidumbre por mundos y modos escasos descriptivos. La suficiencia estadística no se presume."
+H06,Separado,Referencia observable principal y referencia ideal privilegiada para sensibilidad. Ninguna es predictor.
+H07,Implementado,"Evaluador de alertas, comparadores sin ajustar, folds, presupuesto y regla de éxito. Rendimiento pendiente del entrenamiento."
+H08,Verificado localmente,"Carga real PostgreSQL, restricciones, rollback, permisos y lectura causal; replay de llegada. Windows/Neon aún no verificados."

@@ -1,0 +1,7 @@
+{
+  "example_event": "R01-E0002",
+  "example_run": "R01",
+  "models_trained": false,
+  "health_overlay": "Verdad simulada; prohibida como predictor",
+  "incident_overlay": "Inyecciones del simulador, no Isolation Forest"
+}

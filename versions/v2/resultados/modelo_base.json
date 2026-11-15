@@ -1,0 +1,86 @@
+{
+  "origen": "SIMULACION: no extrapolar métricas a ACB",
+  "target": "fallo_8h",
+  "seleccion": "umbral en validación sujeto a presupuesto de episodios; test sin ajuste",
+  "train_filas": 481523,
+  "validation_filas": 119271,
+  "test_filas": 120294,
+  "modelos": {
+    "hist_gradient_boosting": {
+      "umbral": 0.597014525372433,
+      "politica_sin_alertas": false,
+      "validation": {
+        "eventos_evaluables": 27,
+        "eventos_detectados": 20,
+        "recall_eventos": 0.7407407407407407,
+        "episodios_alerta": 43,
+        "falsas_alertas": 23,
+        "falsas_alertas_por_1000_h_equipo": 0.7713526339177168,
+        "alertas_por_1000_h_equipo": 1.4420940547157315,
+        "anticipacion_mediana_h": 4.791666666666666,
+        "horas_equipo_evaluadas": 29817.75
+      },
+      "test": {
+        "eventos_evaluables": 34,
+        "eventos_detectados": 17,
+        "recall_eventos": 0.5,
+        "episodios_alerta": 58,
+        "falsas_alertas": 41,
+        "falsas_alertas_por_1000_h_equipo": 1.3633265167007498,
+        "alertas_por_1000_h_equipo": 1.9286082431376461,
+        "anticipacion_mediana_h": 3.5833333333333335,
+        "horas_equipo_evaluadas": 30073.5,
+        "average_precision": 0.425169268733339,
+        "roc_auc": 0.9634694075425294,
+        "precision_muestras": 0.4612299465240642,
+        "recall_muestras": 0.35751295336787564,
+        "prevalencia": 0.008022012735464778,
+        "brier_score": 0.00645924631719517
+      }
+    },
+    "regla_estadistica": {
+      "umbral": 5.174422345161427,
+      "politica_sin_alertas": false,
+      "validation": {
+        "eventos_evaluables": 27,
+        "eventos_detectados": 4,
+        "recall_eventos": 0.14814814814814814,
+        "episodios_alerta": 19,
+        "falsas_alertas": 15,
+        "falsas_alertas_por_1000_h_equipo": 0.503056065598511,
+        "alertas_por_1000_h_equipo": 0.6372043497581139,
+        "anticipacion_mediana_h": 2.7916666666666665,
+        "horas_equipo_evaluadas": 29817.75
+      },
+      "test": {
+        "eventos_evaluables": 34,
+        "eventos_detectados": 2,
+        "recall_eventos": 0.058823529411764705,
+        "episodios_alerta": 22,
+        "falsas_alertas": 20,
+        "falsas_alertas_por_1000_h_equipo": 0.665037325219878,
+        "alertas_por_1000_h_equipo": 0.7315410577418658,
+        "anticipacion_mediana_h": 2.4583333333333335,
+        "horas_equipo_evaluadas": 30073.5,
+        "average_precision": 0.15944073538469294,
+        "roc_auc": 0.8206551469557951,
+        "precision_muestras": 0.30666666666666664,
+        "recall_muestras": 0.04766839378238342,
+        "prevalencia": 0.008022012735464778
+      }
+    },
+    "sin_avisos": {
+      "test": {
+        "eventos_evaluables": 34,
+        "eventos_detectados": 0,
+        "recall_eventos": 0.0,
+        "episodios_alerta": 0,
+        "falsas_alertas": 0,
+        "falsas_alertas_por_1000_h_equipo": 0.0,
+        "alertas_por_1000_h_equipo": 0.0,
+        "anticipacion_mediana_h": null,
+        "horas_equipo_evaluadas": 30073.5
+      }
+    }
+  }
+}

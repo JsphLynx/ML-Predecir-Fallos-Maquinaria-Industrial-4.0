@@ -1,0 +1,72 @@
+{
+  "version": "3.0.0",
+  "runs": [
+    {
+      "run_id": "R01",
+      "telemetry_rows": 105120,
+      "failures": 51,
+      "maintenance": 64,
+      "sudden_failures": 4,
+      "operating_hours": 7628.833333333333
+    },
+    {
+      "run_id": "R02",
+      "telemetry_rows": 105120,
+      "failures": 42,
+      "maintenance": 55,
+      "sudden_failures": 4,
+      "operating_hours": 7655.0
+    },
+    {
+      "run_id": "R03",
+      "telemetry_rows": 105120,
+      "failures": 43,
+      "maintenance": 56,
+      "sudden_failures": 3,
+      "operating_hours": 7643.166666666667
+    },
+    {
+      "run_id": "R04",
+      "telemetry_rows": 105120,
+      "failures": 50,
+      "maintenance": 63,
+      "sudden_failures": 6,
+      "operating_hours": 7588.416666666667
+    },
+    {
+      "run_id": "R05",
+      "telemetry_rows": 105120,
+      "failures": 48,
+      "maintenance": 61,
+      "sudden_failures": 5,
+      "operating_hours": 7595.5
+    },
+    {
+      "run_id": "R06",
+      "telemetry_rows": 105120,
+      "failures": 51,
+      "maintenance": 64,
+      "sudden_failures": 8,
+      "operating_hours": 7618.25
+    },
+    {
+      "run_id": "R07",
+      "telemetry_rows": 105120,
+      "failures": 63,
+      "maintenance": 76,
+      "sudden_failures": 2,
+      "operating_hours": 7585.666666666667
+    },
+    {
+      "run_id": "R08",
+      "telemetry_rows": 105120,
+      "failures": 50,
+      "maintenance": 63,
+      "sudden_failures": 7,
+      "operating_hours": 7629.666666666667
+    }
+  ],
+  "telemetry_rows": 840960,
+  "failure_count": 398,
+  "models_trained": false
+}

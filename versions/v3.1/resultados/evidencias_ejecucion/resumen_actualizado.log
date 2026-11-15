@@ -1,0 +1,7 @@
+              rows  usable_rows  positive_rows  positive_events
+partition                                                      
+excluida     57756            0              0                0
+stress      140096       101477           7503              106
+test         73622        56164           3391               46
+train       231987       179998          12044              158
+validation   57179        44590           3007               38

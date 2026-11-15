@@ -1,0 +1,42 @@
+R01 telemetría 105120 fallos 44
+R02 telemetría 105120 fallos 43
+R03 telemetría 105120 fallos 47
+R04 telemetría 105120 fallos 35
+R05 telemetría 105120 fallos 51
+R06 telemetría 105120 fallos 34
+R07 telemetría 105120 fallos 10
+R08 telemetría 105120 fallos 8
+R09 telemetría 105120 fallos 5
+R10 telemetría 105120 fallos 5
+R11 telemetría 105120 fallos 6
+R12 telemetría 105120 fallos 10
+R13 telemetría 105120 fallos 56
+R14 telemetría 105120 fallos 10
+R15 telemetría 105120 fallos 34
+R16 telemetría 105120 fallos 6
+R01 decisiones 35040 evaluables 27613
+R02 decisiones 35040 evaluables 27701
+R03 decisiones 35040 evaluables 27487
+R04 decisiones 35040 evaluables 28055
+R05 decisiones 35040 evaluables 27578
+R06 decisiones 35040 evaluables 27956
+R07 decisiones 35040 evaluables 28148
+R08 decisiones 35040 evaluables 28436
+R09 decisiones 35040 evaluables 28468
+R10 decisiones 35040 evaluables 28378
+R11 decisiones 35040 evaluables 28217
+R12 decisiones 35040 evaluables 28477
+R13 decisiones 35040 evaluables 25861
+R14 decisiones 35040 evaluables 26632
+R15 decisiones 35040 evaluables 26017
+R16 decisiones 35040 evaluables 26632
+              rows  usable_rows  positive_rows  positive_events
+partition                                                      
+excluida     57756            0              0                0
+stress      140096       101477           7503              106
+test         73622        56164           3391               46
+train       231987       179998          12044              158
+validation   57179        44590           3007               38
+{"checks": 705, "passed": 705, "failed": 0, "quality_status": {"evaluable": 441656, "regimen_no_elegible": 97982, "cobertura_insuficiente": 18453, "sensor_congelado": 2309, "calentamiento": 240}, "scope": "Consistencia y causalidad temporal sintéticas. No validación física/industrial ni entrenamiento."}
+{'dictionary_definitions': 256, 'tables': 16, 'unknown_columns': 0, 'live_postgresql_executed': False, 'syntax_parsed': True, 'sql_statements': 59}
+{'compared_files': 77, 'identical_files': 77, 'differences': [], 'method': 'Dos generaciones completas con misma configuración, dependencias y semilla; SHA-256 de bytes', 'second_generation_validation': True}

@@ -1,0 +1,3818 @@
+{
+  "checks": 762,
+  "passed": 762,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "Configuración congelada antes de generar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "PK revisiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Intervención real conocida al inicio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Hora desconocida al aplazar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Aplazamientos causados por correctivo ya ocurrido",
+      "passed": true,
+      "detail": "0 aplazamientos"
+    },
+    {
+      "test": "R01-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0011 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0011 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0012 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01-P0012 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0011 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0011 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0012 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0012 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0013 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0013 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0014 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0014 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0015 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0015 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0016 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0016 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0017 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0017 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0018 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03-P0018 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0011 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0011 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0012 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0012 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0013 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05-P0013 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0011 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0011 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0012 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0012 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0013 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0013 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0014 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0014 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0015 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0015 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0016 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0016 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0017 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07-P0017 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0011 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0011 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0012 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0012 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0013 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09-P0013 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0011 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0011 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0012 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0012 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0013 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0013 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0014 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0014 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0015 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0015 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0016 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11-P0016 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0011 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0011 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0012 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0012 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0013 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13-P0013 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0009 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0009 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0010 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0010 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0011 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0011 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0012 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0012 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0013 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0013 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0014 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0014 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0015 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0015 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0016 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15-P0016 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0001 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0001 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0002 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0002 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0003 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0003 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0004 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0004 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0005 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0005 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0006 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0006 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0007 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0007 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0008 cronología",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16-P0008 inicio real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Plan inmune a futuro 2024-01-21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Plan inmune a futuro 2024-04-10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Plan inmune a futuro 2024-07-19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Plan inmune a futuro 2024-12-30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Excluidas utilizables cero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Conteo calidad separado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 referencia observable exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 referencia nunca fuera train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 5533",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 11066",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 16598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 22131",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 27663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 33196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 38728",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 44261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 49793",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 55326",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 60858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 66391",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 71923",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 77456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 82988",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 88521",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 94053",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 99586",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 historial 105119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Escenarios largos menos fallos, sin retocar semilla",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Escenarios largos mayor proporción normal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Pérdidas correlacionadas presentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Incidencias no exactamente una por clase",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Calendario no periódico de 28 días",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Fold 1 no vacío",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Fold 1 fechas comunes y purga",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Fold 2 no vacío",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Fold 2 fechas comunes y purga",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Fold 3 no vacío",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Fold 3 fechas comunes y purga",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Cargador lista permitida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Cargador cuenta exacta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Ausentes y categorías nuevas admitidos en fixture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Comparadores preparados sin ajustar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "train score aún no calculado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "validation score aún no calculado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "test score aún no calculado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "stress score aún no calculado",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "models_trained": false
+}

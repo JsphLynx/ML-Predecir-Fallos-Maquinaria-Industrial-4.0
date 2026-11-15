@@ -1,0 +1,23 @@
+[
+  {
+    "fold": 1,
+    "train_rows": 62076,
+    "validation_rows": 18836,
+    "train_end": "2024-03-27 01:15:00+00:00",
+    "validation_start": "2024-03-28 05:30:00+00:00"
+  },
+  {
+    "fold": 2,
+    "train_rows": 97874,
+    "validation_rows": 17014,
+    "train_end": "2024-05-09 14:00:00+00:00",
+    "validation_start": "2024-05-10 18:15:00+00:00"
+  },
+  {
+    "fold": 3,
+    "train_rows": 138754,
+    "validation_rows": 19566,
+    "train_end": "2024-06-22 02:45:00+00:00",
+    "validation_start": "2024-06-23 07:00:00+00:00"
+  }
+]

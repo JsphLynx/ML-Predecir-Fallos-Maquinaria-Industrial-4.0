@@ -1,0 +1,22 @@
+{
+  "horizon_hours": 24,
+  "step_minutes": 5,
+  "decision_minutes": 15,
+  "purge_hours": 28,
+  "partition_rows": {
+    "excluida": 57756,
+    "stress": 140096,
+    "test": 73622,
+    "train": 231987,
+    "validation": 57179
+  },
+  "usable_rows": {
+    "excluida": 0,
+    "stress": 101477,
+    "test": 56164,
+    "train": 179998,
+    "validation": 44590
+  },
+  "excluded_episode_policy": "Excluir episodios latentes completos que crucen fronteras y las 24 h previas.",
+  "no_model_training": true
+}

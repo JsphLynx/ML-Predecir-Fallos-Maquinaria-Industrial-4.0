@@ -1,0 +1,62 @@
+{
+  "comprobaciones": {
+    "pk_telemetria": true,
+    "pk_bobinas": true,
+    "pk_equipos": true,
+    "claves_objetivos": true,
+    "fk_equipos": true,
+    "fk_coladas": true,
+    "fk_bobinas": true,
+    "siete_pasadas": true,
+    "doce_hitos": true,
+    "reduccion_espesor": true,
+    "continuidad_cajas": true,
+    "balance_masa": true,
+    "masa_geometria": true,
+    "conservacion_caudal": true,
+    "integral_perfil_longitud": true,
+    "hitos_ordenados": true,
+    "tiempos_mantenimiento": true,
+    "fk_averia_correctivo": true,
+    "no_objetivo_fuera_marcha": true,
+    "censura_final_24h": true,
+    "purga_train": true,
+    "purga_validacion": true,
+    "etiquetas_recalculadas_9000": true
+  },
+  "todas_correctas": true,
+  "fallos": 72,
+  "equipos": 19,
+  "bobinas": 10262,
+  "telemetria_filas": 492480,
+  "fallos_por_modo": {
+    "rodamiento_transmision": 27,
+    "subito": 12,
+    "rodamiento": 10,
+    "bomba_degradada": 8,
+    "fuga_hidraulica": 6,
+    "accionamiento_bobinadora": 6,
+    "lubricacion_insuficiente": 3
+  },
+  "prevalencia_4h_por_particion": {
+    "purga": 0.010145846544071021,
+    "test": 0.008501091438273102,
+    "train": 0.006644316251616486,
+    "validacion": 0.007683627280680622
+  },
+  "ausentes_por_variable": {
+    "timestamp": 0.0,
+    "equipo_id": 0.0,
+    "rpm": 0.003914879792072774,
+    "par_nm": 0.0039189408706952564,
+    "potencia_kw": 0.004054987004548408,
+    "corriente_a": 0.00419103313840156,
+    "temperatura_equipo_c": 0.003967673814165042,
+    "vibracion_rms_mm_s": 0.006396198830409356,
+    "presion_circuito_bar": 0.26597425276153347,
+    "horas_desde_intervencion": 0.0,
+    "equipo_disponible": 0.0,
+    "en_marcha": 0.0
+  },
+  "nota": "Los controles verifican el simulador, no validan su equivalencia con ACB."
+}

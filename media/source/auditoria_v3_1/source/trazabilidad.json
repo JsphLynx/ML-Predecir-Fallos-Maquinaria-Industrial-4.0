@@ -1,0 +1,13 @@
+{
+  "source": "Cierre_Auditoria_ACB_Motor_Rodamientos_Sintetico_v3_1.pdf",
+  "library_file_id": "libfile_17c0fe51db808191acffea3664228596",
+  "source_sha256": "49ad3ab4f138922cc104dac00d70954194b1996d38ccc552e9d17cd0cc3ee611",
+  "report_date": "2026-11-05",
+  "video_created": "2026-11-11",
+  "figures": "Imagen original extraída de página 3. Sin reconstruir valores numéricos.",
+  "synthetic": true,
+  "models_trained": false,
+  "audio": "Composición electrónica original, generada matemáticamente; sin locución.",
+  "Pillow": "13.0.0",
+  "numpy": "2.3.5"
+}

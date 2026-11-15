@@ -1,0 +1,343 @@
+{
+  "checks": 64,
+  "passed": 61,
+  "failed": 3,
+  "tests": [
+    {
+      "test": "SHA256: todos los archivos declarados",
+      "passed": true,
+      "detail": "99 archivos; diferencias=[]"
+    },
+    {
+      "test": "Allowlist disjunta de prohibidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04-M0040 conocimiento de reprogramación causal",
+      "passed": false,
+      "detail": "known_at antecede al fallo imprevisto causante; campo fuera de la allowlist actual"
+    },
+    {
+      "test": "R06-M0020 conocimiento de reprogramación causal",
+      "passed": false,
+      "detail": "known_at antecede al fallo imprevisto causante; campo fuera de la allowlist actual"
+    },
+    {
+      "test": "R07-M0066 conocimiento de reprogramación causal",
+      "passed": false,
+      "detail": "known_at antecede al fallo imprevisto causante; campo fuera de la allowlist actual"
+    },
+    {
+      "test": "R01 claves y orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 rejillas completas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 y24 oráculo independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 disponibles antes de decisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 estadísticos causales directos",
+      "passed": true,
+      "detail": "1080 valores; diferencias=0"
+    },
+    {
+      "test": "R01 historia de mantenimiento causal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 rpm parado sin incidencia = 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 claves y orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 rejillas completas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 y24 oráculo independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 disponibles antes de decisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 estadísticos causales directos",
+      "passed": true,
+      "detail": "1080 valores; diferencias=0"
+    },
+    {
+      "test": "R02 historia de mantenimiento causal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 rpm parado sin incidencia = 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 claves y orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 rejillas completas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 y24 oráculo independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 disponibles antes de decisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 estadísticos causales directos",
+      "passed": true,
+      "detail": "1080 valores; diferencias=0"
+    },
+    {
+      "test": "R03 historia de mantenimiento causal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 rpm parado sin incidencia = 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 claves y orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 rejillas completas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 y24 oráculo independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 disponibles antes de decisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 estadísticos causales directos",
+      "passed": true,
+      "detail": "1080 valores; diferencias=0"
+    },
+    {
+      "test": "R04 historia de mantenimiento causal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 rpm parado sin incidencia = 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 claves y orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 rejillas completas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 y24 oráculo independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 disponibles antes de decisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 estadísticos causales directos",
+      "passed": true,
+      "detail": "1080 valores; diferencias=0"
+    },
+    {
+      "test": "R05 historia de mantenimiento causal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 rpm parado sin incidencia = 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 claves y orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 rejillas completas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 y24 oráculo independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 disponibles antes de decisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 estadísticos causales directos",
+      "passed": true,
+      "detail": "1080 valores; diferencias=0"
+    },
+    {
+      "test": "R06 historia de mantenimiento causal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 rpm parado sin incidencia = 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 claves y orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 rejillas completas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 y24 oráculo independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 disponibles antes de decisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 estadísticos causales directos",
+      "passed": true,
+      "detail": "1080 valores; diferencias=0"
+    },
+    {
+      "test": "R07 historia de mantenimiento causal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 rpm parado sin incidencia = 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 claves y orden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 rejillas completas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 y24 oráculo independiente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 disponibles antes de decisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 estadísticos causales directos",
+      "passed": true,
+      "detail": "1080 valores; diferencias=0"
+    },
+    {
+      "test": "R08 historia de mantenimiento causal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 rpm parado sin incidencia = 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Un evento positivo no se comparte entre particiones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Estrés no usado como entrenamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No predictor numérico constante en train",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "hash_files": 99,
+  "hash_mismatches": [],
+  "telemetry_rows": 840960,
+  "decision_rows": 280320,
+  "failures": 398,
+  "train_positive_pct": 12.991646548593158,
+  "healthy_reference": 8785,
+  "total_evaluable": 223262,
+  "evaluable_excluded": 28852,
+  "train_predictors_with_missing": 32,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "models_trained": false,
+  "heldout_use": "Structural audit only. No held-out model/threshold performance computed."
+}

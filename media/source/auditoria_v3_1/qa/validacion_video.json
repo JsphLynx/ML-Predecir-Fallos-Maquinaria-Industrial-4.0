@@ -1,0 +1,17 @@
+{
+  "duration_seconds": 150,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "frames": 4500,
+  "video_codec": "H.264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "AAC stereo",
+  "peak_dbfs": -14.9,
+  "fast_start": true,
+  "full_decode_without_errors": true,
+  "reviewed_final_frames": 14,
+  "source_figures_original": true,
+  "voiceover": false,
+  "size_bytes": 11510182,
+  "sha256": "f3141358398c77c93157489757fcf88031dc1f9f177375eaa57c05bd73f6c2a3"
+}

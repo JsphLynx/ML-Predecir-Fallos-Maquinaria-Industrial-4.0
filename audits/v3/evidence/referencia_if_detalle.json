@@ -1,0 +1,10 @@
+{
+  "source": "Joined features and targets R01-R06, healthy_reference_if true",
+  "n": 8785,
+  "y24_0": 8637,
+  "y24_1": 27,
+  "y24_null": 121,
+  "laminacion": 8459,
+  "sin_carga": 326,
+  "interpretation": "Healthy now does not mean no future failure; selector uses simulator truth."
+}

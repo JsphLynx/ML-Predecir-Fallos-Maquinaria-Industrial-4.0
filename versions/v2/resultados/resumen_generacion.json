@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "seed": 20261101,
+  "inicio": "2024-01-01 00:00:00+00:00",
+  "fin_exclusivo": "2025-07-01 00:00:00+00:00",
+  "equipos": 18,
+  "muestras_telemetria": 2835648,
+  "decisiones": 733545,
+  "bobinas": 74624,
+  "bobinas_completas": 74514,
+  "fallos": 210,
+  "fallos_por_modo": {
+    "rodamiento": 69,
+    "refrigeracion": 39,
+    "hidraulico": 37,
+    "reductor": 31,
+    "lubricacion": 24,
+    "electrico_subito": 10
+  },
+  "mantenimientos": 552,
+  "incidencias_sensores": 2340,
+  "origen": "100% sintético, no calibrado a ACB"
+}

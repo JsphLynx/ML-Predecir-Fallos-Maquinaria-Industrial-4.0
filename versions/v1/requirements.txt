@@ -1,0 +1,4 @@
+# Versiones probadas; usa un entorno separado de Miniforge si procede.
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0

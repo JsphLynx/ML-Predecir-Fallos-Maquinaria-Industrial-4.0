@@ -1,0 +1,79 @@
+{
+  "public": {
+    "activos": [
+      "data/activos.parquet"
+    ],
+    "catalogo_archivos": [
+      "data/catalogo_archivos.parquet"
+    ],
+    "ejecuciones": [
+      "data/ejecuciones.parquet"
+    ],
+    "fallos": [
+      "data/fallos.parquet"
+    ],
+    "mantenimiento": [
+      "data/mantenimiento.parquet"
+    ],
+    "productos": [
+      "data/productos.parquet"
+    ],
+    "segmentos_produccion": [
+      "data/segmentos_produccion.parquet"
+    ],
+    "sensores": [
+      "data/sensores.parquet"
+    ],
+    "telemetria": [
+      "data/telemetria/R01.parquet",
+      "data/telemetria/R02.parquet",
+      "data/telemetria/R03.parquet",
+      "data/telemetria/R04.parquet",
+      "data/telemetria/R05.parquet",
+      "data/telemetria/R06.parquet",
+      "data/telemetria/R07.parquet",
+      "data/telemetria/R08.parquet"
+    ],
+    "features": [
+      "ml/features/R01.parquet",
+      "ml/features/R02.parquet",
+      "ml/features/R03.parquet",
+      "ml/features/R04.parquet",
+      "ml/features/R05.parquet",
+      "ml/features/R06.parquet",
+      "ml/features/R07.parquet",
+      "ml/features/R08.parquet"
+    ]
+  },
+  "private": {
+    "episodios": [
+      "sim_truth/episodios.parquet"
+    ],
+    "incidencias_sensores": [
+      "sim_truth/incidencias_sensores.parquet"
+    ],
+    "reparaciones": [
+      "sim_truth/reparaciones.parquet"
+    ],
+    "estado_latente": [
+      "sim_truth/estado_latente/R01.parquet",
+      "sim_truth/estado_latente/R02.parquet",
+      "sim_truth/estado_latente/R03.parquet",
+      "sim_truth/estado_latente/R04.parquet",
+      "sim_truth/estado_latente/R05.parquet",
+      "sim_truth/estado_latente/R06.parquet",
+      "sim_truth/estado_latente/R07.parquet",
+      "sim_truth/estado_latente/R08.parquet"
+    ],
+    "targets": [
+      "ml/targets/R01.parquet",
+      "ml/targets/R02.parquet",
+      "ml/targets/R03.parquet",
+      "ml/targets/R04.parquet",
+      "ml/targets/R05.parquet",
+      "ml/targets/R06.parquet",
+      "ml/targets/R07.parquet",
+      "ml/targets/R08.parquet"
+    ]
+  }
+}
