@@ -1,5 +1,15 @@
 # Próximas versiones
 
+## Publicación completada · 19/11/2026
+
+- [x] Publicar código, informes, evidencias y vídeos de la evolución v1–v3.1.
+- [x] Publicar los cuatro paquetes completos y sus checksums en GitHub Releases.
+- [x] Verificar integridad, pruebas del protocolo y enlaces del portafolio.
+
+## Fases posteriores
+
+El entrenamiento y la evaluación sintética se realizarán en otra fase, por decisión del autor.
+
 Las siguientes tareas son pendientes, no funcionalidades entregadas. La numeración de nuevas versiones se decidirá al cerrar su alcance.
 
 - [ ] Ejecutar comparadores, XGBoost e Isolation Forest observable bajo el protocolo v3.1.

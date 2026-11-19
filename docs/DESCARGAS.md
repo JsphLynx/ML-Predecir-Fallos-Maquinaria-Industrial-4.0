@@ -2,14 +2,16 @@
 
 El repositorio ofrece código, configuración, diccionarios, SQL, informes, evidencias, vídeos y sus fuentes editables. Los cuatro paquetes completos originales ocupan aproximadamente 1,28 GB y se mantienen separados del historial de código.
 
-**Estado de esta publicación:** los ZIP completos están preparados y verificados; su carga como activos de GitHub Releases está pendiente. No se presentan enlaces privados o temporales como descargas públicas. El estado y los SHA-256 se registran en [data/releases.json](../data/releases.json).
+**Publicados y verificados el 19/11/2026:** los cuatro ZIP originales están disponibles en la [Release del portafolio](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v3.1). El tamaño y SHA-256 de cada activo recibido por GitHub coinciden con el paquete original. El registro está en [data/releases.json](../data/releases.json) y los checksums en [SHA256SUMS.txt](../data/SHA256SUMS.txt).
+
+**Utilizar v3.1 para continuar el proyecto.** v1, v2 y v3 se conservan como entregas históricas; v3 contiene los defectos documentados en su auditoría. El entrenamiento y la evaluación se realizarán en otra fase.
 
 | Versión | Paquete original | Tamaño aproximado |
 |---|---|---:|
-| v1 | `ACB_CSP_Sintetico_v1.zip` | 29,45 MB |
-| v2 | `ACB_CSP_Sintetico_v2.zip` | 449,73 MB |
-| v3 | `ACB_Motor_Rodamientos_Sintetico_v3.zip` | 268,40 MB |
-| v3.1 | `ACB_Motor_Rodamientos_Sintetico_v3_1.zip` | 532,00 MB |
+| v1 | [ACB_CSP_Sintetico_v1.zip](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/ACB_CSP_Sintetico_v1.zip) | 29,45 MB |
+| v2 | [ACB_CSP_Sintetico_v2.zip](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/ACB_CSP_Sintetico_v2.zip) | 449,73 MB |
+| v3 | [ACB_Motor_Rodamientos_Sintetico_v3.zip](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/ACB_Motor_Rodamientos_Sintetico_v3.zip) | 268,40 MB |
+| v3.1 | [ACB_Motor_Rodamientos_Sintetico_v3_1.zip](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/ACB_Motor_Rodamientos_Sintetico_v3_1.zip) | 532,00 MB |
 
 Los tamaños usan MB decimales. El [catálogo](catalogo_archivos_versiones.csv) identifica todos los archivos originales, sus tamaños, hashes y ubicación: `git` o `original_package`.
 

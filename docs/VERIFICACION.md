@@ -1,8 +1,19 @@
 # Verificación de la publicación
 
-Fecha: **15/11/2026**. Esta revisión organiza y comprueba el material existente; no entrena modelos nuevos.
+Publicación inicial: **15/11/2026**. Cierre de distribución: **19/11/2026**. Estas revisiones organizan y comprueban el material existente; no entrenan modelos nuevos.
 
-## Ejecutado ahora
+## Cierre de publicación · 19/11/2026
+
+- Los cuatro ZIP originales coinciden con sus tamaños y SHA-256 registrados.
+- Los 410 archivos incluidos en sus manifiestos se han vuelto a verificar: 30 de v1, 113 de v2, 99 de v3 y 168 de v3.1; ningún error.
+- Las 44 pruebas del protocolo se han vuelto a ejecutar en una copia temporal: 44 correctas y 0 fallidas.
+- Antes de actualizar la documentación, los 378 archivos del portafolio coincidían con su manifiesto; se comprobaron 101 enlaces internos y la sintaxis de 79 archivos Python.
+- Los cuatro paquetes y el archivo de checksums están publicados. Se contrastaron los tamaños y SHA-256 de los activos recibidos por GitHub con los originales.
+- Se actualizó el manifiesto del portafolio para recoger la documentación de cierre y se volvió a comprobar su integridad.
+
+Evidencia de esta revisión: [cierre_publicacion_2026_11_19.json](verification/cierre_publicacion_2026_11_19.json). No se ha realizado entrenamiento, evaluación de modelos, regeneración completa, carga PostgreSQL ni prueba Windows/Spyder. Las comprobaciones de fixtures prueban el protocolo, no el rendimiento predictivo.
+
+## Comprobaciones del 15/11/2026
 
 | Comprobación | Resultado |
 |---|---|

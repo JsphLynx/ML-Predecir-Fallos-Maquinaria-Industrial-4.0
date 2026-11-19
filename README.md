@@ -82,9 +82,11 @@ python scripts/probar_protocolo.py
 
 Usar Python 3.12, preferiblemente en un entorno virtual. Estos comandos verifican el material publicado y ejecutan fixtures del protocolo sin entrenar modelos. [Guía completa y Spyder](docs/REPRODUCIBILIDAD.md).
 
-**Datos completos:** los ZIP originales se distribuyen por separado; su publicación como activos de Releases está pendiente. El repositorio conserva el generador y una vía de generación en un destino nuevo. [Tamaños, integridad y estado de descargas](docs/DESCARGAS.md).
+**Datos completos publicados:** [descargar v1, v2, v3 y v3.1 en GitHub Releases](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v3.1). Los cuatro ZIP originales conservan sus tamaños y SHA-256 verificados. Para continuar el proyecto, utilizar **v3.1**. [Descargas e integridad](docs/DESCARGAS.md).
 
 ## Estado del proyecto y continuidad
+
+**Publicación del portafolio cerrada el 19/11/2026:** código, informes, vídeos y cuatro paquetes completos disponibles. El entrenamiento y la evaluación sintética de XGBoost e Isolation Forest se realizarán en otra fase.
 
 Completado en las entregas: simulación, documentación, pruebas de datos, auditoría, correcciones y preparación de evaluación. Próximo: entrenar y comparar modelos bajo el protocolo congelado; después, desarrollar API y dashboard. Windows/Spyder, Neon y validación industrial siguen pendientes.
 

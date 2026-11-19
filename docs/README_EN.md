@@ -16,3 +16,7 @@ Baseline experiments exist in v1/v2. **XGBoost and Isolation Forest training for
 Explore the [Spanish portfolio guide](PORTFOLIO.md), [version history](EVOLUCION.md), [v3.1 source](../versions/v3.1/src/), [audit closure](reports/cierre_auditoria_v3_1.pdf), [videos](../media/README.md), and [roadmap](ROADMAP.md).
 
 The repository includes source code, configuration, dictionaries, SQL, reports and historical evidence. Bulk generated data are kept outside the source history; see [distribution status](DESCARGAS.md). Historical validation is distinguished from checks rerun for this publication.
+
+## Full datasets
+
+[Download the four original packages, v1 through v3.1](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v3.1). Published on 19 November 2026; package sizes and SHA-256 digests match the originals. Use v3.1 for subsequent work. XGBoost and Isolation Forest training and synthetic evaluation are reserved for a separate phase.

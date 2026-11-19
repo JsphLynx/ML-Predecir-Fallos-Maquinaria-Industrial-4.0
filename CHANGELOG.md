@@ -1,5 +1,13 @@
 # Historial del proyecto
 
+## 19/11/2026 · Cierre de publicación
+
+- Publicados los cuatro paquetes originales v1, v2, v3 y v3.1 en GitHub Releases, con sus checksums.
+- Verificados tamaños y SHA-256 tanto de los ZIP originales como de los activos recibidos por GitHub.
+- Repetida la comprobación de 410 archivos originales y las 44 pruebas del protocolo, sin errores.
+- Activados enlaces de descarga y actualizado el manifiesto del portafolio.
+- Entrenamiento y evaluación sintética de XGBoost e Isolation Forest reservados para otra fase.
+
 ## 15/11/2026 · Publicación del portafolio
 
 - Incorporación documentada de las entregas originales v1, v2, v3 y v3.1.

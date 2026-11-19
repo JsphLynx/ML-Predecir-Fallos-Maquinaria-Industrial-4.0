@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-19",
+  "scope": "Cierre de publicación del portafolio; sin entrenamiento ni evaluación de modelos",
+  "python": "3.12.14",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pyarrow": "26.0.1",
+    "scikit-learn": "1.8.0"
+  },
+  "original_packages": [
+    {
+      "version": "v1",
+      "checks": 30,
+      "passed": 30,
+      "failed": 0,
+      "zip_sha256": "8ff3bb676fea2daeeebd99437f16b1cbfe5ca02d2504e3c16f3aa1827ef91eb1",
+      "bytes": 29445478
+    },
+    {
+      "version": "v2",
+      "checks": 113,
+      "passed": 113,
+      "failed": 0,
+      "zip_sha256": "2da5d03de697c1ed2589f859ec7e77c17a8a83acc606bea34906759323728f15",
+      "bytes": 449731030
+    },
+    {
+      "version": "v3",
+      "checks": 99,
+      "passed": 99,
+      "failed": 0,
+      "zip_sha256": "8f04104e555701ba7336b5c23428346b5deb8c6a3f7b432755745b0597d74137",
+      "bytes": 268404527
+    },
+    {
+      "version": "v3.1",
+      "checks": 168,
+      "passed": 168,
+      "failed": 0,
+      "zip_sha256": "b87cd6c257fa2844c629e6250ebd9af9e0aab290a40200a451f0fd38e16359dd",
+      "bytes": 532001346
+    }
+  ],
+  "original_manifest_files": 410,
+  "portfolio_files_verified_before_update": 378,
+  "protocol_fixtures": {
+    "checks": 44,
+    "passed": 44,
+    "failed": 0
+  },
+  "relative_links_before_update": {
+    "checked": 101,
+    "broken": 0
+  },
+  "python_files_syntax_checked": 79,
+  "model_training": false,
+  "model_evaluation": false,
+  "full_regeneration": false,
+  "postgresql_rerun": false,
+  "windows_spyder_verified": false,
+  "release": {
+    "id": 451753232,
+    "tag_name": "portfolio-v3.1",
+    "html_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v3.1",
+    "published_at": "2026-11-19T18:31:43Z",
+    "draft": false
+  },
+  "release_assets": [
+    {
+      "id": 768792047,
+      "name": "ACB_CSP_Sintetico_v1.zip",
+      "size": 29445478,
+      "state": "uploaded",
+      "digest": "sha256:8ff3bb676fea2daeeebd99437f16b1cbfe5ca02d2504e3c16f3aa1827ef91eb1",
+      "browser_download_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/ACB_CSP_Sintetico_v1.zip"
+    },
+    {
+      "id": 768792266,
+      "name": "ACB_CSP_Sintetico_v2.zip",
+      "size": 449731030,
+      "state": "uploaded",
+      "digest": "sha256:2da5d03de697c1ed2589f859ec7e77c17a8a83acc606bea34906759323728f15",
+      "browser_download_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/ACB_CSP_Sintetico_v2.zip"
+    },
+    {
+      "id": 768792878,
+      "name": "ACB_Motor_Rodamientos_Sintetico_v3.zip",
+      "size": 268404527,
+      "state": "uploaded",
+      "digest": "sha256:8f04104e555701ba7336b5c23428346b5deb8c6a3f7b432755745b0597d74137",
+      "browser_download_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/ACB_Motor_Rodamientos_Sintetico_v3.zip"
+    },
+    {
+      "id": 768793301,
+      "name": "ACB_Motor_Rodamientos_Sintetico_v3_1.zip",
+      "size": 532001346,
+      "state": "uploaded",
+      "digest": "sha256:b87cd6c257fa2844c629e6250ebd9af9e0aab290a40200a451f0fd38e16359dd",
+      "browser_download_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/ACB_Motor_Rodamientos_Sintetico_v3_1.zip"
+    },
+    {
+      "id": 768794631,
+      "name": "SHA256SUMS.txt",
+      "size": 394,
+      "state": "uploaded",
+      "digest": "sha256:c47f72bbb6da553417290b54854f2f932001c6ff47c466cae00ff459486d9fae",
+      "browser_download_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v3.1/SHA256SUMS.txt"
+    }
+  ]
+}
