@@ -1,0 +1,45 @@
+{
+  "version": "4.0.0",
+  "record_kind": "transcripcion_documental_no_ejecucion",
+  "read_date": "2026-11-21",
+  "sources": [
+    {
+      "filename": "Informe_Mejora_Dataset_v4_0.pdf",
+      "pages_read": "1-7"
+    },
+    {
+      "filename": "Auditoria_Aportes_Dataset_v4_0.pdf",
+      "pages_read": "1-5"
+    }
+  ],
+  "dataset": {
+    "worlds": 16,
+    "days_per_world": 365,
+    "telemetry_rows": 1681920,
+    "decision_rows": 560640,
+    "signals": 26,
+    "numeric_predictors": 187,
+    "categorical_predictors": 4,
+    "simulated_failures": 814,
+    "models_trained": false
+  },
+  "original_checks": {
+    "passed": 2100,
+    "failed": 0,
+    "reproduction_identical": 94,
+    "reproduction_compared": 94
+  },
+  "subsequent_audit": {
+    "manifest_entries_checked": 182,
+    "differences": 0,
+    "full_test_suite_repeated": false
+  },
+  "this_github_import": {
+    "original_archives_extracted": false,
+    "original_hashes_rechecked": false,
+    "models_trained": false,
+    "code_imported": false,
+    "release_assets_published": false,
+    "status": "documentation_draft"
+  }
+}

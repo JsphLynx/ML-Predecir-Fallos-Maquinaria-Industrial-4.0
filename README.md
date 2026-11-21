@@ -10,6 +10,8 @@ Proyecto personal de **Joseph** para investigar cómo anticipar fallos simulados
 
 > **Datos 100 % sintéticos.** No son medidas de ArcelorMittal ni un gemelo digital validado. v1/v2 incluyen experimentos de modelos base. La entrega vigente **v3.1 está preparada para iniciar el entrenamiento de XGBoost e Isolation Forest**; todavía no acredita su rendimiento ni ahorro industrial.
 
+> **v4.0 · incorporación en preparación:** el nuevo dataset está generado. [Consultar mejoras, evidencia y pendientes de publicación](docs/v4.0/README.md). Los archivos completos disponibles públicamente en Releases siguen siendo v1–v3.1; no se ha entrenado v4.0.
+
 **[Resumen para reclutadores](docs/PORTFOLIO.md) · [Evolución](docs/EVOLUCION.md) · [Vídeos](media/README.md) · [Código v3.1](versions/v3.1/src/) · [Próximas fases](docs/ROADMAP.md)**
 
 ## La pregunta del proyecto
