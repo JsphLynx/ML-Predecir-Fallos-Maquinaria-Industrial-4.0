@@ -4,7 +4,7 @@
 
 Proyecto personal de ingeniería y ciencia de datos para diseñar un experimento de mantenimiento predictivo de un motor y dos apoyos en un contexto de laminación en caliente. Desarrollado con asistencia de IA; sin afiliación ni validación empresarial implícita.
 
-> El dataset v4.0 está generado y documentado. Esta incorporación a GitHub permanece en preparación hasta importar sus archivos originales y publicar las descargas completas. XGBoost e Isolation Forest todavía no se han entrenado sobre v4.0.
+> El dataset v4.0 está generado y documentado. Sus fuentes y ejemplos están incorporados desde los ZIP verificados. El estado de distribución y los suplementos se detallan en PUBLICACION.md. XGBoost e Isolation Forest todavía no se han entrenado sobre v4.0.
 
 ## Problema y decisión
 
@@ -32,6 +32,6 @@ La pregunta es si las señales disponibles permiten anticipar un fallo simulado 
 
 Completado en la entrega original: generación, contratos, etiquetas/censura, particiones, diccionario, SQL, documentación y controles sintéticos.
 
-Pendiente: publicación íntegra de v4.0 en este repositorio; entrenamiento y evaluación; integración PostgreSQL/Neon; prueba Windows/Spyder; demostrador de producto y validación con datos reales autorizados.
+Pendiente: entrenamiento y evaluación; integración PostgreSQL/Neon; prueba Windows/Spyder; demostrador de producto y validación con datos reales autorizados.
 
-**Recorrido:** [contrato y arquitectura](ARQUITECTURA.md) → [evidencia documentada](VALIDACION.md) → [decisiones de auditoría](AUDITORIA_POSTERIOR.md) → [publicación pendiente](PUBLICACION.md).
+**Recorrido:** [contrato y arquitectura](ARQUITECTURA.md) → [evidencia documentada](VALIDACION.md) → [decisiones de auditoría](AUDITORIA_POSTERIOR.md) → [distribución y suplementos](PUBLICACION.md).

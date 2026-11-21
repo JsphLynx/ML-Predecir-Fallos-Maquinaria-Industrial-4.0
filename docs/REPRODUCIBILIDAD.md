@@ -8,14 +8,20 @@ Python 3.12, desde la raíz del repositorio:
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # Linux/macOS: source .venv/bin/activate
-python -m pip install -r versions/v3.1/requirements.txt
+python -m pip install -r versions/v4.0/requirements_auditoria.txt
 python scripts/verificar_portfolio.py
-python scripts/probar_protocolo.py
+python scripts/probar_protocolo_v40.py
 ```
 
 El primer script comprueba los hashes del contenido publicado. El segundo ejecuta los fixtures originales del evaluador en una copia temporal, preservando las evidencias históricas. No entrena modelos y no necesita los Parquet masivos. Sí necesita la pequeña tabla de productos que acompaña a la configuración.
 
-## Datos y experimentos completos
+## v4.0
+
+Descargar y extraer ambas partes siguiendo [DESCARGAS.md](DESCARGAS.md). El README original describe la regeneración opcional en un destino nuevo. La reproducción de 94/94 archivos es evidencia histórica, no una nueva ejecución de esta publicación.
+
+La integración PostgreSQL de v4.0 no está ejecutada. Las comprobaciones de sintaxis no acreditan permisos, carga ni consultas con servidor. La evidencia v3.1 siguiente se conserva como histórica.
+
+## Datos y experimentos históricos
 
 Consulta [DESCARGAS.md](DESCARGAS.md). Para v3.1, `scripts/generar_v31.py` permite generar una copia nueva a partir de las fuentes publicadas. Cada versión mantiene su entorno y sus comandos originales. No ejecutar versiones diferentes contra la misma carpeta de datos.
 

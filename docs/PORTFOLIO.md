@@ -1,3 +1,9 @@
+# Versión vigente: v4.0
+
+[Presentación actual para reclutadores](v4.0/PORTFOLIO.md) · [Código](../versions/v4.0/src/). El texto siguiente conserva la presentación histórica v1–v3.1.
+
+---
+
 # Lectura para reclutadores
 
 **Autor del proyecto: Joseph · [GitHub: JsphLynx](https://github.com/JsphLynx)**

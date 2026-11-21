@@ -1,15 +1,15 @@
-# v4.0 · Synthetic motor and bearing data
+# v4.0 · Synthetic predictive-maintenance portfolio
 
-**Repository integration is in preparation. Model training is a later phase.**
+**Joseph · Python, data engineering, time-aware validation and PostgreSQL design.**
 
-This personal portfolio project by Joseph studies how to prioritize maintenance inspections using a synthetic motor and two bearing supports in a hot-rolling context.
+An auditable experiment to prioritize inspection before a simulated motor or bearing failure, in a hot-strip rolling context.
 
-The original v4.0 delivery contains 16 alternative one-year simulation worlds, 1,681,920 telemetry records, 560,640 decision snapshots, 26 signals and 814 simulated failures. It separates observable measurements, latent simulator truth, labels, censoring and temporal splits.
+- 16 alternative worlds; 1,681,920 telemetry rows and 560,640 decision rows.
+- Explicit mechanical relationships, sensor contracts, time-valid configurations and causal windows.
+- Latency, censoring, temporal purging and a frozen future-evaluation protocol.
+- Original evidence: 2,100 checks passed and 94/94 reproduced files. These are consistency results, not predictive performance.
+- Import verification: 182/182 original hashes match; 90 original files in Git and 93 data files in the complete ZIPs.
 
-Improvements include a minimal quasi-static mechanical model, distinct motor/roll/strip speeds, explicit torque/power/current relationships, versioned configurations and documented parameter assumptions.
+[Source code](../../versions/v4.0/src/) · [Data downloads](../DESCARGAS.md) · [Verification](../VERIFICACION.md) · [Distribution and outstanding supplemental PDFs](PUBLICACION.md).
 
-The original report records 2,100 successful structural/causal/physical checks and byte-identical regeneration of 94/94 files. These are historical verification results, not new executions of this repository import or evidence of industrial predictive accuracy.
-
-No XGBoost or Isolation Forest model has been trained on v4.0. No calibrated Sestao digital twin, verified motor OEM, industrial savings, PostgreSQL/Neon integration or Windows/Spyder validation is claimed.
-
-The source archives and original PDF/JSON evidence still need to be imported and published. [Publication status](PUBLICACION.md) · [Technical architecture](ARQUITECTURA.md) · [Documented evidence](VALIDACION.md).
+**No XGBoost or Isolation Forest training on v4.0 yet.** No industrial calibration, real failure prediction or cost savings are claimed. Earlier versions remain preserved. Developed with AI assistance; no company affiliation is implied.

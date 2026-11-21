@@ -1,0 +1,33 @@
+name: Verificar y publicar v4.0
+on:
+  push:
+    branches: ['portfolio/v4.0-preparacion', 'main']
+    paths:
+      - '.github/workflows/cierre-v40.yml'
+      - 'scripts/cierre_publicacion_v40.py'
+permissions:
+  contents: write
+concurrency:
+  group: cierre-v40
+  cancel-in-progress: false
+jobs:
+  close:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verificar rama o publicar versión integrada
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONUNBUFFERED: '1'
+        run: python3 scripts/cierre_publicacion_v40.py
+      - name: Guardar evidencia de cierre
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs data PORTFOLIO_SHA256.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Registrar verificación y estado de publicación v4.0"
+          git push origin HEAD:${GITHUB_REF_NAME}

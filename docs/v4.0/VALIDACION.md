@@ -38,13 +38,9 @@ Fuente: informe de mejora, página 6.
 
 Utilizable requiere etiqueta y calidad válidas, además de partición permitida. No usar el número de filas correlacionadas como número de fallos independientes.
 
-## Qué falta verificar al publicar
+## Verificación de esta publicación
 
-- Recuperar las dos partes y comprobar sus tamaños, hashes y los 182 hashes internos.
-- Incorporar evidencias JSON originales sin sustituirlas por esta transcripción.
-- Ejecutar los controles de publicación y enlaces sobre el árbol final.
-- Contrastar el tamaño y SHA-256 de cada activo recibido por GitHub Releases.
-- Registrar commit y alcance exacto de la revisión.
+Los originales ya se han importado: 182/182 hashes coinciden. [Evidencia de importación](../verification/importacion_v4_0.json). Las nuevas comprobaciones se registran separadas de las 2.100 originales en [VERIFICACION.md](../VERIFICACION.md).
 
 ## Límites
 

@@ -1,3 +1,9 @@
+# 2026-11-21 · Importación de originales v4.0
+
+90 archivos originales incorporados a Git y 93 archivos de datos conservados en los ZIP. Dos informes PDF internos, SQL, diccionario, ejemplos y evidencias. Verificados los 182 hashes originales. Portada y guías actualizadas. Se preservan v1–v3.1. Sin entrenamiento ni regeneración completa. Los suplementos documentales externos pendientes se identifican en docs/v4.0/PUBLICACION.md.
+
+---
+
 # Historial del proyecto
 
 ## 21/11/2026 · Preparación documental de v4.0

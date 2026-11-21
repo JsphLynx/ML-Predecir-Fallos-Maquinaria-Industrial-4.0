@@ -1,51 +1,30 @@
-# Publicación íntegra v4.0 · Estado y cierre pendiente
+# Publicación v4.0 · Distribución y trazabilidad
 
-**Estado: borrador documental.** El dataset original está terminado, pero aún no están incorporados a GitHub sus fuentes, PDF, evidencias y descargas completas. No presentar esta rama como publicación cerrada.
+<!-- release-status -->
+**Estado:** originales importados; cierre de Release en curso.
+<!-- /release-status -->
 
-## Paquetes originales
+Los dos ZIP reconstruyen **183 archivos dentro del paquete**, más un LEEME externo que aparece idéntico en ambas partes. Los **182 hashes** del manifiesto original coinciden.
 
-| Archivo | Tamaño documentado |
-|---|---:|
-| ACB_Motor_Rodamientos_Sintetico_v4_0_Parte_1.zip | 441.246.147 bytes |
-| ACB_Motor_Rodamientos_Sintetico_v4_0_Parte_2.zip | 437.652.006 bytes |
+| Destino | Contenido |
+|---|---|
+| [versions/v4.0](../../versions/v4.0/) | 90 originales: código, configuraciones, SQL, diccionario, contratos, ejemplos y resultados |
+| [Release v4.0](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0) | Los dos ZIP íntegros, incluyendo los 93 archivos de datos no incorporados a Git |
+| [Informe de mejora](../reports/Informe_Mejora_Dataset_v4_0.pdf) | Copia original incluida en el paquete |
+| [Investigación Sestao–SMS](../reports/Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf) | Copia original incluida en el paquete |
 
-Son dos ZIP independientes que se extraen en la misma carpeta. La primera parte contiene documentación, fuentes, tablas comunes y R01–R08; la segunda añade R09–R16. No se concatenan sus bytes. Los dos reconstruyen una carpeta de 183 archivos, de los que 182 están protegidos por SHA256.json.
+El [catálogo](../catalogo_archivos_versiones.csv) registra ruta, tamaño, hash y ubicación. El manifiesto original se conserva intacto y debe comprobarse sobre el paquete completo extraído. Para el clon, usar `scripts/verificar_portfolio.py`.
 
-Los tamaños se verificaron mediante metadatos de los archivos conservados. Los hashes ZIP y su nueva comprobación quedan pendientes; no se inventan ni se reutiliza el hash del ZIP único.
+[Integridad de importación](../verification/importacion_v4_0.json) · [Hashes de ZIP](SHA256SUMS.txt) · [Verificación de publicación](../VERIFICACION.md).
 
-## Material a incorporar
+## Suplementos externos al paquete
 
-| Material | Destino previsto | Estado |
-|---|---|---|
-| Generador, módulos y comprobaciones | versions/v4.0/src/ | Pendiente de importar originales |
-| Configuración, semillas y protocolo | versions/v4.0/config/ | Pendiente |
-| Diccionario, procedencia y migración | versions/v4.0/docs/ | Pendiente |
-| SQL y contratos de carga | versions/v4.0/sql/ | Pendiente |
-| Informes JSON/CSV de controles | versions/v4.0/resultados/ | Pendiente |
-| Ejemplos CSV y figuras | versions/v4.0/ejemplos_csv/ y resultados/ | Pendiente |
-| Informe_Mejora_Dataset_v4_0.pdf | docs/reports/ | Pendiente de incorporar PDF original |
-| Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf | docs/reports/ | Pendiente |
-| Informe_Sestao_SMS_Dataset_Sintetico.pdf | docs/reports/ | Pendiente; conservar como antecedente |
-| Auditoria_Aportes_Dataset_v4_0.pdf | audits/v4.0/ | Pendiente; síntesis disponible |
-| Info_Predecir_Fallos_Anticipar_Mantenimiento_Maquinaria.pdf | docs/references/ | Pendiente de recuperar; propuesta criticada por auditoría |
-| Datos grandes de ambos ZIP | GitHub Releases, etiqueta por confirmar | Pendiente de subir y verificar |
+Los siguientes PDF no forman parte de los 183 archivos y todavía no se han incorporado como binarios a GitHub:
 
-No hay vídeos nuevos de v4.0 identificados en esta entrega. Los vídeos existentes v3.1 conservan su versión y no deben rebautizarse.
+- `Informe_Sestao_SMS_Dataset_Sintetico.pdf` (adjunto con nombre abreviado INFORM~1.PDF).
+- `Auditoria_Aportes_Dataset_v4_0.pdf`: su contenido está resumido en [AUDITORIA_POSTERIOR.md](AUDITORIA_POSTERIOR.md).
+- `Info_Predecir_Fallos_Anticipar_Mantenimiento_Maquinaria.pdf`: fuente externa comentada por la auditoría; el archivo no pudo recuperarse.
 
-## Procedimiento de cierre
+Esta lista evita presentar la publicación del dataset completo como si incluyera todos los documentos complementarios del chat. La copia adjunta del informe de mejora y el archivo INFORM~2.PDF pueden contener metadatos de distribución distintos; se publican las copias internas protegidas por el manifiesto.
 
-1. Recuperar ambos ZIP originales y PDFs. Mantener v1–v3.1 intactos.
-2. Verificar los 182 hashes internos; comprobar que los dos ZIP no duplican rutas incompatibles.
-3. Importar código, documentación, ejemplos y evidencias byte a byte. Conservar el manifiesto original completo y documentar la separación entre Git y los datos de Release.
-4. No regenerar datos ni entrenar modelos para esta publicación.
-5. Adjuntar ambos ZIP y SHA256SUMS.txt a una Release de v4.0. No añadir 879 MB de datos al historial normal de Git.
-6. Verificar archivos recibidos, tamaños y hashes. Solo entonces registrar URLs públicas en data/releases.json.
-7. Actualizar portada, evolución, roadmap, catálogo por archivo, documentación inglesa y manifiesto del portafolio.
-8. Ejecutar comprobaciones de publicación. Distinguir resultados históricos del dataset de pruebas nuevas de la importación.
-9. Cerrar el borrador y presentar v4.0 como versión vigente.
-
-Los enlaces privados del autor no sustituyen a una descarga pública para reclutadores. No se han insertado URLs temporales o enlaces de descarga que todavía no existen.
-
-## Bloqueo observado el 21/11/2026
-
-El entorno de ejecución de archivos no estaba disponible. La conexión GitHub permitió leer y preparar documentación, pero no extraer los ZIP ni ejecutar verificaciones locales. Los instrumentos GitHub disponibles tampoco proporcionaban una operación para adjuntar archivos de Release. La preparación editorial puede revisarse sin confundirla con la importación binaria pendiente.
+Los vídeos existentes conservan su versión v3.1. No hay un vídeo nuevo de v4.0. Las versiones anteriores no se modifican.
