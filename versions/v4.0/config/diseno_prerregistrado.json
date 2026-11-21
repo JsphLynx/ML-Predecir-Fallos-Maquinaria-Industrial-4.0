@@ -1,0 +1,8 @@
+{
+  "version": "4.0.0",
+  "frozen_before_generation": true,
+  "frozen_before_training": true,
+  "config_sha256": "1b5d7bf9bd9c21d88efd039b7398295dd69093508f578e201475eac48b38748e",
+  "protocol_sha256": "6c739285e666a45e6d54f703630fed8718522b8b29207a31fe0571f4cbfc3d94",
+  "decision_basis": "Informe investigaci\u00f3n p\u00e1ginas10-14; sin m\u00e9tricas predictivas; par\u00e1metros did\u00e1cticos no calibrados."
+}

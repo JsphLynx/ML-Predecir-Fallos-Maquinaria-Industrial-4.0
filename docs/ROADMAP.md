@@ -1,3 +1,7 @@
+# v4.0 · Fuentes y datos
+
+Se han incorporado los originales desde los ZIP verificados. [Distribución y suplementos pendientes](v4.0/PUBLICACION.md). La base para la siguiente fase es v4.0; v3.1 se conserva como experimento independiente.
+
 # Próximas versiones
 
 ## Publicación completada · 19/11/2026
@@ -12,7 +16,7 @@ El entrenamiento y la evaluación sintética se realizarán en otra fase, por de
 
 Las siguientes tareas son pendientes, no funcionalidades entregadas. La numeración de nuevas versiones se decidirá al cerrar su alcance.
 
-- [ ] Ejecutar comparadores, XGBoost e Isolation Forest observable bajo el protocolo v3.1.
+- [ ] Ejecutar comparadores, XGBoost e Isolation Forest observable bajo el protocolo v4.0.
 - [ ] Ajustar preprocesamiento dentro de cada fold de entrenamiento; conservar hiperparámetros, semillas y artefactos.
 - [ ] Elegir umbrales en validación bajo el presupuesto de falsas alertas y congelar decisiones.
 - [ ] Evaluar test y estrés con sensibilidad por evento, anticipación, carga de falsas alertas, cobertura e incertidumbre por mundos.

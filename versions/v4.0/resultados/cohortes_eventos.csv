@@ -1,0 +1,17 @@
+partition,mode,events,worlds,descriptive_only
+train,electrico_subito,24,10,False
+train,rodamiento_de,134,12,False
+train,rodamiento_nde,111,12,False
+train,termico_motor,71,10,False
+validation,electrico_subito,11,6,True
+validation,rodamiento_de,44,11,False
+validation,rodamiento_nde,44,11,False
+validation,termico_motor,27,9,False
+test,electrico_subito,8,4,True
+test,rodamiento_de,51,11,False
+test,rodamiento_nde,38,10,False
+test,termico_motor,20,7,False
+stress,electrico_subito,11,4,True
+stress,rodamiento_de,80,4,False
+stress,rodamiento_nde,87,4,False
+stress,termico_motor,53,4,False

@@ -1,0 +1,263 @@
+{
+  "checks": 64,
+  "passed": 64,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "R01 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R01 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R01 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R01 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R02 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R02 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R02 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R02 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R03 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R03 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R03 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R03 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R04 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R04 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R04 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R04 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R05 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R05 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R05 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R05 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R06 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R06 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R06 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R06 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R07 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R07 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R07 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R07 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R08 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R08 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R08 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R08 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R09 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R09 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R09 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R09 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R10 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R10 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R10 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R10 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R11 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R11 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R11 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R11 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R12 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R12 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R12 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R12 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R13 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R13 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R13 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R13 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R14 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R14 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R14 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R14 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R15 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R15 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R15 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R15 replay 20000",
+      "passed": true
+    },
+    {
+      "test": "R16 replay 300",
+      "passed": true
+    },
+    {
+      "test": "R16 replay 2000",
+      "passed": true
+    },
+    {
+      "test": "R16 replay 10000",
+      "passed": true
+    },
+    {
+      "test": "R16 replay 20000",
+      "passed": true
+    }
+  ]
+}

@@ -1,3 +1,13 @@
+# Verificación v4.0 · 21/11/2026
+
+[Importación ejecutada en GitHub Actions](verification/importacion_v4_0.json): ambos ZIP coinciden en tamaño y SHA-256; 182/182 archivos del manifiesto original correctos; 90 originales en Git, 93 de datos solo en los ZIP; sintaxis de 24 archivos Python comprobada. No se ha entrenado ni regenerado el dataset completo.
+
+Las comprobaciones de cierre quedan registradas en [cierre_v4_0.json](verification/cierre_v4_0.json). Los 2.100 controles y 94/94 archivos reproducidos son evidencia histórica del paquete original.
+
+La documentación suplementaria pendiente se identifica en [PUBLICACION.md](v4.0/PUBLICACION.md). Windows/Spyder, PostgreSQL/Neon y validación industrial no han sido ejecutados para v4.0.
+
+---
+
 # Verificación de la publicación
 
 Publicación inicial: **15/11/2026**. Cierre de distribución: **19/11/2026**. Estas revisiones organizan y comprueban el material existente; no entrenan modelos nuevos.

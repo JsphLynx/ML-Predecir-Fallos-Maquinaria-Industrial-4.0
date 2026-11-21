@@ -1,4 +1,18 @@
+# 2026-11-21 · Importación de originales v4.0
+
+90 archivos originales incorporados a Git y 93 archivos de datos conservados en los ZIP. Dos informes PDF internos, SQL, diccionario, ejemplos y evidencias. Verificados los 182 hashes originales. Portada y guías actualizadas. Se preservan v1–v3.1. Sin entrenamiento ni regeneración completa. Los suplementos documentales externos pendientes se identifican en docs/v4.0/PUBLICACION.md.
+
+---
+
 # Historial del proyecto
+
+## 21/11/2026 · Preparación documental de v4.0
+
+- Añadido un recorrido para reclutadores, arquitectura, evidencia documentada y síntesis de la auditoría posterior.
+- Separados los resultados originales de 2.100 controles / 94 archivos reproducidos de las verificaciones pendientes de esta importación.
+- Inventariados fuentes, PDF, datos y pasos necesarios para cerrar la publicación.
+- Pendiente importar los archivos originales y adjuntar los dos ZIP a una Release pública. No se presenta como publicación completa.
+- Sin entrenamiento de modelos ni modificación de versiones anteriores.
 
 ## 19/11/2026 · Cierre de publicación
 

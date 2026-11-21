@@ -50,5 +50,25 @@
     "release_asset_id": 768793301,
     "verified_at": "2026-11-19",
     "verification": "GitHub asset size and SHA-256 match the original ZIP"
+  },
+  {
+    "version": "v4.0",
+    "filename": "ACB_Motor_Rodamientos_Sintetico_v4_0_Parte_1.zip",
+    "bytes": 441246147,
+    "sha256": "31ade7f26bf96f2cba7dbe9c5ab7d8f92ed757cc862e89d5c75532cabe3c7638",
+    "release_asset_id": 776087326,
+    "release_tag": "portfolio-v4.0",
+    "status": "uploaded_draft",
+    "published_url": null
+  },
+  {
+    "version": "v4.0",
+    "filename": "ACB_Motor_Rodamientos_Sintetico_v4_0_Parte_2.zip",
+    "bytes": 437652006,
+    "sha256": "717fdc28ab2dec079672d54c97ded9a8484781ea0a524642751d6904edcb4ffb",
+    "release_asset_id": 776087871,
+    "release_tag": "portfolio-v4.0",
+    "status": "uploaded_draft",
+    "published_url": null
   }
 ]

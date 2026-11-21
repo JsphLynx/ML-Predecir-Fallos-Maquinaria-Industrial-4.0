@@ -1,0 +1,12 @@
+{
+  "decision_rows": 560640,
+  "evaluation_status": {
+    "evaluable": 435353,
+    "regimen_no_elegible": 104667,
+    "cobertura_insuficiente": 18570,
+    "sensor_congelado": 1810,
+    "calentamiento": 240
+  },
+  "numeric_predictors": 187,
+  "categorical_predictors": 4
+}

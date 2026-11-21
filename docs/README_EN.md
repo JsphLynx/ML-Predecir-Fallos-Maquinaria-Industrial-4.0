@@ -1,3 +1,9 @@
+# Current version: v4.0
+
+[Current overview](v4.0/RESUMEN_EN.md). The material below preserves the earlier v1–v3.1 publication.
+
+---
+
 # Industrial predictive maintenance — portfolio overview
 
 Personal data science and data engineering project by [Joseph / JsphLynx](https://github.com/JsphLynx). It explores whether simulated equipment failures can be anticipated with useful lead time and a controlled false-alert burden.

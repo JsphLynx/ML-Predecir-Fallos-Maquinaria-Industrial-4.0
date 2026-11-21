@@ -1,0 +1,439 @@
+{
+  "checks": 108,
+  "passed": 108,
+  "failed": 0,
+  "tests": [
+    {
+      "check": "catalogue data/activos.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/configuraciones.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/ejecuciones.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/fallos.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/mantenimiento.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/plan_mantenimiento.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/productos.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/segmentos_produccion.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/sensores.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R09.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R10.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R11.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R12.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R13.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R14.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R15.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue data/telemetria/R16.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R09.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R10.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R11.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R12.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R13.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R14.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R15.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/features/R16.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/episodios.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/incidencias_sensores.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/reparaciones.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R09.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R10.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R11.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R12.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R13.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R14.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R15.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/fisica/R16.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R09.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R10.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R11.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R12.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R13.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R14.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R15.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue sim_truth/estado_latente/R16.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R01.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R02.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R03.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R04.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R05.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R06.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R07.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R08.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R09.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R10.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R11.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R12.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R13.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R14.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R15.parquet",
+      "passed": true
+    },
+    {
+      "check": "catalogue ml/targets/R16.parquet",
+      "passed": true
+    },
+    {
+      "check": "segments R01",
+      "passed": true
+    },
+    {
+      "check": "segments R02",
+      "passed": true
+    },
+    {
+      "check": "segments R03",
+      "passed": true
+    },
+    {
+      "check": "segments R04",
+      "passed": true
+    },
+    {
+      "check": "segments R05",
+      "passed": true
+    },
+    {
+      "check": "segments R06",
+      "passed": true
+    },
+    {
+      "check": "segments R07",
+      "passed": true
+    },
+    {
+      "check": "segments R08",
+      "passed": true
+    },
+    {
+      "check": "segments R09",
+      "passed": true
+    },
+    {
+      "check": "segments R10",
+      "passed": true
+    },
+    {
+      "check": "segments R11",
+      "passed": true
+    },
+    {
+      "check": "segments R12",
+      "passed": true
+    },
+    {
+      "check": "segments R13",
+      "passed": true
+    },
+    {
+      "check": "segments R14",
+      "passed": true
+    },
+    {
+      "check": "segments R15",
+      "passed": true
+    },
+    {
+      "check": "segments R16",
+      "passed": true
+    }
+  ]
+}

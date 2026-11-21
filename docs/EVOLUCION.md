@@ -1,3 +1,11 @@
+# Evolución hasta v4.0
+
+La nueva entrega relaciona geometría, fuerza, par, velocidades, potencia y corriente. Añade configuraciones temporales y contratos de sensores; sustituye bobina por segmento de producción. Es un nuevo experimento, no una mejora predictiva demostrada.
+
+[Migración v3.1 → v4.0](../versions/v4.0/docs/MIGRACION_v3_1_v4_0.md) · [Investigación que motiva los cambios](reports/Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf).
+
+---
+
 # Evolución documentada: v1 → v2 → v3 → v3.1
 
 Las fechas corresponden a las entregas originales. La incorporación a GitHub es posterior, el 15/11/2026; no se reconstruyen commits históricos ficticios.

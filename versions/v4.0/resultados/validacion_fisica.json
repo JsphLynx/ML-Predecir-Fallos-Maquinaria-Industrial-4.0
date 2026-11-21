@@ -1,0 +1,1600 @@
+{
+  "version": "4.0.0",
+  "checks": 318,
+  "passed": 318,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "Configuraciones PK",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Configuraciones sin huecos/solapamientos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Configuraciones cubren observación",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Contrato de todas las señales",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "No inventar ondas de vibración",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Cadencia distinta de frecuencia de adquisición",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R01 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R02 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R03 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R04 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R05 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R06 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R07 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R08 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R09 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R10 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R11 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R12 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R13 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R14 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R15 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 claves físicas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 configuración válida y conocida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 motor/cilindro transmisión",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 velocidad banda y deslizamiento",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 continuidad volumétrica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 reducción positiva",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 espesores sin producto ausentes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 potencia mecánica par omega",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 transmisión y pérdidas auxiliares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 potencia eléctrica eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 corriente trifásica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 carga relativa definida",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 física limpia finita cuando hay banda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 parada sin potencia/corriente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 temperatura banda separada de devanado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 sin identificador bobina falso",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 segmentos no reaparecen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 contexto no es verdad latente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "R16 ventana reinicia CFG-02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Mayor ancho aumenta fuerza a igual receta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Mayor temperatura reduce fuerza a igual receta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Transmisión modifica rpm motor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Transmisión conserva potencia ideal a igual eficiencia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Defectos sensor no cambian fallos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Defectos sensor no cambian daño",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Defectos sensor cambian observaciones",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Nuevo dominio inmune a medidas antiguas",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "scope": "Consistencia sintética e identidades; no calibración ni validación de Sestao",
+  "models_trained": false
+}
