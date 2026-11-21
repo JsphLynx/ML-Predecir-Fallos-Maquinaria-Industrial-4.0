@@ -1,7 +1,7 @@
 # Publicación v4.0 · Distribución y trazabilidad
 
 <!-- release-status -->
-**Estado:** originales importados; cierre de Release en curso.
+**Dataset v4.0 publicado:** [descargar las dos partes y hashes](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0). Código, ejemplos y los informes internos del paquete están incorporados.
 <!-- /release-status -->
 
 Los dos ZIP reconstruyen **183 archivos dentro del paquete**, más un LEEME externo que aparece idéntico en ambas partes. Los **182 hashes** del manifiesto original coinciden.

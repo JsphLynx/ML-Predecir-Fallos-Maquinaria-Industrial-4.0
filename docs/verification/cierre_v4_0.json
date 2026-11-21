@@ -18,7 +18,9 @@
   "live_postgresql_executed": false,
   "windows_spyder_executed": false,
   "release_assets_matched": true,
-  "release_published": false,
+  "release_published": true,
   "relative_links_checked": 80,
-  "broken_links": 0
+  "broken_links": 0,
+  "release_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0",
+  "publication_run_id": "44950803102"
 }

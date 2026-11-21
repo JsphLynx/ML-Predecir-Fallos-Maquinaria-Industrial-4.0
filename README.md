@@ -11,7 +11,7 @@ Proyecto personal de **Joseph** para investigar cómo anticipar fallos simulados
 > **v4.0 · Dataset 100 % sintético.** XGBoost e Isolation Forest se entrenarán y evaluarán en otra fase. No hay calibración de Sestao ni evidencia de anticipación de averías reales o ahorro industrial. Los modelos base de v1/v2 son experimentos históricos.
 
 <!-- release-status -->
-**Estado de distribución:** originales importados; cierre de Release en curso.
+**Dataset v4.0 publicado:** [descargar las dos partes y hashes](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0). Código, ejemplos y los informes internos del paquete están incorporados.
 <!-- /release-status -->
 
 **[Lectura para reclutadores](docs/v4.0/PORTFOLIO.md) · [Código v4.0](versions/v4.0/src/) · [Informe de mejora](docs/reports/Informe_Mejora_Dataset_v4_0.pdf) · [Descargas](docs/DESCARGAS.md) · [English](docs/v4.0/RESUMEN_EN.md)**

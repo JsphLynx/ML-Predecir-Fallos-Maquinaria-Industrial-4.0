@@ -39,7 +39,7 @@
     "original_hashes_rechecked": true,
     "models_trained": false,
     "code_imported": true,
-    "release_assets_published": false,
-    "status": "verified_ready_to_publish"
+    "release_assets_published": true,
+    "status": "dataset_published_supplemental_pdfs_pending"
   }
 }
