@@ -71,7 +71,7 @@ python scripts/probar_protocolo_v40.py
 
 Python 3.12. Los fixtures usan una copia temporal y no entrenan modelos. [Guía y Spyder](docs/REPRODUCIBILIDAD.md).
 
-**Dataset completo:** descargar las dos partes desde [Releases](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0), verificarlas y extraerlas en la misma carpeta fuera del clon. Los ZIP no se concatenan. El manifiesto original cubre los 183 archivos del paquete, incluido el propio manifiesto sin autohash. [Instrucciones](docs/DESCARGAS.md).
+**Dataset completo:** descargar las dos partes desde [Releases](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0), verificarlas y extraerlas en la misma carpeta fuera del clon. Los ZIP no se concatenan. El paquete contiene 183 archivos: el manifiesto y los 182 archivos protegidos por sus hashes. [Instrucciones](docs/DESCARGAS.md).
 
 ## Continuidad
 
