@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-21",
+  "runner": "GitHub Actions",
+  "run_id": "44950610556",
+  "status": "verified",
+  "original_files_in_git_checked": 90,
+  "protected_content_hashes_checked": 89,
+  "original_manifest_preserved": true,
+  "python_files_parsed": 31,
+  "fixtures": {
+    "checks": 44,
+    "passed": 44,
+    "failed": 0,
+    "scope": "Fixtures; sin entrenamiento de modelos"
+  },
+  "models_trained": false,
+  "full_dataset_regenerated": false,
+  "live_postgresql_executed": false,
+  "windows_spyder_executed": false,
+  "release_assets_matched": true,
+  "release_published": false,
+  "relative_links_checked": 80,
+  "broken_links": 0
+}
