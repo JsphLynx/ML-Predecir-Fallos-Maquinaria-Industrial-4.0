@@ -1,3 +1,9 @@
+# 2026-11-21 · Exclusión de adjuntos duplicados
+
+Excluidos los adjuntos INFORM~1.PDF e INFORM~2.PDF de la incorporación adicional. Se conserva el informe original de investigación Sestao–SMS ya publicado y los ZIP íntegros. Únicamente queda la auditoría complementaria en revisión manual.
+
+---
+
 # 2026-11-21 · Ajuste del alcance documental
 
 Retirado del registro de pendientes un PDF complementario que el autor considera innecesario. Quedan dos PDF en revisión manual. Se conserva la evidencia histórica de la auditoría.

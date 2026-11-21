@@ -17,13 +17,12 @@ El [catálogo](../catalogo_archivos_versiones.csv) registra ruta, tamaño, hash 
 
 [Integridad de importación](../verification/importacion_v4_0.json) · [Hashes de ZIP](SHA256SUMS.txt) · [Verificación de publicación](../VERIFICACION.md).
 
-## Suplementos externos al paquete
+## Suplemento documental pendiente
 
-Quedan dos PDF complementarios en revisión manual. No forman parte de los 183 archivos del paquete y todavía no se han incorporado como binarios a GitHub:
+Únicamente queda `Auditoria_Aportes_Dataset_v4_0.pdf` en revisión manual e incorporación. No forma parte de los 183 archivos del paquete; su contenido está resumido en [AUDITORIA_POSTERIOR.md](AUDITORIA_POSTERIOR.md).
 
-- `Informe_Sestao_SMS_Dataset_Sintetico.pdf` (adjunto con nombre abreviado INFORM~1.PDF).
-- `Auditoria_Aportes_Dataset_v4_0.pdf`: su contenido está resumido en [AUDITORIA_POSTERIOR.md](AUDITORIA_POSTERIOR.md).
+Los adjuntos con nombres abreviados `INFORM~1.PDF` y `INFORM~2.PDF` quedan excluidos de cualquier incorporación adicional por decisión del autor. No se requieren sus copias adjuntas para cerrar la publicación.
 
-Esta lista evita presentar la publicación del dataset completo como si incluyera todos los documentos complementarios del chat. La copia adjunta del informe de mejora y el archivo INFORM~2.PDF pueden contener metadatos de distribución distintos; se publican las copias internas protegidas por el manifiesto.
+Se conserva el informe original `Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf` ya publicado, tanto en GitHub como dentro de los ZIP. No se modifican el dataset, los paquetes originales ni sus hashes.
 
 Los vídeos existentes conservan su versión v3.1. No hay un vídeo nuevo de v4.0. Las versiones anteriores no se modifican.
