@@ -32,4 +32,4 @@ La muestra auditada ilustra aproximadamente 0,822 km en un intervalo de 300 s us
 
 ## Estado de las fuentes originales
 
-El PDF de esta auditoría debe añadirse a la publicación. El PDF adicional *Info_Predecir_Fallos_Anticipar_Mantenimiento_Maquinaria.pdf* no pudo recuperarse directamente en esta sesión; las observaciones anteriores se atribuyen a la auditoría que sí se leyó. No se trata su script como código ejecutable validado.
+El PDF de esta auditoría sigue pendiente de revisión manual e incorporación. Las observaciones anteriores se atribuyen a la auditoría que sí se leyó. El documento externo analizado por ella no forma parte de los archivos requeridos para esta publicación; su script no se trata como código ejecutable validado.

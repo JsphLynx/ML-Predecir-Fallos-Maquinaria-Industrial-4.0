@@ -19,11 +19,10 @@ El [catálogo](../catalogo_archivos_versiones.csv) registra ruta, tamaño, hash 
 
 ## Suplementos externos al paquete
 
-Los siguientes PDF no forman parte de los 183 archivos y todavía no se han incorporado como binarios a GitHub:
+Quedan dos PDF complementarios en revisión manual. No forman parte de los 183 archivos del paquete y todavía no se han incorporado como binarios a GitHub:
 
 - `Informe_Sestao_SMS_Dataset_Sintetico.pdf` (adjunto con nombre abreviado INFORM~1.PDF).
 - `Auditoria_Aportes_Dataset_v4_0.pdf`: su contenido está resumido en [AUDITORIA_POSTERIOR.md](AUDITORIA_POSTERIOR.md).
-- `Info_Predecir_Fallos_Anticipar_Mantenimiento_Maquinaria.pdf`: fuente externa comentada por la auditoría; el archivo no pudo recuperarse.
 
 Esta lista evita presentar la publicación del dataset completo como si incluyera todos los documentos complementarios del chat. La copia adjunta del informe de mejora y el archivo INFORM~2.PDF pueden contener metadatos de distribución distintos; se publican las copias internas protegidas por el manifiesto.
 
