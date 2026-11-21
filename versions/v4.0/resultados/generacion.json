@@ -1,0 +1,136 @@
+{
+  "version": "4.0.0",
+  "runs": [
+    {
+      "run_id": "R01",
+      "telemetry_rows": 105120,
+      "failures": 91,
+      "maintenance": 103,
+      "sudden_failures": 4,
+      "operating_hours": 7273.083333333333
+    },
+    {
+      "run_id": "R02",
+      "telemetry_rows": 105120,
+      "failures": 86,
+      "maintenance": 96,
+      "sudden_failures": 3,
+      "operating_hours": 7299.416666666667
+    },
+    {
+      "run_id": "R03",
+      "telemetry_rows": 105120,
+      "failures": 86,
+      "maintenance": 102,
+      "sudden_failures": 2,
+      "operating_hours": 7295.833333333333
+    },
+    {
+      "run_id": "R04",
+      "telemetry_rows": 105120,
+      "failures": 69,
+      "maintenance": 77,
+      "sudden_failures": 3,
+      "operating_hours": 7392.666666666667
+    },
+    {
+      "run_id": "R05",
+      "telemetry_rows": 105120,
+      "failures": 101,
+      "maintenance": 114,
+      "sudden_failures": 3,
+      "operating_hours": 7201.583333333333
+    },
+    {
+      "run_id": "R06",
+      "telemetry_rows": 105120,
+      "failures": 63,
+      "maintenance": 73,
+      "sudden_failures": 11,
+      "operating_hours": 7369.083333333333
+    },
+    {
+      "run_id": "R07",
+      "telemetry_rows": 105120,
+      "failures": 18,
+      "maintenance": 34,
+      "sudden_failures": 3,
+      "operating_hours": 7551.166666666667
+    },
+    {
+      "run_id": "R08",
+      "telemetry_rows": 105120,
+      "failures": 11,
+      "maintenance": 19,
+      "sudden_failures": 3,
+      "operating_hours": 7600.083333333333
+    },
+    {
+      "run_id": "R09",
+      "telemetry_rows": 105120,
+      "failures": 12,
+      "maintenance": 24,
+      "sudden_failures": 2,
+      "operating_hours": 7602.416666666667
+    },
+    {
+      "run_id": "R10",
+      "telemetry_rows": 105120,
+      "failures": 9,
+      "maintenance": 19,
+      "sudden_failures": 6,
+      "operating_hours": 7614.916666666667
+    },
+    {
+      "run_id": "R11",
+      "telemetry_rows": 105120,
+      "failures": 23,
+      "maintenance": 39,
+      "sudden_failures": 3,
+      "operating_hours": 7542.583333333333
+    },
+    {
+      "run_id": "R12",
+      "telemetry_rows": 105120,
+      "failures": 14,
+      "maintenance": 22,
+      "sudden_failures": 0,
+      "operating_hours": 7595.75
+    },
+    {
+      "run_id": "R13",
+      "telemetry_rows": 105120,
+      "failures": 101,
+      "maintenance": 114,
+      "sudden_failures": 4,
+      "operating_hours": 7218.583333333333
+    },
+    {
+      "run_id": "R14",
+      "telemetry_rows": 105120,
+      "failures": 25,
+      "maintenance": 35,
+      "sudden_failures": 3,
+      "operating_hours": 7542.75
+    },
+    {
+      "run_id": "R15",
+      "telemetry_rows": 105120,
+      "failures": 84,
+      "maintenance": 101,
+      "sudden_failures": 1,
+      "operating_hours": 7293.833333333333
+    },
+    {
+      "run_id": "R16",
+      "telemetry_rows": 105120,
+      "failures": 21,
+      "maintenance": 29,
+      "sudden_failures": 3,
+      "operating_hours": 7604.833333333333
+    }
+  ],
+  "telemetry_rows": 1681920,
+  "failure_count": 814,
+  "models_trained": false
+}

@@ -1,0 +1,1 @@
+Extractos de los primeros 7 días de R01 y catálogos completos. No son un conjunto independiente ni equilibrado, no usar para medir rendimiento. Los Parquet son la entrega completa. Fechas UTC, coma como separador y punto decimal.

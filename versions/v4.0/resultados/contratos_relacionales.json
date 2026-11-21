@@ -1,0 +1,327 @@
+{
+  "checks": 76,
+  "passed": 76,
+  "failed": 0,
+  "syntax_files": [
+    {
+      "file": "01_esquema.sql",
+      "statements": 72
+    },
+    {
+      "file": "02_lecturas_asof.sql",
+      "statements": 7
+    },
+    {
+      "file": "03_rol_demostracion.sql",
+      "statements": 3
+    }
+  ],
+  "live_postgresql_executed": false,
+  "tests": [
+    {
+      "test": "Diccionario sin definiciones duplicadas",
+      "passed": true
+    },
+    {
+      "test": "activos todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "activos esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "catalogo_archivos todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "catalogo_archivos esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "configuraciones todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "configuraciones esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "ejecuciones todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "ejecuciones esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "fallos todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "fallos esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "mantenimiento todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "mantenimiento esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "plan_mantenimiento todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "plan_mantenimiento esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "productos todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "productos esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "segmentos_produccion todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "segmentos_produccion esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "sensores todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "sensores esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "telemetria todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "telemetria esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "features todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "features esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "episodios todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "episodios esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "incidencias_sensores todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "incidencias_sensores esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "reparaciones todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "reparaciones esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "fisica todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "fisica esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "estado_latente todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "estado_latente esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "targets todas las columnas definidas",
+      "passed": true
+    },
+    {
+      "test": "targets esquemas homogéneos",
+      "passed": true
+    },
+    {
+      "test": "PK segmentos única",
+      "passed": true
+    },
+    {
+      "test": "R01 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R01 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R02 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R02 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R03 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R03 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R04 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R04 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R05 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R05 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R06 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R06 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R07 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R07 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R08 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R08 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R09 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R09 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R10 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R10 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R11 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R11 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R12 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R12 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R13 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R13 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R14 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R14 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R15 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R15 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "R16 FK segmento y pertenencia temporal",
+      "passed": true
+    },
+    {
+      "test": "R16 segmento conserva configuración/caja",
+      "passed": true
+    },
+    {
+      "test": "Todo parámetro físico trazado",
+      "passed": true
+    },
+    {
+      "test": "Ningún parámetro físico afirma calibración",
+      "passed": true
+    },
+    {
+      "test": "Sintaxis PostgreSQL 01_esquema.sql",
+      "passed": true
+    },
+    {
+      "test": "Sintaxis PostgreSQL 02_lecturas_asof.sql",
+      "passed": true
+    },
+    {
+      "test": "Sintaxis PostgreSQL 03_rol_demostracion.sql",
+      "passed": true
+    },
+    {
+      "test": "Parser PostgreSQL disponible para esta auditoría",
+      "passed": true
+    }
+  ],
+  "scope": "Esquemas, claves, trazabilidad y parser SQL. Sin integración con servidor."
+}

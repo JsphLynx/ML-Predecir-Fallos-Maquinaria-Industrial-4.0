@@ -1,0 +1,135 @@
+{
+  "public": {
+    "activos": [
+      "data/activos.parquet"
+    ],
+    "catalogo_archivos": [
+      "data/catalogo_archivos.parquet"
+    ],
+    "configuraciones": [
+      "data/configuraciones.parquet"
+    ],
+    "ejecuciones": [
+      "data/ejecuciones.parquet"
+    ],
+    "fallos": [
+      "data/fallos.parquet"
+    ],
+    "mantenimiento": [
+      "data/mantenimiento.parquet"
+    ],
+    "plan_mantenimiento": [
+      "data/plan_mantenimiento.parquet"
+    ],
+    "productos": [
+      "data/productos.parquet"
+    ],
+    "segmentos_produccion": [
+      "data/segmentos_produccion.parquet"
+    ],
+    "sensores": [
+      "data/sensores.parquet"
+    ],
+    "telemetria": [
+      "data/telemetria/R01.parquet",
+      "data/telemetria/R02.parquet",
+      "data/telemetria/R03.parquet",
+      "data/telemetria/R04.parquet",
+      "data/telemetria/R05.parquet",
+      "data/telemetria/R06.parquet",
+      "data/telemetria/R07.parquet",
+      "data/telemetria/R08.parquet",
+      "data/telemetria/R09.parquet",
+      "data/telemetria/R10.parquet",
+      "data/telemetria/R11.parquet",
+      "data/telemetria/R12.parquet",
+      "data/telemetria/R13.parquet",
+      "data/telemetria/R14.parquet",
+      "data/telemetria/R15.parquet",
+      "data/telemetria/R16.parquet"
+    ],
+    "features": [
+      "ml/features/R01.parquet",
+      "ml/features/R02.parquet",
+      "ml/features/R03.parquet",
+      "ml/features/R04.parquet",
+      "ml/features/R05.parquet",
+      "ml/features/R06.parquet",
+      "ml/features/R07.parquet",
+      "ml/features/R08.parquet",
+      "ml/features/R09.parquet",
+      "ml/features/R10.parquet",
+      "ml/features/R11.parquet",
+      "ml/features/R12.parquet",
+      "ml/features/R13.parquet",
+      "ml/features/R14.parquet",
+      "ml/features/R15.parquet",
+      "ml/features/R16.parquet"
+    ]
+  },
+  "private": {
+    "episodios": [
+      "sim_truth/episodios.parquet"
+    ],
+    "incidencias_sensores": [
+      "sim_truth/incidencias_sensores.parquet"
+    ],
+    "reparaciones": [
+      "sim_truth/reparaciones.parquet"
+    ],
+    "fisica": [
+      "sim_truth/fisica/R01.parquet",
+      "sim_truth/fisica/R02.parquet",
+      "sim_truth/fisica/R03.parquet",
+      "sim_truth/fisica/R04.parquet",
+      "sim_truth/fisica/R05.parquet",
+      "sim_truth/fisica/R06.parquet",
+      "sim_truth/fisica/R07.parquet",
+      "sim_truth/fisica/R08.parquet",
+      "sim_truth/fisica/R09.parquet",
+      "sim_truth/fisica/R10.parquet",
+      "sim_truth/fisica/R11.parquet",
+      "sim_truth/fisica/R12.parquet",
+      "sim_truth/fisica/R13.parquet",
+      "sim_truth/fisica/R14.parquet",
+      "sim_truth/fisica/R15.parquet",
+      "sim_truth/fisica/R16.parquet"
+    ],
+    "estado_latente": [
+      "sim_truth/estado_latente/R01.parquet",
+      "sim_truth/estado_latente/R02.parquet",
+      "sim_truth/estado_latente/R03.parquet",
+      "sim_truth/estado_latente/R04.parquet",
+      "sim_truth/estado_latente/R05.parquet",
+      "sim_truth/estado_latente/R06.parquet",
+      "sim_truth/estado_latente/R07.parquet",
+      "sim_truth/estado_latente/R08.parquet",
+      "sim_truth/estado_latente/R09.parquet",
+      "sim_truth/estado_latente/R10.parquet",
+      "sim_truth/estado_latente/R11.parquet",
+      "sim_truth/estado_latente/R12.parquet",
+      "sim_truth/estado_latente/R13.parquet",
+      "sim_truth/estado_latente/R14.parquet",
+      "sim_truth/estado_latente/R15.parquet",
+      "sim_truth/estado_latente/R16.parquet"
+    ],
+    "targets": [
+      "ml/targets/R01.parquet",
+      "ml/targets/R02.parquet",
+      "ml/targets/R03.parquet",
+      "ml/targets/R04.parquet",
+      "ml/targets/R05.parquet",
+      "ml/targets/R06.parquet",
+      "ml/targets/R07.parquet",
+      "ml/targets/R08.parquet",
+      "ml/targets/R09.parquet",
+      "ml/targets/R10.parquet",
+      "ml/targets/R11.parquet",
+      "ml/targets/R12.parquet",
+      "ml/targets/R13.parquet",
+      "ml/targets/R14.parquet",
+      "ml/targets/R15.parquet",
+      "ml/targets/R16.parquet"
+    ]
+  }
+}

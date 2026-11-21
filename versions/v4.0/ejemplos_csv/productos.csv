@@ -1,0 +1,5 @@
+grado_acero,espesor_min_demo_mm,factor_carga_demo
+DD11,1.0,1.0
+S235JR,1.5,1.08
+S355JR,2.0,1.22
+S500MC,2.0,1.4

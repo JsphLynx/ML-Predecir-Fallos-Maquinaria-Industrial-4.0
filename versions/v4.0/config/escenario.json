@@ -1,0 +1,223 @@
+{
+  "version": "4.0.0",
+  "seed": 20261120,
+  "start": "2024-01-01T00:00:00Z",
+  "days": 365,
+  "runs": 16,
+  "base_runs": 12,
+  "step_minutes": 5,
+  "decision_minutes": 15,
+  "horizon_hours": 24,
+  "windows_minutes": [
+    30,
+    240
+  ],
+  "warmup_hours": 4,
+  "purge_hours": 28,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "coverage_min": 0.8,
+  "max_data_age_minutes": 10,
+  "pm_interval_days": 28,
+  "pm_duration_hours": 6,
+  "failure_rate_per_hour": 0.02,
+  "sudden_rate_per_hour": 0.0005555555555555556,
+  "life_hours_median": [
+    340,
+    390,
+    580
+  ],
+  "eligible_regimes": [
+    "sin_carga",
+    "laminacion"
+  ],
+  "scenario": "DEMO_SINTETICA_NO_CALIBRADA_A_ACB",
+  "alert_policy_future": {
+    "persistence_count": 3,
+    "within_last_decisions": 5,
+    "window_minutes": 75,
+    "close_after_valid_minutes": 60,
+    "minimum_lead_minutes": 60,
+    "max_open_hours": 24,
+    "false_alerts_per_1000_operating_hours_budget": 1
+  },
+  "run_specs": [
+    {
+      "life_factor": 1,
+      "scenario": "base_degradacion",
+      "pm_interval_days": 28,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 1.2,
+      "scenario": "base_degradacion",
+      "pm_interval_days": 35,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 1,
+      "scenario": "base_degradacion",
+      "pm_interval_days": 21,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 1.4,
+      "scenario": "base_degradacion",
+      "pm_interval_days": 42,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 0.85,
+      "scenario": "base_degradacion",
+      "pm_interval_days": 28,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 1.6,
+      "scenario": "base_degradacion",
+      "pm_interval_days": 35,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 6,
+      "scenario": "base_vida_larga",
+      "pm_interval_days": 21,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 8,
+      "scenario": "base_vida_larga",
+      "pm_interval_days": 42,
+      "restore_min": 0.35,
+      "restore_max": 0.8,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 10,
+      "scenario": "base_vida_larga",
+      "pm_interval_days": 28,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 12,
+      "scenario": "base_vida_larga",
+      "pm_interval_days": 35,
+      "restore_min": 0.35,
+      "restore_max": 0.8,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 5,
+      "scenario": "base_vida_larga",
+      "pm_interval_days": 21,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 7,
+      "scenario": "base_vida_larga",
+      "pm_interval_days": 42,
+      "restore_min": 0.35,
+      "restore_max": 0.8,
+      "seed": 20261120
+    },
+    {
+      "life_factor": 1.2,
+      "scenario": "stress_carga",
+      "pm_interval_days": 28,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261220
+    },
+    {
+      "life_factor": 6,
+      "scenario": "stress_carga",
+      "pm_interval_days": 35,
+      "restore_min": 0.35,
+      "restore_max": 0.8,
+      "seed": 20261220
+    },
+    {
+      "life_factor": 1.5,
+      "scenario": "stress_mecanismo_ruido",
+      "pm_interval_days": 21,
+      "restore_min": 0.6,
+      "restore_max": 0.92,
+      "seed": 20261220
+    },
+    {
+      "life_factor": 8,
+      "scenario": "stress_mecanismo_ruido",
+      "pm_interval_days": 42,
+      "restore_min": 0.35,
+      "restore_max": 0.8,
+      "seed": 20261220
+    }
+  ],
+  "sensor_defects": {
+    "blocks_poisson_mean_per_kind": 2,
+    "duration_slots_min": 6,
+    "duration_slots_max": 72,
+    "correlated_outage_mean": 4,
+    "gain_std": 0.035,
+    "temp_bias_sd": 1.5
+  },
+  "schedule": {
+    "shift_slots_min": 72,
+    "shift_slots_max": 144,
+    "off_slots_min": 6,
+    "off_slots_max": 24,
+    "pm_jitter_days": 3,
+    "notice_days": 7
+  },
+  "physics": {
+    "stand_id": "DEMO-C01",
+    "demo_position": 4,
+    "configuration_change_day": 183,
+    "roll_radius_m": 0.35,
+    "gear_ratio_before": 6.0,
+    "gear_ratio_after": 5.7,
+    "transmission_efficiency": 0.97,
+    "motor_efficiency_before": 0.94,
+    "motor_efficiency_after": 0.96,
+    "voltage_ll_v": 3300.0,
+    "power_factor": 0.9,
+    "motor_rated_mechanical_kw": 2000.0,
+    "idle_mechanical_kw": 60.0,
+    "forward_slip": 0.03,
+    "reduction_min": 0.18,
+    "reduction_max": 0.32,
+    "flow_stress_mpa_at_900c": 130.0,
+    "temperature_coefficient_per_c": 0.003,
+    "force_shape_factor": 1.15,
+    "torque_lever_factor": 0.5,
+    "strip_temp_min_c": 850.0,
+    "strip_temp_max_c": 950.0,
+    "strip_speed_coefficient": 8.0,
+    "strip_speed_min_m_s": 1.4,
+    "strip_speed_max_m_s": 10.0,
+    "sensor_gain_after": 1.02,
+    "density_kg_m3": 7850.0,
+    "simulator": "minimo_cuasiestatico_no_calibrado",
+    "actual_sestao_motor_oem": null,
+    "actual_sestao_motor_model": null,
+    "observations": "Todos los valores físicos son supuestos; no ficha OEM. Una caja equivalente, no siete cajas."
+  }
+}

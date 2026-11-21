@@ -1,0 +1,3 @@
+configuration_id,stand_id,valid_from,valid_to,known_at,drive_version,control_version,sensor_version,maintenance_policy_version,roll_radius_m,gear_ratio,transmission_efficiency,motor_efficiency,voltage_ll_v,power_factor,rated_mechanical_kw,forward_slip,sensor_gain,evidence_status,is_synthetic
+CFG-01,DEMO-C01,2024-01-01 00:00:00+00:00,2024-07-02 00:00:00+00:00,2024-01-01 00:00:00+00:00,DRIVE-DEMO-1,CONTROL-DEMO-1,SENSOR-DEMO-1,PM-DEMO-1,0.35,6.0,0.97,0.94,3300.0,0.9,2000.0,0.03,1.0,supuesto_demo_no_calibrado,True
+CFG-02,DEMO-C01,2024-07-02 00:00:00+00:00,2024-12-31 00:00:00+00:00,2024-07-02 00:00:00+00:00,DRIVE-DEMO-2,CONTROL-DEMO-2,SENSOR-DEMO-2,PM-DEMO-1,0.35,5.7,0.97,0.96,3300.0,0.9,2000.0,0.03,1.02,supuesto_demo_no_calibrado,True

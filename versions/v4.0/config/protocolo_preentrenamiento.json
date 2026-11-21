@@ -1,0 +1,108 @@
+{
+  "version": "4.0.0",
+  "frozen_before_training": true,
+  "target": "Fallo funcional en (t,t+24h], antes de preventivo y fin observado",
+  "cadence_minutes": 15,
+  "telemetry_minutes": 5,
+  "minimum_lead_minutes": 60,
+  "horizon_hours": 24,
+  "false_alerts_budget_per_1000_operating_hours": 1.0,
+  "success_minimum_absolute_recall_gain": 0.05,
+  "success_requires_paired_world_bootstrap_lower_bound_above_zero": true,
+  "confidence_level": 0.95,
+  "bootstrap_world_replicates": 2000,
+  "strata_below_20_events_descriptive_only": true,
+  "alert": {
+    "votes": 3,
+    "slots": 5,
+    "slot_minutes": 15,
+    "close_consecutive_valid_low_slots": 4,
+    "max_open_hours": 24,
+    "abstention": "No voto; no recuperación; hueco conserva su posición temporal",
+    "hard_close_states": [
+      "fallo",
+      "mantenimiento"
+    ]
+  },
+  "primary_if_reference": "if_reference_observable",
+  "sensitivity_if_reference": "healthy_reference_if (privilegiada; nunca principal)",
+  "comparators": [
+    "constante entrenada por prevalencia",
+    "ReglaCondicion percentiles solo train",
+    "logistica_historial_carga"
+  ],
+  "selection": "Hiperparámetros por 3 folds temporales internos de train; umbrales por validation. Ninguna decisión por test/stress.",
+  "candidate_xgboost": {
+    "max_depth": [
+      2,
+      4
+    ],
+    "n_estimators": [
+      200,
+      400
+    ],
+    "learning_rate": [
+      0.03
+    ],
+    "subsample": [
+      0.8
+    ],
+    "colsample_bytree": [
+      0.8
+    ],
+    "random_state": 20261105
+  },
+  "candidate_isolation_forest": {
+    "n_estimators": [
+      300
+    ],
+    "max_samples": [
+      256,
+      1024
+    ],
+    "contamination": "auto",
+    "random_state": 20261105
+  },
+  "threshold_candidates": {
+    "high_validation_score_quantiles": [
+      0.8,
+      0.9,
+      0.95,
+      0.975,
+      0.99,
+      0.995,
+      1.0
+    ],
+    "low_validation_score_quantiles": [
+      0.5,
+      0.7,
+      0.8
+    ],
+    "include_no_alert_policy": true
+  },
+  "no_feasible_policy": "Informar que no existe política útil con ese presupuesto; no aumentar presupuesto tras ver test.",
+  "test_stress": "Auditoría estructural realizada; sin puntuaciones predictivas ni ajuste. No describir como nunca vistos por el analista.",
+  "event_denominator": "Todos los fallos en intervalo nominal; abstenciones y exclusiones no eliminan sucesos. Reportar además benchmark etiquetado.",
+  "exposure": "Horas de telemetría 5m en arranque, sin_carga, laminacion y desaceleracion; no filas etiquetadas multiplicadas por 15m",
+  "metrics": [
+    "sensibilidad_eventos",
+    "falsas_alertas_1000h",
+    "anticipacion_minutos",
+    "cobertura",
+    "abstencion",
+    "duplicadas",
+    "tardias",
+    "censuradas",
+    "PR_AUC",
+    "Brier",
+    "curva_calibracion"
+  ],
+  "industrial_calibration": false,
+  "models_trained": false,
+  "evaluation_modes": {
+    "primary": "benchmark: máscara de exclusiones retrospectiva, solo evaluación offline",
+    "sensitivity": "observable: calidad y operación únicamente; sin exclusión latente para inferencia",
+    "application": "No utilizar máscara de benchmark en servicio"
+  },
+  "changes_from_v31": "Física y predictores nuevos; semillas nuevas. Mismo objetivo24h y reglas de alerta. Evaluación nueva, no combinar con v3.1."
+}

@@ -1,0 +1,8 @@
+asset_id,parent_asset_id,asset_type,description,is_synthetic
+DEMO-ACB,,planta,Contexto ACB sintético,True
+DEMO-LAM,DEMO-ACB,linea,Tren lógico,True
+DEMO-C01,DEMO-LAM,caja,Caja representativa sin equivalencia real,True
+DEMO-C01-DRV01,DEMO-C01,conjunto,Motor y apoyos,True
+DEMO-C01-M01,DEMO-C01-DRV01,motor,Motor lógico,True
+DEMO-C01-BRG-DE,DEMO-C01-M01,apoyo,Lado accionamiento,True
+DEMO-C01-BRG-NDE,DEMO-C01-M01,apoyo,Lado opuesto,True
