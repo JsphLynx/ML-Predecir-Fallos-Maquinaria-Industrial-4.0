@@ -1,0 +1,34 @@
+name: Importar originales v4.0
+on:
+  push:
+    branches: ['portfolio/v4.0-preparacion']
+    paths:
+      - '.github/workflows/importar-v40.yml'
+      - 'scripts/importar_v40_release.py'
+permissions:
+  contents: write
+concurrency:
+  group: importar-v40
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: portfolio/v4.0-preparacion
+          fetch-depth: 1
+      - name: Descargar, verificar e incorporar originales
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONUNBUFFERED: '1'
+        run: python3 scripts/importar_v40_release.py
+      - name: Guardar importación comprobada en la misma rama
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add versions/v4.0 docs data scripts/probar_protocolo_v40.py PORTFOLIO_SHA256.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Incorporar originales v4.0 desde paquetes verificados"
+          git push origin HEAD:portfolio/v4.0-preparacion
