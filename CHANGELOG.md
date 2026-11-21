@@ -1,3 +1,11 @@
+# 2026-11-21 · Cierre del alcance documental v4.0
+
+Retirado `Auditoria_Aportes_Dataset_v4_0.pdf` del registro de pendientes por decisión del autor. Los únicos PDF requeridos son `Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf` e `Informe_Mejora_Dataset_v4_0.pdf`, ambos ya publicados y comprobados contra sus originales. No quedan PDF pendientes de incorporación. Se conserva la síntesis histórica de la auditoría y se mantienen las exclusiones de adjuntos duplicados. Sin cambios en el dataset, los ZIP ni las versiones anteriores; entrenamiento y evaluación reservados para otra fase.
+
+Las entradas siguientes describen el estado histórico en cada momento; los pendientes documentales anteriores quedan resueltos por este cierre.
+
+---
+
 # 2026-11-21 · Exclusión de adjuntos duplicados
 
 Excluidos los adjuntos INFORM~1.PDF e INFORM~2.PDF de la incorporación adicional. Se conserva el informe original de investigación Sestao–SMS ya publicado y los ZIP íntegros. Únicamente queda la auditoría complementaria en revisión manual.

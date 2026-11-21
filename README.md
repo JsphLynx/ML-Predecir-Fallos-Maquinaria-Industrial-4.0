@@ -77,7 +77,7 @@ Python 3.12. Los fixtures usan una copia temporal y no entrenan modelos. [Guía 
 
 Próxima fase: comparadores, XGBoost e Isolation Forest bajo el protocolo de v4.0. Después, API y dashboard. Windows/Spyder, integración PostgreSQL/Neon y validación industrial siguen pendientes. [Roadmap](docs/ROADMAP.md).
 
-La documentación suplementaria que no está dentro de los ZIP se identifica expresamente en [PUBLICACION.md](docs/v4.0/PUBLICACION.md); no se presenta como incluida.
+La publicación documental de v4.0 queda cerrada con los dos informes originales de investigación y mejora del dataset. [Alcance documental y distribución](docs/v4.0/PUBLICACION.md).
 
 [Historial](CHANGELOG.md) · [Fuentes y límites](docs/FUENTES_Y_LIMITES.md) · [Catálogo por archivo](docs/catalogo_archivos_versiones.csv)
 

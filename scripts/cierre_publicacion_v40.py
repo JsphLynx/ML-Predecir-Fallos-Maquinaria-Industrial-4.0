@@ -65,7 +65,7 @@ def main():
             p=ROOT/name
             write(name,re.sub(r"<!-- release-status -->[\s\S]*?<!-- /release-status -->","<!-- release-status -->\n"+text+"\n<!-- /release-status -->",p.read_text()))
         ev=json.loads((ROOT/"docs/v4.0/evidencia_documental.json").read_text())
-        ev["this_github_import"].update(release_assets_published=True,status="dataset_published_supplemental_pdfs_pending")
+        ev["this_github_import"].update(release_assets_published=True,status="published")
         dump("docs/v4.0/evidencia_documental.json",ev)
         report["release_published"]=True
         report["release_url"]=release["html_url"]

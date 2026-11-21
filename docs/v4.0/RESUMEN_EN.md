@@ -10,6 +10,6 @@ An auditable experiment to prioritize inspection before a simulated motor or bea
 - Original evidence: 2,100 checks passed and 94/94 reproduced files. These are consistency results, not predictive performance.
 - Import verification: 182/182 original hashes match; 90 original files in Git and 93 data files in the complete ZIPs.
 
-[Source code](../../versions/v4.0/src/) · [Data downloads](../DESCARGAS.md) · [Verification](../VERIFICACION.md) · [Distribution and outstanding supplemental PDFs](PUBLICACION.md).
+[Source code](../../versions/v4.0/src/) · [Data downloads](../DESCARGAS.md) · [Verification](../VERIFICACION.md) · [Distribution and completed document publication](PUBLICACION.md).
 
 **No XGBoost or Isolation Forest training on v4.0 yet.** No industrial calibration, real failure prediction or cost savings are claimed. Earlier versions remain preserved. Developed with AI assistance; no company affiliation is implied.

@@ -32,4 +32,4 @@ La muestra auditada ilustra aproximadamente 0,822 km en un intervalo de 300 s us
 
 ## Estado de las fuentes originales
 
-El PDF de esta auditoría sigue pendiente de revisión manual e incorporación. Las observaciones anteriores se atribuyen a la auditoría que sí se leyó. El documento externo analizado por ella no forma parte de los archivos requeridos para esta publicación; su script no se trata como código ejecutable validado.
+Por decisión del autor, el PDF de esta auditoría queda excluido de la publicación v4.0 y no es un requisito pendiente. Esta síntesis se conserva como antecedente histórico. Las observaciones anteriores se atribuyen a la auditoría que sí se leyó. El documento externo analizado por ella no forma parte de los archivos requeridos para esta publicación; su script no se trata como código ejecutable validado.

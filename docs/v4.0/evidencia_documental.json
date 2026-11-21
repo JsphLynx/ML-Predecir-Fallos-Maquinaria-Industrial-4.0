@@ -9,7 +9,8 @@
     },
     {
       "filename": "Auditoria_Aportes_Dataset_v4_0.pdf",
-      "pages_read": "1-5"
+      "pages_read": "1-5",
+      "publication_scope": "historical_reference_only_pdf_excluded_by_author"
     }
   ],
   "dataset": {
@@ -40,6 +41,15 @@
     "models_trained": false,
     "code_imported": true,
     "release_assets_published": true,
-    "status": "dataset_published_supplemental_pdfs_pending"
+    "status": "published"
+  },
+  "document_publication": {
+    "status": "complete",
+    "required_pdfs": [
+      "Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf",
+      "Informe_Mejora_Dataset_v4_0.pdf"
+    ],
+    "pending_pdfs": [],
+    "decision_date": "2026-11-21"
   }
 }

@@ -1,6 +1,6 @@
 # v4.0 · Fuentes y datos
 
-Se han incorporado los originales desde los ZIP verificados. [Distribución y suplementos pendientes](v4.0/PUBLICACION.md). La base para la siguiente fase es v4.0; v3.1 se conserva como experimento independiente.
+Se han incorporado los originales desde los ZIP verificados. [Distribución y alcance documental cerrado](v4.0/PUBLICACION.md). La base para la siguiente fase es v4.0; v3.1 se conserva como experimento independiente.
 
 # Próximas versiones
 

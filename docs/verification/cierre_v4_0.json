@@ -22,5 +22,25 @@
   "relative_links_checked": 80,
   "broken_links": 0,
   "release_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0",
-  "publication_run_id": "44950803102"
+  "publication_run_id": "44950803102",
+  "documentary_closure": {
+    "date": "2026-11-21",
+    "status": "complete",
+    "verification_scope": "Required PDFs match package manifest and both repository copies byte for byte; no model training or repeated dataset test suite.",
+    "required_pdfs": [
+      {
+        "filename": "Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf",
+        "path": "docs/reports/Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf",
+        "sha256": "daae5064c2e6a67d4a226f393821d3955497848419d467d3c6144fe63105568f",
+        "bytes": 165948
+      },
+      {
+        "filename": "Informe_Mejora_Dataset_v4_0.pdf",
+        "path": "docs/reports/Informe_Mejora_Dataset_v4_0.pdf",
+        "sha256": "823ca84c07c60d465e2f6b1d5ee9b5bac4903eb332d3e1138a4c697bc0ff6365",
+        "bytes": 59080
+      }
+    ],
+    "pending_pdf_count": 0
+  }
 }

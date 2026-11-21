@@ -4,7 +4,7 @@
 
 Las comprobaciones de cierre quedan registradas en [cierre_v4_0.json](verification/cierre_v4_0.json). Los 2.100 controles y 94/94 archivos reproducidos son evidencia histórica del paquete original.
 
-La documentación suplementaria pendiente se identifica en [PUBLICACION.md](v4.0/PUBLICACION.md). Windows/Spyder, PostgreSQL/Neon y validación industrial no han sido ejecutados para v4.0.
+Los dos informes PDF requeridos están publicados; no quedan PDF pendientes de incorporación. [Alcance documental cerrado](v4.0/PUBLICACION.md). Windows/Spyder, PostgreSQL/Neon y validación industrial no han sido ejecutados para v4.0.
 
 ---
 

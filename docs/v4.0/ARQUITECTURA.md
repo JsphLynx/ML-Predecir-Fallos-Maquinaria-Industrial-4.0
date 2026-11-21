@@ -1,6 +1,6 @@
 # Arquitectura y contrato v4.0
 
-Síntesis del informe de mejora, páginas 2–6. Esta documentación no sustituye a los archivos originales del generador, pendientes de importación.
+Síntesis del informe de mejora, páginas 2–6. Esta documentación no sustituye a los archivos originales del generador, ya incorporados en `versions/v4.0/`.
 
 ## Separación de responsabilidades
 
