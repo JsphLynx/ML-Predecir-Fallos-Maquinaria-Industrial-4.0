@@ -1,5 +1,7 @@
 # Versión 4.0 · Motor y rodamientos
 
+**22/11/2026 · [Auditoría cerrada y descargas de la revisión A](revision-a/).** Esta es la revisión preparada para el entrenamiento sintético. La documentación que sigue corresponde a la entrega original.
+
 **Originales v4.0 incorporados.** Código, documentación y ejemplos en [versions/v4.0](../../versions/v4.0/). Los datos completos se distribuyen en dos ZIP. [Estado y alcance de la publicación](PUBLICACION.md).
 
 [Lectura para reclutadores](PORTFOLIO.md) · [Arquitectura y contrato](ARQUITECTURA.md) · [Validación documentada](VALIDACION.md) · [Auditoría posterior](AUDITORIA_POSTERIOR.md) · [Distribución y trazabilidad](PUBLICACION.md)

@@ -1,3 +1,9 @@
+# 2026-11-22 · Auditoría cerrada de v4.0, revisión A
+
+Publicados el [dictamen](docs/reports/Auditoria_ACB_v4_0.pdf), el [dataset corregido, el protocolo y las evidencias](docs/v4.0/revision-a/). El manifiesto revisado cubre 184 archivos. El entrenamiento de ambos modelos queda pendiente.
+
+---
+
 # 2026-11-21 · Cierre del alcance documental v4.0
 
 Retirado `Auditoria_Aportes_Dataset_v4_0.pdf` del registro de pendientes por decisión del autor. Los únicos PDF requeridos son `Informe_Investigacion_Sestao_SMS_Contraste_v3_1.pdf` e `Informe_Mejora_Dataset_v4_0.pdf`, ambos ya publicados y comprobados contra sus originales. No quedan PDF pendientes de incorporación. Se conserva la síntesis histórica de la auditoría y se mantienen las exclusiones de adjuntos duplicados. Sin cambios en el dataset, los ZIP ni las versiones anteriores; entrenamiento y evaluación reservados para otra fase.

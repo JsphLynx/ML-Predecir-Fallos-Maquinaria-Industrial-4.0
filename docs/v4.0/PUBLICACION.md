@@ -1,5 +1,7 @@
 # Publicación v4.0 · Distribución y trazabilidad
 
+**22/11/2026 · [Auditoría cerrada y descargas de la revisión A](revision-a/).** Esta es la revisión preparada para el entrenamiento sintético. La documentación que sigue corresponde a la entrega original.
+
 <!-- release-status -->
 **Dataset v4.0 publicado:** [descargar las dos partes y hashes](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0). Código, ejemplos y los informes internos del paquete están incorporados.
 <!-- /release-status -->

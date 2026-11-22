@@ -76,5 +76,14 @@
     "release_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0",
     "verified_at": "2026-11-21",
     "verification": "GitHub asset size and SHA-256 match both original ZIPs"
+  },
+  {
+    "version": "v4.0 revisión A",
+    "filename": "ACB_v4_0_Auditada_Parte_1.zip",
+    "bytes": 441154254,
+    "sha256": "e6118efd0220477aad556f84fcdfa2a3849562f6d94fbf27bd29894d784c3b29",
+    "published_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/download/portfolio-v4.0-revision-a/ACB_v4_0_Auditada_Parte_1.zip",
+    "release_tag": "portfolio-v4.0-revision-a",
+    "release_url": "https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0-revision-a"
   }
 ]

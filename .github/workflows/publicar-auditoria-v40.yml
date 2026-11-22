@@ -1,0 +1,43 @@
+name: Publicar auditoría v4.0 revisión A
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publicar-auditoria-v40.yml', 'scripts/reconstruir_parte1_revision_a.py']
+permissions:
+  contents: write
+concurrency:
+  group: publicar-auditoria-v40-revision-a
+  cancel-in-progress: false
+jobs:
+  publicar:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verificar los cuatro archivos y publicar la revisión
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          revision=portfolio-v4.0-revision-a
+          docs=docs/v4.0/revision-a
+          kit=Correcciones_y_protocolo_ACB_v4_0.zip
+          parte1=ACB_v4_0_Auditada_Parte_1.zip
+          parte2=ACB_Motor_Rodamientos_Sintetico_v4_0_Parte_2.zip
+          original=ACB_Motor_Rodamientos_Sintetico_v4_0_Parte_1.zip
+          informe=Auditoria_ACB_v4_0.pdf
+          salida=$(mktemp -d)
+          gh release download portfolio-v4.0 --pattern "$original" --pattern "$parte2" --dir "$salida"
+          cp "$docs/$kit" "$docs/SHA256SUMS.txt" "docs/reports/$informe" "$salida/"
+          python3 scripts/reconstruir_parte1_revision_a.py "$salida/$original" "$salida/$kit" "$salida/$parte1"
+          (cd "$salida" && sha256sum --check SHA256SUMS.txt)
+          # Los enlaces relativos de la guía apuntan al repositorio desde la release.
+          sed '/^\[Leer el protocolo\]/d' "$docs/README.md" > "$salida/notas.md"
+          gh release create "$revision" --target "$GITHUB_SHA" --title "Auditoría cerrada v4.0 · Revisión A" \
+            --notes-file "$salida/notas.md" "$salida/$parte1" "$salida/$informe" "$salida/$kit" "$salida/SHA256SUMS.txt"

@@ -1,6 +1,10 @@
 # Descargas
 
-## Dataset v4.0
+## Dataset v4.0 · Revisión A
+
+[Descargar las dos partes compatibles, el informe y las evidencias](v4.0/revision-a/). El manifiesto del dataset corregido cubre 184 archivos.
+
+## Dataset v4.0 · Entrega original
 
 Descargar **ambos ZIP** y `SHA256SUMS.txt` desde la [Release v4.0](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0). Desde la raíz del clon:
 

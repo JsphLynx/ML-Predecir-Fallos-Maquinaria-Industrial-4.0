@@ -11,7 +11,7 @@ Proyecto personal de **Joseph** para investigar cómo anticipar fallos simulados
 > **v4.0 · Dataset 100 % sintético.** XGBoost e Isolation Forest se entrenarán y evaluarán en otra fase. No hay calibración de Sestao ni evidencia de anticipación de averías reales o ahorro industrial. Los modelos base de v1/v2 son experimentos históricos.
 
 <!-- release-status -->
-**Dataset v4.0 publicado:** [descargar las dos partes y hashes](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0). Código, ejemplos y los informes internos del paquete están incorporados.
+**Auditoría v4.0 cerrada · Revisión A.** [Informe PDF](docs/reports/Auditoria_ACB_v4_0.pdf) · [Dataset corregido y evidencias](docs/v4.0/revision-a/).
 <!-- /release-status -->
 
 **[Lectura para reclutadores](docs/v4.0/PORTFOLIO.md) · [Código v4.0](versions/v4.0/src/) · [Informe de mejora](docs/reports/Informe_Mejora_Dataset_v4_0.pdf) · [Descargas](docs/DESCARGAS.md) · [English](docs/v4.0/RESUMEN_EN.md)**
@@ -56,7 +56,7 @@ Se conservan los originales. No concatenar datasets ni interpretar diferencias d
 - **Generación:** [simulador](versions/v4.0/src/01_generar_dataset.py), [física](versions/v4.0/src/fisica.py), [procedencia de parámetros](versions/v4.0/docs/procedencia_parametros.csv).
 - **Datos:** [diccionario](versions/v4.0/docs/diccionario_datos.md), [contrato ML](versions/v4.0/ml/columnas_modelo.json), [ejemplos CSV](versions/v4.0/ejemplos_csv/).
 - **PostgreSQL:** [DDL](versions/v4.0/sql/01_esquema.sql) y [consultas asof](versions/v4.0/sql/02_lecturas_asof.sql). Integración v4.0 con servidor pendiente.
-- **Evaluación futura:** [protocolo](versions/v4.0/docs/PROTOCOLO_PREENTRENAMIENTO.md), [evaluador de alertas](versions/v4.0/src/protocolo_evaluacion.py). La verdad interna no es predictor.
+- **Evaluación futura:** [protocolo auditado](docs/v4.0/revision-a/PROTOCOLO_AUDITADO.md) y [código corregido](docs/v4.0/revision-a/Correcciones_y_protocolo_ACB_v4_0.zip). La verdad interna no es predictor.
 - **Comunicación:** [informes](docs/reports/), [vídeos históricos v3.1](media/README.md), [síntesis de auditoría posterior](docs/v4.0/AUDITORIA_POSTERIOR.md).
 
 ## Comprobar el portafolio
@@ -71,13 +71,13 @@ python scripts/probar_protocolo_v40.py
 
 Python 3.12. Los fixtures usan una copia temporal y no entrenan modelos. [Guía y Spyder](docs/REPRODUCIBILIDAD.md).
 
-**Dataset completo:** descargar las dos partes desde [Releases](https://github.com/JsphLynx/ML-Predecir-Fallos-Maquinaria-Industrial-4.0/releases/tag/portfolio-v4.0), verificarlas y extraerlas en la misma carpeta fuera del clon. Los ZIP no se concatenan. El paquete contiene 183 archivos: el manifiesto y los 182 archivos protegidos por sus hashes. [Instrucciones](docs/DESCARGAS.md).
+**Dataset para la siguiente fase.** Extraer la [parte 1 auditada y la parte 2 compatible](docs/v4.0/revision-a/) en la misma carpeta nueva. El manifiesto revisado cubre 184 archivos.
 
 ## Continuidad
 
 Próxima fase: comparadores, XGBoost e Isolation Forest bajo el protocolo de v4.0. Después, API y dashboard. Windows/Spyder, integración PostgreSQL/Neon y validación industrial siguen pendientes. [Roadmap](docs/ROADMAP.md).
 
-La publicación documental de v4.0 queda cerrada con los dos informes originales de investigación y mejora del dataset. [Alcance documental y distribución](docs/v4.0/PUBLICACION.md).
+La publicación documental inicial de v4.0 se cerró con los dos informes originales de investigación y mejora del dataset. [Alcance documental y distribución](docs/v4.0/PUBLICACION.md).
 
 [Historial](CHANGELOG.md) · [Fuentes y límites](docs/FUENTES_Y_LIMITES.md) · [Catálogo por archivo](docs/catalogo_archivos_versiones.csv)
 
